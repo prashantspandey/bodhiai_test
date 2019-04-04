@@ -1,0 +1,60 @@
+
+{%load staticfiles %}
+
+<script>
+
+
+	 $('#loadingPatternTest3').hide();
+
+</script>
+<div id = 'loadingPatternTest4' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+<div id = 'wholepatterntest'>
+{%for i in que %}
+		<div class='well col-md-offset-1 col-md-10' id = 'patternQuestBox'>
+			{%if i.comprehension %}
+			<p> <pre>{{i.comprehension.text}}</pre> </p>
+			{%if i.comprehension.picture %}
+			<img src='{{i.comprehension.picture}}' class="img-responsive" >
+			{%endif%}
+			<img src='{{i.picture}}' class="img-responsive" >
+			{%endif%}
+			{%if i.text %}
+			<p id = 'questP'>{{i.text|linebreaks}} </p>
+			{%endif%}
+			{% if i.picture %}
+			<img src='{{i.picture}}' class="img-responsive" >
+			{%endif%}
+			<div class="col-md-offset-10">
+			<p>Maximum-Marks: {{i.max_marks}}</p>
+			</div>
+			{% for j in i.choices_set.all %}
+			<div class="radio col-md-offset-1">
+				<label><input type="radio" name="optradio" value="{{j.predicament}}">{% if j.text %} {{j.text}}{%endif%}
+				 {%if j.picture %}
+		<img src='{{j.picture}}' class="img-responsive" >
+		{%endif%}
+				 {%if j.predicament == 'Correct' %}
+				 <span class="label label-success">Correct Answer</span> </label>
+				{%endif%}
+			</div>
+
+			{% endfor %}
+		</div>
+						{% endfor %}
+
+		<div id = 'publishForm' class='col-md-10 text-center'>
+
+			<form action='{% url "QuestionsAndPapers:patternTest2" %}' method='Post'>
+				{%csrf_token%}
+				<input type='text' class='hidden' value='{{testbatch}}' name='patternBatch'>
+				<input type='text' class="hidden" value='{{testid}}' name = 'patternTestid'>
+				<input type='submit' class="btn btn-primary" value='PublishTest' name = 'patternTest'>
+
+
+			</form>
+		</div>
+	</div>

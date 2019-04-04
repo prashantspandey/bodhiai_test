@@ -1,0 +1,114 @@
+{%load staticfiles %}
+
+{% for students in klass %}
+
+
+
+
+    <script>
+{% if  not students.test1 %}
+<h2>No Test </h2>
+{%else%}
+$(document).ready(function () {
+    var ctx{{forloop.counter}} = document.getElementById("myChart{{forloop.counter}}");
+    var myChart1{{forloop.counter}} = new Chart(ctx{{forloop.counter}}, {
+            type: 'bar',
+	    {%if students.test1 and students.test2 and students.test3 %}
+            data: {
+                labels: ["Test1","Test2","Test3","Predicted Half Yearly"],
+                datasets: [{
+                    label: 'Student performance and predictions',
+
+
+                    {%if students.predicted_hy == 6 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{95}}*10)],
+                    {%elif students.predicted_hy == 5 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{85}}*10)],
+                    {%elif students.predicted_hy == 4 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{75}}*10)],
+                    {%elif students.predicted_hy == 3 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{65}}*10)],
+                    {%elif students.predicted_hy == 2 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{55}}*10)],
+                    {%elif students.predicted_hy == 1 %}
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10),parseInt({{students.test3}}*10),parseInt({{45}}*10)],
+                    {%else%}
+                    data: [parseInt({{students.test1}})*10,parseInt({{students.test2}})*10,parseInt({{students.test3}})*10,parseInt({{30}})],
+                    {%endif%}
+		{% elif students.test1 and not students.test2%}
+			data: {
+                labels: ["Test1"],
+                datasets: [{
+                    label: 'Student performance',
+                    data: [parseInt({{students.test1}}*10)],
+
+		{%elif students.test1 and students.test2 and not students.test3%}
+			data: {
+                labels: ["Test1","Test2"],
+                datasets: [{
+                    label: 'Student performance',
+                    data: [parseInt({{students.test1}}*10),parseInt({{students.test2}}*10)],
+		    {%endif%}
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(0, 0, 0, 0.9)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 255, 255, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {   responsive: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            max: 100
+                        }
+                    }]
+                }
+            }
+        });
+    });
+			      {%endif%}
+</script>
+
+<div class="col-md-4 col-xs-12">
+<div class="container col-md-4  col-xs-12" style="height: 350px; width: 390px;">
+<canvas  id="myChart{{forloop.counter}}" style="display: block; height: 200px; width: 250px; padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;" width="350" height="300">
+</canvas>
+</div>
+    <div class="col-md-4  col-xs-12">
+    <h4 >{{students.student}}</h4>
+    {%if students.test1 %}
+      <p>{{students}} Test1:{{students.test1}}</p>
+      {%else%}
+      <h3> You haven't taken any tests yet. </h3>
+      {%endif%}
+    {%if students.test2 %}
+      <p>{{students}} Test2:{{students.test2}}</p>
+      {%endif%}
+    {%if students.test3 %}
+      <p>{{students}} Test3:{{students.test3}}</p>
+      {%endif%}
+        </div>
+</div>
+
+
+{%endfor%}
+
+
+

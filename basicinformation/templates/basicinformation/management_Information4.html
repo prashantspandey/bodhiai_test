@@ -1,0 +1,44 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+	  $('#loadinganalysis2').hide();
+    var pr
+
+	$(".managementTestButton").click(function(){
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+	which_testid = $(this).attr('value');
+	  $('#loadingManagement4').show();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+
+         $('#managementTestBox').removeClass("hidden");
+         $('#managementTestBox').html('').load('{% url 'basic:managementInformation' %}?managementTestid='+which_testid);
+
+
+    pr = $(this).attr('id');
+
+
+	});
+
+});
+    </script>
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a Teacher</div>
+  <div class="panel-body">
+{% for test in tests %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default managementTestButton" value ="{{test.id}}" >{{test.published}}</button>
+</div>
+{%endfor%}
+        </div>
+
+<div id = 'loadingManagement4' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+<div class='hidden' id = 'managementTestBox'>
+{%include 'basicinformation/management_Information5.html' %}
+</div>

@@ -1,0 +1,66 @@
+{%load staticfiles %}
+<html>
+	<head>
+		<title> BodhiAI Test </title>
+		{%block scripts %}
+		   <meta http-equiv="content-type" content="text/html; charset=utf-8-sig"> 
+		{%endblock%}
+	</head>
+
+	<body>
+		<div>
+			<h1 style='text-align:center;font-weight:bold;'> {{test.creator.teacher.school.name}}</h1>
+			<h1 style='text-align:center;'>	{{test.sub}}</h1>
+			<h2 style='text-align:center;'> Max-Marks - {{test.max_marks}}</h2>
+			<h2 style='text-align:center;'> Teacher - {{test.creator.teacher}}</h2>
+			<h2 style='text-align:center;'> Class - {{test.klas}}</h2>
+			<h6 style='text-align:right;'> Test id(for official use)- {{test.id}}</h6>
+		</div>
+
+		<br>
+		{%if teacher_type == "School" %}
+		<div class='col-md-offset-1 col-md-10 col-sm-12'>
+			{% for qu in test.questions_set.all%}
+			<div class='well'>
+			<h2> {{forloop.counter}}. {{qu.text}} </h2>
+			<p style='text-align:right;'>Max-Marks-{{qu.max_marks}}</p>
+			{% for ch in qu.choices_set.all%}
+			<p>{{forloop.counter}} - {{ch.text}} </p>
+			{%endfor%}
+			</div>
+			{%endfor%}
+		</div>
+		{%elif teacher_type == "SSC" %}
+	<div class='col-md-offset-1 col-md-10 col-sm-12'>
+			{% for qu in test.sscquestions_set.all%}
+			<div class='well'>
+				<h2> {{forloop.counter}}.{%if qu.text %} {{qu.text|linebreaks}}{%endif%} 
+				{%if qu.picture %} 
+			<img src='{{qu.picture}}' class='img-responsive'>
+			 {%endif%}</h2>
+			<p style='text-align:right;'>Max-Marks-{{qu.max_marks}}</p>
+			{% for ch in qu.choices_set.all%}
+		{%if ch.text %} 	<h4>{{forloop.counter}} - {{ch.text}}</h4>{%endif%} 
+			{% if ch.picture %}
+			<p>{{forloop.counter}}-		<img src='{{ch.picture}}' class='img-responsive'></p>
+       
+		 {%endif%} 
+			{%endfor%}
+			</div>
+			{%endfor%}
+		</div>
+		{%endif%}
+
+
+
+
+
+
+
+
+
+
+		
+	</body>
+</html>
+		

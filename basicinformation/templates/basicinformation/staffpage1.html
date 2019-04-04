@@ -1,0 +1,26 @@
+{%extends 'basicinformation/base.html' %}
+
+<html>
+	<head>
+		<title>
+			{%block title%}
+			Admin page
+			{%endblock%}
+		</title>
+	</head>
+	<body>
+		{%block content %}
+		<form action='{%url "basic:createEntities" %}' method='post'>
+			{%csrf_token%}
+			<div class="radio">
+				  <label><input type="radio" name="deed" value='student'>Students </label>
+			</div>
+			<div class="radio">
+				  <label><input type="radio" name="deed" value= 'teacher'>Teachers</label>
+			</div>
+			<input type="submit" class="btn btn-info" name= 'createEntities' value="Do the deed">
+		</form>
+
+		{%endblock%}
+	</body>
+</html>

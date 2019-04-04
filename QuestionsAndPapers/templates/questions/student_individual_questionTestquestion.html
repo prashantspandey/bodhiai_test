@@ -1,0 +1,154 @@
+{%load staticfiles %}
+<link rel='stylesheet' type="text/css" href="{% static 'questions/css/studentTestQuestions.css' %}">
+
+<div id = 'teid' class='hidden'>{{testid}}</div>
+	<div class='well col-md-offset-1 col-md-10 ' id='questionContainer'>
+		{% if question.comprehension %}
+		<h4> {{question.comprehension.text|linebreaks}} </h4>
+		<img src='{{question.comprehension.picture}}' class="img-responsive" >
+		{%endif %}
+		<h4 style='font-weight:bold;'> 
+			{%if question.text %}{{question.text|linebreaks}}{%endif%} </h4>
+		{% if question.picture %}
+		<img src='{{question.picture}}' class="img-responsive" >
+		{%endif%}
+		<p style='text-align:right;font-weight:bold;' id = 'questTimerKeeper'></p>
+		<p style='text-align:right;font-weight:bold;' id = 'qtk' class='hidden'></p>
+		<div class = 'col-md-offset-1'>
+			{% for choice in question.choices_set.all %}
+			{%csrf_token%}
+			<label class="radio">
+				{% if choice.id ==  sel %}
+				<input type="radio" id='ach{{forloop.counter}}' name="answerChoice" value = "{{choice.id}}" checked="checked">
+			{{choice.text|linebreaks}}
+		{% if choice.picture %}
+		<img src='{{choice.picture}}' class="img-responsive" >
+			{%endif%}
+
+				{%else%}
+				<input type="radio" id='ach{{forloop.counter}}' name="answerChoice" value = "{{choice.id}}" >{%if choice.text %}{{choice.text}}{%endif%}
+{% if choice.picture %}
+		<img src='{{choice.picture}}' class="img-responsive" >
+			{%endif%}
+
+				{%endif%}
+			</label>
+			{%endfor%}
+		</div>
+	</div>
+	<div class='col-md-offset-2 col-md-8 col-sm-12'>
+<button  id='clearButton'  type="submit" name='submitTest' value='{{test.id}}' class="btn btn-info">Clear Selection</button>
+<button  id='answerButton'  type="submit" name='submitTest' value='{{test.id}}' class="btn btn-info">Next</button>
+				<br>
+				<br>
+	</div>
+	
+<script>
+		$(document).ready(function () {
+	  $('#answerButton').click(function () {
+selec=	$('input[name=answerChoice]:checked').val();
+console.log(selec); 
+if (selec == 'undefined'){
+	selec=-1
+};
+quidid = {{question.id}}
+testid = {{testid}}
+questTimer = $('#qtk').text();
+console.log(questTimer); 
+
+$.post('{%url "QuestionsAndPapers:conductTest"%}',$.param({"choiceid":selec,
+	   "questionid":quidid,
+	   "testid":testid,
+	"questTimer":String(questTimer),
+	   "csrfmiddlewaretoken":'{{ csrf_token }}'}),
+			function(data){
+		quest_pos = parseInt(quest_pos);
+	if (data == quest_pos + 1){
+		$('#answerButton').text('Press the Submit Button to submit the test');
+		$('#answerButton').prop("disabled",true);
+				}
+	else {	
+
+				
+				 quest_pos = quest_pos + 1
+	$('#showIndividualQuestions').html('').load('{% url 'QuestionsAndPapers:conductTest' %}?IndividualTestQuestPos='+encodeURIComponent(quest_pos)+','+teid);
+				 quest_pos = quest_pos + 1
+				          $(eval("'#num'+quest_pos")).removeClass("btn btn-default").addClass("btn btn-primary");
+				 quest_pos = quest_pos - 1
+	if (selec == undefined){
+         $(eval("'#num'+quest_pos")).removeClass("btn btn-primary").addClass("btn btn-warning");
+	} 
+	else{
+         $(eval("'#num'+quest_pos")).removeClass("btn btn-primary").addClass("btn btn-success");
+	};
+	};	
+			});
+
+		        });
+
+        for(i=1 ; i<=5; i++){
+$(eval("'#ach'+i")).on('click', function(e){ 
+selec=	$('input[name=answerChoice]:checked').val();
+quidid = {{question.id}}
+testid = {{testid}}
+
+questTimer = $('#qtk').text();
+$.post('{%url "QuestionsAndPapers:conductTest"%}',$.param({"choiceid":selec,
+	   "questionid":quidid,
+	   "testid":testid,
+	   "questTimer":String(questTimer),
+	   "csrfmiddlewaretoken":'{{ csrf_token }}'}),
+			function(data){
+	console.log(data)
+			});
+
+
+});
+};
+
+	  $('#clearButton').click(function () {
+quidid = {{question.id}}
+testid = {{testid}}
+selec = -1
+console.log(selec); 
+questTimer = $('#qtk').text();
+$.post('{%url "QuestionsAndPapers:conductTest"%}',$.param({"choiceid":selec,
+	   "questionid":quidid,
+	   "testid":testid,
+	   "questTimer":String(questTimer),
+	   "csrfmiddlewaretoken":'{{ csrf_token }}'}),
+			function(data){
+$('input[name=answerChoice]').attr('checked',false);
+	console.log(data)
+			});
+
+
+	  });
+
+		        });
+
+
+tid = $('#teid').text();
+sI= setInterval("timer2()",1000);
+timerid = {{question.id}}
+function timer2() {
+finalid = timerid + tid
+	if (sessionStorage.getItem(finalid)){
+		questCounter = sessionStorage.getItem(finalid);
+		if (questCounter < 0){
+		var	questCounter = parseInt(0)
+		};
+	} else {
+		questCounter = parseInt(0)
+	};
+questCounter ++;
+$('#questTimerKeeper').text('You have spent ' + questCounter + ' seconds on this question.');
+$('#qtk').text(questCounter);
+sessionStorage.setItem(finalid,questCounter);
+clearInterval(sI);
+
+};
+
+
+	</script>
+

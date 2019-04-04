@@ -1,0 +1,84 @@
+{%extends 'basicinformation/base.html' %}
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}BodhiAI|Teacher{%endblock%}</title>
+{%block scripts %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel='stylesheet'  href="{%static 'basicinformation/css/institueTeacher.css' %}">
+<link rel="stylesheet"  href="{% static 'basicinformation/css/animate.css' %}">
+<script>
+	function detailClick(){
+		$('#detailLoader').removeClass("hidden");
+		$('#mainContainer').addClass("hidden");
+
+
+	};
+</script>
+{%endblock%}
+
+</head>
+<body>
+	{% block content %}
+		<div class='hidden' id='detailLoader' style='text-align:center;'>
+		<h4 class='text-center'> Please Wait..</h4>
+		<img src='{% static 'basicinformation/images/bodhigif.gif' %}'>
+		</div>
+
+	<div id='mainContainer'>
+
+<div class='jumbotron col-md-offset-1 col-md-10 col-sm-12 animated flipInX'>
+
+<h1 >Hello {{profile.name}}</h1>
+<h3> You teach {{num_klasses}}{%if num_klasses == 1 %} class {%else%} classes {%endif%} at {{profile.school}}</h3>
+
+	<img src = '{{profile.school.logo}}' class='img-responsive' style='width:auto; height:10%;'  >
+	<ul>
+	{% for kl in klasses %}
+	<li> {{kl}} </li>
+	{%endfor%}
+	</ul>
+       	<hr>
+	<h3> You teach {{num_subjects}} subjects </h3>
+	<ul>
+	{% for sub in subjects %}
+	<li>	{{sub}} </li>
+	{%endfor%}
+	</ul>
+</div>
+
+	<div class='container'>
+
+	<h2 style='text-align:center;'> Problematic areas (Most to Least) </h2>
+	{% for sub,klass,oall in weak_links %}
+<div class='col-sm-3 col-md-3 animated zoomIn' id='problemContainer' >
+	<div class='thumbnail' id='thumbnailContainer'>
+		<div class='caption'>
+	<h4 class='text-center'>{{klass}} </h4>
+	<h5 class='text-center' style='font-weight:bold;'> {{sub}} </h5>
+		<h5> Problematic Topics:
+		       	 </h5>
+<ul>
+{%for i in oall %}
+<li>{{i}}</li>
+{%endfor%}
+</ul>
+<div class='text-center'>
+		<form action='{% url "basic:TeacherWeakAreas" %}' method='get'>
+			<input type='text' value='{{klass}}' name='weakAreasClass' class='hidden' >
+			<input type='text' value='{{sub}}' name='weakAreasSub' class='hidden' >
+			<input type="submit" class="btn btn-warning" name='weakAreasButton' value="See in Detail" onclick="detailClick()">
+		</form>
+</div>
+</div>
+</div>
+</div>
+	{%endfor%}
+</div>
+</div>
+
+	{%endblock%}
+</body>
+</html>

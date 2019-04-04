@@ -1,0 +1,70 @@
+
+<div>
+	<div class='col-md-offset-1 col-md-10  col-xs-12'>
+<br>
+	<br>
+	<br>
+
+
+		<h2 style='text-align:center;font-weight:bold;'> {{test.student}} got {{test.marks}} marks </h2>
+		<h2 style='text-align:center;font-weight:bold;'> {{test.student}} completed the test in {{test.timeTaken}} seconds. </h2>
+	</div>
+
+
+
+
+	{%if student_type == 'School' %}
+<div class='col-md-offset-1 col-md-10 col-sm-12'>
+		{% for te in test.test.questions_set.all %}
+		<div class='well col-xs-12'>
+			<h3> {{te.text}}{% if te.id in test.skippedAnswers %}<span class="label label-warning" >{{test.student}} skipped this question</span>{%endif%}</h3>
+			<h4 style="text-align:right"> Max-Marks{{te.max_marks}}</h4>
+			{% for ch in te.choices_set.all %}
+			
+			<p > <span class='badge'>{{forloop.counter}}</span>---{{ch.text}} {%if ch.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+			{%if ch.id in test.rightAnswers %}<span class="label label-success">{{test.student}}'s  Answer</span>{%endif%}
+			{% if ch.id in test.wrongAnswers %}<span class="label label-danger">{{test.student}}'s  Answer</span>{%endif%}</p>
+			{% for x,y in freq %}
+			{% if ch.id == x%}
+			<p >	<span class="badge">{{y}} people answered this choice </span></p>
+			{%endif%}
+			{%endfor%}
+
+			{%endfor%}
+				
+		</div>
+		
+		{%endfor%}
+	</div>
+	{%elif student_type == 'SSC' %}
+<div class='col-md-offset-1 col-md-10 col-sm-12'>
+		{% for te in test.test.sscquestions_set.all %}
+		<div class='well col-xs-12'>
+			<h3> {%if te.text %}{{te.text|linebreaks}}{%endif%}{% if te.picture %}<img src='{{te.picture}}' class='img-responsive'>{%endif%}{% if te.id in test.skippedAnswers %}<span class="label label-warning" >{{test.student}} skipped this question</span>{%endif%}</h3>
+
+{% for time  in test.sscansweredquestion_set.all  %}
+		{%if time.quest.id == te.id and not te.id in test.skippedAnswers %}
+		<span class="label label-info" style='background-color: #AA00FF;'> You took {{time.time}} seconds to answer this question </span></p> 
+		{%endif%}
+		{%endfor%}
+	
+
+			<h4 style="text-align:right"> Max-Marks{{te.max_marks}}</h4>
+			{% for ch in te.choices_set.all %}
+			
+			<p > <span class='badge'>{{forloop.counter}}</span>---{{ch.text}} {%if ch.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+			{%if ch.id in test.rightAnswers %}<span class="label label-success">{{test.student}}'s  Answer</span>{%endif%}
+			{% if ch.id in test.wrongAnswers %}<span class="label label-danger">{{test.student}}'s  Answer</span>{%endif%}</p>
+			{% for x,y in freq %}
+			{% if ch.id == x%}
+			<p >	<span class="badge">{{y}} people answered this choice </span></p>
+			{%endif%}
+			{%endfor%}
+
+			{%endfor%}
+				
+		</div>
+		
+		{%endfor%}
+	</div>
+	{%endif%}

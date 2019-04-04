@@ -1,0 +1,83 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+{% for i in averages %}
+<div class="rows col-md-4  col-xs-12">
+	<p>Average of test {{forloop.counter}}: {{i}}</p>
+</div>
+{%endfor%}
+<div  class="col-md-4 col-xs-12">
+    <script>
+{% for k in averages %}
+
+$(document).ready(function () {
+	    var ctx{{forloop.counter}} = document.getElementById("analysis{{forloop.counter}}");
+		var myChart1{{forloop.counter}} = new Chart(ctx{{forloop.counter}}, {
+            type: 'polarArea',
+	    {% if forloop.counter == 1 %}
+            data: {
+                labels: ["A","B","C","D","E","F","S"],
+                datasets: [{
+			label: 'Student performance and predictions for Test {{forloop.counter}}',
+			data: [parseInt({{t1_fg_a}}),parseInt({{t1_fg_b}}),parseInt({{t1_fg_c}}),parseInt({{t1_fg_d}}),
+                    parseInt({{t1_fg_e}}),parseInt({{t1_fg_f}}),parseInt({{t1_fg_s}}),],
+		{% elif forloop.counter == 2 %}
+		data: {
+                labels: ["A","B","C","D","E","F","S"],
+                datasets: [{
+			label: 'Student performance and predictions for Test {{forloop.counter}}',
+			data: [parseInt({{t2_fg_a}}),parseInt({{t2_fg_b}}),parseInt({{t2_fg_c}}),parseInt({{t2_fg_d}}),
+                    parseInt({{t2_fg_e}}),parseInt({{t2_fg_f}}),parseInt({{t2_fg_s}}),],
+
+
+			{%endif%}
+			 backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(0, 0, 0, 0.9)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 255, 255, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {   responsive: true,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            max: 100
+                        }
+                    }]
+                }
+            }
+        });
+    });
+
+    {% endfor %}
+</script>
+
+{% for j in averages %}
+<div class=" col-xs-12">
+	<h2>Student grades Test {{forloop.counter}}</h2>
+    <canvas  id="analysis{{forloop.counter}}" style="display: block; height: 300px; width: 400px; padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;" width="400" height="370">
+</canvas>
+</div>
+    {% endfor %}

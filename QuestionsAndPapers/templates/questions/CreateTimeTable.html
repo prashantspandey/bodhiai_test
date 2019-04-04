@@ -1,0 +1,41 @@
+{%extends 'basicinformation/base2.html' %}
+{%load staticfiles%}
+{%load crispy_forms_tags%}
+
+<html>
+<head>
+<title>{%block title %}Create Time Table{%endblock%}</title>
+</head>
+{%block content %}
+	<body>
+	<div id ='wholeContainer'>
+<div class='animated flash'style='text-align:center; col-sm-12 ' id ='logoContainer'>
+	<img src="{%static 'basicinformation/img/bodhiaigif.gif' %}" alt="Bodhi AI"  style='height:25%;'>
+</div>
+
+
+<h1 style='text-align:center;font-weight:bold;'>Create Time Table</h1>
+  <div class="container">
+
+
+
+  <form class="form-horizontal animated slideInLeft" action="" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form|crispy}}
+  <div style='text-align:center;'>
+  <button type="submit" class="btn btn-primary btn-lg"  >Create Time Table</button>
+  </div>
+
+   </form>
+
+ 
+</div>
+</div>
+
+
+
+
+
+{% endblock%}
+</body>
+</html>

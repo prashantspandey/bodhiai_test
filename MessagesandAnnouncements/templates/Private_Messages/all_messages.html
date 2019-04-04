@@ -1,0 +1,17 @@
+<html>
+	<body>
+		{% if inbox %}
+		{% for m in inbox %}
+		<div class = 'well'>
+			<h3> From: {{m.sender}}</h3>
+			<p>Date: {{m.sent_date}}</p>
+			<h4>Subject: {{m.subject}}</h4>
+			<h5>Message: {{m.body}}</h5>
+		</div>
+		{%endfor%}
+		{%else%}
+		<h2> Your inbox is empty. </h2>
+		{%endif%}
+
+	</body>
+</html>

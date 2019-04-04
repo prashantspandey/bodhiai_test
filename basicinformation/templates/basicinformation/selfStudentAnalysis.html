@@ -1,0 +1,67 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+
+<html>
+	<head>
+		<title>
+			{%block title%}
+			Self Analysis
+			{% endblock%}
+		</title>
+
+		{% block scripts %}
+<link rel='stylesheet' href="{%static 'basicinformation/css/animate.css' %}">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script>
+         $(document).ready(function () {
+var pr
+
+        for(i=1 ; i<=10; i++){
+         $(eval("'#studentanasub'+i")).click(function(){
+          which_sub = $(this).text();
+	  $('#loadingStudentAnalysis1').show();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+         $('.studentselfSubjects').removeClass("hidden");
+         $('.studentselfSubjects').html('').load('{% url "basic:studentSubjectAnalysis" %}?studentwhichsub='+which_sub);
+
+
+                $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+
+		 });	
+	 };
+	 });
+
+	</script>
+
+		{%endblock%}
+	</head>
+	<body>
+		{% block content %}
+		<br>
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a Subject</div>
+  <div class="panel-body">
+{% for sub in subjects %}
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default animated slideInLeft" id="studentanasub{{forloop.counter}}">{{sub}}</button>
+</div>
+
+{%endfor%}
+        </div>
+<div id = 'loadingStudentAnalysis1' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+	<div class="hidden studentselfSubjects ">
+		{% include 'basicinformation/student_analysis_subjects.html' %}
+	</div>
+{%endblock%}
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+{%load staticfiles %}
+
+<hr style='width:3px'>
+<div class="container">
+	<h2 class='text-center' style='font-weight:bold;'> Test Analysis </h2>
+	<hr>
+		<table class='table table-striped table-bordered table-hover'>
+			<tr>
+				<th class='primary'> Average Marks</th>
+				<th> Average Marks Percentage</th>
+			</tr>
+			<tr>
+				<th>{{average|floatformat:2}}/{{maxMarks}}</th>
+				<th> {{percentAverage|floatformat:2}}% </th>
+			</tr>
+		</table>
+</div>
+<div  class="col-md-8  col-xs-12">
+    <script>
+
+$(document).ready(function () {
+	  $('#loadingSchoolAnalysis3').hide();
+	    var ctx = document.getElementById("analysis");
+		var myChart1 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["S","A","B","C","D","E","F"],
+                datasets: [{
+			label: 'Student performance ',
+			data: [parseInt({{grade_s}}),parseInt({{grade_a}}),parseInt({{grade_b}}),parseInt({{grade_c}}),
+                    parseInt({{grade_d}}),parseInt({{grade_e}}),parseInt({{grade_f}}),],
+			 backgroundColor: [
+                        'rgba(103,58,183,1)',
+                        'rgba(118,255,3 ,0.7)',
+                        'rgba(174,234,0 ,0.6)',
+                        'rgba(255,214,0 ,0.6)',
+                        'rgba(255,171,0 ,0.7)',
+                        'rgba(255,109,0 ,0.7)',
+			'rgba(221,44,0 ,0.6)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 255, 255, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                        }
+                    }]
+                }
+            }
+        });
+    });
+
+</script>
+</div>
+<div class='col-md-offset-1 col-md-10 col-xs-12'>
+	<h2 style='text-align:center;font-weight:bold;'>Students Grade wise</h2>
+	<div>
+	<canvas  id="analysis" height='400'>
+</canvas>
+	</div>
+<table class='table  table-bordered table-hover'>
+			<tr>
+				<th > Percentage </th>
+				<th> Number of students</th>
+			</tr>
+			<tr class='success'>
+				<th>90% - 100% (S)</th>
+				<th> {{grade_s}} </th>
+			</tr>
+			<tr class='success'>
+				<th>80% - 90% (A)</th>
+				<th> {{grade_a}} </th>
+			</tr>
+			<tr class='primary'>
+				<th>70% - 80% (B)</th>
+				<th> {{grade_b}} </th>
+			</tr>
+			<tr class='primary'>
+				<th>60% - 70% (C)</th>
+				<th> {{grade_c}} </th>
+			</tr>
+			<tr class='warning'>
+				<th>50% - 60% (D)</th>
+				<th> {{grade_d}} </th>
+			</tr>
+			<tr class='warning'>
+				<th>33% - 50% (E)</th>
+				<th> {{grade_e}} </th>
+			</tr>
+			<tr class='danger'>
+				<th>Less than 33% (F)</th>
+				<th> {{grade_f}} </th>
+			</tr>
+
+
+
+		</table>
+
+<hr>
+{% if  school %}
+<div>
+	{% for quest in test.questions_set.all %}
+	<div class = 'well col-md-offset-1 col-md-10  col-xs-12'>
+		<h3> {{quest.text}} </h3>
+		{%for x,y in sq %}
+		{% if quest.id == x %}
+		<p style='text-align:center;font-weight:bold;'>	<span class="label label-warning" >{{y}} people skipped this question.</span></p>
+		{%endif%}
+		{%endfor%}
+
+		{% for ch in quest.choices_set.all %}
+		<p> {{ch.text }} 
+		{%for a,b in freq %}
+		{% if ch.id == a %}
+		<span class="label label-info">{{b}}{% if b == 1 %} student {%else%} students {%endif%} chose this answer.</span>
+		{%endif%}
+		{%endfor%}
+		{% if ch.predicament == 'Correct' %}
+		<span class="label label-primary">Correct Answer</span>
+		{%endif%}
+		</p>
+		{%endfor%}
+</div>
+{%endfor%}
+</div>
+<div class='col-md-offset-1 col-md-8 col-xs-12'>
+	<h2 style='text-align:center;font-weight:bold;'> Problematic Questions(Most to Least) </h2>
+	{% for i,f in problem_quests %}
+	{%for qu in test.questions_set.all%}
+	{%if qu.id == i %}
+	<h3 style='font-weight:bold;'> {{f}} students got this question wrong or skipped it. </h3>
+	<div class ='well col-xs-12' >
+		<h3 style='font-weight:bold;'> {{qu.text}}</h3>
+		{% for ch in qu.choices_set.all%}
+		<p> {{ch.text}}
+		{%for a,b in freq %}
+		{% if ch.id == a and ch.predicament == 'Wrong' %}
+		<span class="label label-danger">{{b}} {% if b == 1 %} student {%else%} students {%endif%}chose this answer.</span></p>
+
+		{%endif%}
+		{%endfor%}
+
+		{%endfor%}
+	</div>
+	{%endif%}
+	{%endfor%}
+	{%endfor%}
+
+</div>
+
+	{% elif ssc %}
+
+<div>
+	{% for quest in test.sscquestions_set.all %}
+	<div class = 'well col-md-offset-1 col-md-10  col-xs-12'>
+		<h3> {{quest.text|linebreaks}} </h3>
+		{%if quest.picture %}
+		<img src='{{quest.picture}}'>
+		{%endif%}	
+
+		{%for x,y in sq %}
+		{% if quest.id == x %}
+		<p style='text-align:center;font-weight:bold;'>	<span class="label label-warning" >{{y}} people skipped this question.</span></p>
+		{%endif%}
+		{%endfor%}
+
+		{% for ch in quest.choices_set.all %}
+		<p> {%if ch.text %}{{ch.text|linebreaks }} {%endif%}
+		{%if ch.picture %}
+		<img src='{{ch.picture}}'>
+		{%endif%}	
+
+		{%for a,b in freq %}
+		{% if ch.id == a %}
+		<span class="label label-info">{{b}}{% if b == 1 %} student {%else%} students {%endif%} chose this answer.</span>
+		{%endif%}
+		{%endfor%}
+		{% if ch.predicament == 'Correct' %}
+		<span class="label label-primary">Correct Answer</span>
+		{%endif%}
+		</p>
+		{%endfor%}
+</div>
+{%endfor%}
+</div>
+<div class='col-md-offset-1 col-md-8 col-xs-12'>
+	<h2 style='text-align:center;font-weight:bold;'> Problematic Questions(Most to Least) </h2>
+	{% for i,f in problem_quests %}
+	{%for qu in test.sscquestions_set.all%}
+	{%if qu.id == i %}
+	<h3 style='font-weight:bold;'> {{f}} students got this question wrong or skipped it. </h3>
+	<div class ='well col-xs-12' >
+		<h3 style='font-weight:bold;'> {{qu.text|linebreaks}}</h3>
+		{%if qu.picture %}
+		<img src='{{qu.picture}}'>
+		{%endif%}	
+
+		{% for ch in qu.choices_set.all%}
+		<p> {%if ch.text %}{{ch.text}}{%endif%}
+		{%if ch.picture %}
+		<img src='{{ch.picture}}'>
+		{%endif%}	
+
+		{%for a,b in freq %}
+		{% if ch.id == a and ch.predicament == 'Wrong' %}
+		<span class="label label-danger">{{b}} {% if b == 1 %} student {%else%} students {%endif%}chose this answer.</span></p>
+
+		{%endif%}
+		{%endfor%}
+
+		{%endfor%}
+	</div>
+	{%endif%}
+	{%endfor%}
+	{%endfor%}
+	<div>
+		<h2 class='text-center'> Result Table </h2>
+			<table class='table table-striped table-bordered table-hover'>
+			<tr>
+				<th class='primary'> Name</th>
+				<th> Total Marks</th>
+				<th> Score</th>
+				<th> Rank</th>
+				<th> Percentage</th>
+				<th> Correct</th>
+				<th> In-Correct</th>
+				<th> Not-Attempted</th>
+			</tr>
+				{% for name,totalmarks,score,rank,respercent,correct,incorrect,skipped in result %}
+			<tr>
+				<th>{{name}}</th>
+				<th> {{totalmarks}} </th>
+				<th> {{score}} </th>
+				<th> {{rank}} </th>
+				<th> {{respercent|floatformat:2}}% </th>
+				<th> {{correct}} </th>
+				<th> {{incorrect}} </th>
+				<th> {{skipped}} </th>
+			</tr>
+				{%endfor%}
+		</table>
+		<form action="{% url 'basic:downloadResult' %}" method='get'>
+			<button type="submit" value="{{test.id}}" name='downloadresult' class="btn btn-info" >Download Result</button>
+		</form>
+
+	</div>
+
+
+</div>
+{%endif%}
+
+
+
+

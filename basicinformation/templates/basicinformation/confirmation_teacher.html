@@ -1,0 +1,39 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+<html>
+
+	<head>
+		{%block title %}
+		Add students 
+		{%endblock%}
+	</head>
+
+	<body>
+		{%block content%}
+
+		<div class='container'>
+		<h3 class='text-center'> {{confirmations|length}} students waiting for confirmation.</h3>
+		<br>
+		<br>
+		<hr>
+		{% for confirmation in confirmations %}
+		<form action='{% url "basic:addStudents2" %}' method='post'>
+			{%csrf_token%}
+			<h4 class='text-center'>  {{confirmation.name}} </h4>
+			<h4 class='text-center'>  {{confirmation.phone}} </h4>
+			{% for batch in batches %}
+			<div class='form-group text-center'>
+			<label class="radio-inline"><input type="radio" value={{batch.id}} name="batchChoice">{{batch.name}}</label>
+			</div>	
+			{%endfor%}
+			<div class='form-group text-center	'>
+			<button type='submit' class='btn btn-success text-center' name='confirmationId' value={{confirmation.id}}>Add </button>
+			</div>
+			<hr>
+		</form>
+		
+		{%endfor%}
+		</div>
+		{%endblock%}
+	</body> 
+</html>

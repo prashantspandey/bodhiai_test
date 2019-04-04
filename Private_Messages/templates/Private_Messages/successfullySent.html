@@ -1,0 +1,21 @@
+{% extends 'basicinformation/base.html' %}
+<html>
+	<head>
+		<title>
+			{% block title %}
+			Successfully Sent
+			{%endblock%}
+		</title>
+	</head>
+	<body>
+		{%block content %}
+<h1 style='text-align:center;font-weight:bold;'> Message Successfully Sent </h1>
+		
+		<h3 style= 'font-weight:bold;'> To: {{mess.receiver}}</h3>
+		<h4 style= 'font-weight:bold;'> Subject: {{mess.subject}}</h4>
+		<h4 style= 'font-weight:bold;'> Message: {{mess.body}} </h4>
+		<h4 style= 'font-weight:bold;'> Time: {{mess.sent_date}}</h4>
+		{%endblock%}
+	</body>
+</html>
+

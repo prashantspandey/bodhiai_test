@@ -1,0 +1,23 @@
+.well {
+background: #72a2ef4d;
+}
+
+.numberCircle {
+    width: 120px;
+    line-height: 120px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    border: 5px solid #FB8C00;
+    margin:0 auto;
+}
+
+#accuracyParent{
+    width:95%;
+    height:100%;
+}
+#timingParent{
+    width:90%;
+    height:100%;
+}
+

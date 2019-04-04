@@ -1,0 +1,57 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+<html>
+	<head>
+		<title>
+			{%block title%}
+			BodhiAI|Improvement
+			{%endblock%}
+		</title>
+		{%block scripts %}
+<script>
+
+         $(document).ready(function () {
+
+    var pr
+for(i=1 ; i<=10; i++){
+         $(eval("'#subjectButton'+i")).click(function(){
+          which_sub = $(this).text();
+
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	  $('#loadingstudentImprovement1').show();
+         $('#improvstudents').removeClass("hidden");
+         $('#improvstudents').html('').load('{% url "basic:studentImprovementsub" %}?improvementSub='+which_sub);
+
+     $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+});
+};
+});
+    </script>
+    {%endblock%}
+	</head>
+    <body>
+	    {%block content %}
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Subject</div>
+  <div class="panel-body">
+{% for i in subjects %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center  col-xs-12" value ="{{i}}" id="subjectButton{{forloop.counter}}">{{i}}</button>
+</div>
+{%endfor%}
+<div id = 'loadingstudentImprovement1' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+<div class='hidden ' id = 'improvstudents'>
+{%include 'basicinformation/student_improvement2.html' %}
+</div>
+{%endblock%}
+    </body>
+</html>

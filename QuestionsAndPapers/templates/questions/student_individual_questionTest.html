@@ -1,0 +1,118 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+
+<html>
+	<head>
+		<title>{%block title %}
+			Ongoing Test 
+			{%endblock%}
+		</title>
+		{%block scripts %}
+<link rel='stylesheet' type='text/css' href="{%static 'questions/css/studentTestQuestions.css' %}">
+<script>
+         $(document).ready(function () {
+
+	 var pr
+	$('.numberQuestion').click(function(){
+         $(eval("'#'+pr")).removeClass("btn btn-primary").addClass("btn btn-default");
+		quest_pos = $(this).attr('value');
+			var  howmany = {{how_many}}	 
+			 teid = {{te_id}}
+			 $(this).removeClass("btn btn-default").addClass("btn btn-primary");
+		$('#showIndividualQuestions').removeClass("hidden");
+	$('#showIndividualQuestions').html('').load('{% url 'QuestionsAndPapers:conductTest' %}?IndividualTestQuestPos='+encodeURIComponent(quest_pos)+','+teid);
+
+    pr = $(this).attr('id');
+			});
+
+
+         });
+
+       
+	  
+setInterval("timer()",1000);
+
+function timer() {
+	if (sessionStorage.getItem({{te_id}})){
+		counter = sessionStorage.getItem({{te_id}});
+		if (counter < 0){
+			counter = parseInt({{testTime}} * 60)
+		};
+	} else {
+		counter = parseInt({{testTime}} * 60)
+	};
+counter --;
+hours = parseInt(counter/3600)
+t = parseInt(counter%3600)
+mins = parseInt(t/60)
+seconds = parseInt(t%60)
+$('#timeKeeper').text(hours + ' hours ' + mins + ' minutes and ' + seconds + ' seconds remaining');
+sessionStorage.setItem({{te_id}},counter);
+
+if (counter == 0){
+	sessionStorage.clear();
+	$('#testsub').trigger('click');
+};
+if (counter == (parseInt({{testTime}}) * 60)-1){
+	$('#num1').trigger('click');
+
+};
+
+};
+
+function formClick(){
+var timer = counter
+var formInfo = document.forms['finishForm']
+formInfo.elements["timeTaken"].value = timer;
+$('#mainContainer').addClass('hidden');
+$('#loaderComplete').removeClass("hidden");
+formInfo.submit()
+sessionStorage.clear();
+};
+
+
+
+    </script>
+
+
+		{%endblock%}
+	</head>
+	<body>
+		{%block content%}
+		<div class='hidden' id='loaderComplete' style='text-align:center;'>		
+	<h4 style='text-center;'>Please wait... </h4>
+	        <img   src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+		</div>
+		<div id='mainContainer'>
+
+
+	<div >
+	
+
+	<div class = 'hidden' id='showIndividualQuestions'>
+		{% include 'questions/student_individual_questionTestquestion.html' %}
+	</div>
+	</div>
+
+<div class="well"  id='infoContainer'>
+	<h2 style='text-align:center;font-weight:bold;color:000;'> Questions </h2>
+	<div id='timeKeeper' style='font-weight:bold;color:red;text-align:center;'></div>
+	<div id='tk' style='font-weight:bold;color:red;text-align:center;'></div>
+	{% for questPos in questPosition %}
+	<button type="button" value = "{{questPos}}" class="btn btn-default numberQuestion" id="num{{forloop.counter}}">{{questPos|add:1}}</button>
+	<button type="button" class="btn btn-default hidden" id="teid">{{te_id}}</button>
+
+	{%endfor%}
+	<br>
+	<div style='text-align:center;'>
+		<form action='{% url "QuestionsAndPapers:conductTest" %}' method='post' id ='finishForm'>
+		{%csrf_token%}
+		<input type="text" name="timeTaken" value="" class='hidden' />
+		<button type="submit" id='testsub' value="{{te_id}}" class="btn btn-default text-center" name="testSub" onclick="formClick()" >Submit Test</button>
+	</form>
+	</div>
+	</div>
+
+		{%endblock%}
+	</body>
+</html>

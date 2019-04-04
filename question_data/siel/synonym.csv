@@ -1,0 +1,376 @@
+,cat_num,cat_name,Question,optA,optB,optC,optD,correct,Direction
+0,1.2,Synonym,Tirade,Trade,Praise,Applause,Rant,D,Select the synonym
+1,1.2,Synonym,Proficient,Adept,Pupil,Reliable,Prominent,A,Select the synonym
+2,1.2,Synonym,Admonish,Irritate,Chide,Displease,Annoy,B,Select the synonym
+3,1.2,Synonym,Peril,Danger,Roughness,Insecurity,Anger,A,Select the synonym
+4,1.2,Synonym,Affluent,Blossom,Flourish,Prosperous,Thrive,C,Select the synonym
+5,1.2,Synonym,August,Common,Ridiculous,Dignified,Petty,C,Select the synonym
+6,1.2,Synonym,Garnish,Honour,Respect,Obey,Adorn,D,Select the synonym
+7,1.2,Synonym,Abandon,Excuse,Forsake,Urge,Risk,B,Select the synonym
+8,1.2,Synonym,Odious,Hateful,Rotten,Infamous,Sick,A,Select the synonym
+9,1.2,Synonym,Scintillating,Moving,Interesting,Burning,Glittering,D,Select the synonym
+10,1.2,Synonym,Transient,Fleeting,Transparent,Feeble,Fanciful,A,Select the synonym
+11,1.2,Synonym,Voracious,Hungry,Hasty,Thirsty,Greedy,D,Select the synonym
+12,1.2,Synonym,Tepid,Hot,Warm,Cold,Boiling,B,Select the synonym
+13,1.2,Synonym,Canny,Obstinate,Proud,Stout,Clever,D,Select the synonym
+14,1.2,Synonym,Humane,Sympathetic,Spirit,Straight,Source,A,Select the synonym
+15,1.2,Synonym,Honest,Authentic,Upright,Direct,Actual,B,Select the synonym
+16,1.2,Synonym,Vocation,Examination,Seminar,Occupation,Holiday,C,Select the synonym
+17,1.2,Synonym,Cantankerous,Noisy,Quarrelsome,Rash,Disrespectful,B,Select the synonym
+18,1.2,Synonym,Credible,Charming,Serious,Believable,Worthy,C,Select the synonym
+19,1.2,Synonym,Extricate,Free,Tie,Complicate,Pull,A,Select the synonym
+20,1.2,Synonym,Obstreperous,Unruly,Lazy,Awkward,Sullen,A,Select the synonym
+21,1.2,Synonym,Logical,Responsive,Rational,Educated,Improper,B,Select the synonym
+22,1.2,Synonym,Delusion,Illumination,Illusion,Ascension,Reality,B,Select the synonym
+23,1.2,Synonym,Mastery,Mystery,Weighty,Authority,Weakness,C,Select the synonym
+24,1.2,Synonym,Abnormal,Unnatural,Aggressive,Unique,Informal,A,Select the synonym
+25,1.2,Synonym,Venal,Corrupt,Comprehensible,Legible,Forgivable,A,Select the synonym
+26,1.2,Synonym,Conjurer,Magician,Jester,Performer,Trickster,A,Select the synonym
+27,1.2,Synonym,Invoice,Word,Sound,Statement,Language,C,Select the synonym
+28,1.2,Synonym,Ameliorate,Improve,Degrade,Motivate,Agree,A,Select the synonym
+29,1.2,Synonym,Conciliatory,Foolish,Soothing,Advisory,Cordial,B,Select the synonym
+30,1.2,Synonym,Insidious,Honest,Deceitful,Angry,Insane,B,Select the synonym
+31,1.2,Synonym,Mundane,Normal,Ordinary,Gullible,Mandatory,B,Select the synonym
+32,1.2,Synonym,Scepticism,Doubt,Bigotry,Belief,Religion,A,Select the synonym
+33,1.2,Synonym,Withstand,Accept,Submit,Endure,Relinquish,C,Select the synonym
+34,1.2,Synonym,Citadel,Mansion,Fortress,Palace,Metropolis,B,Select the synonym
+35,1.2,Synonym,Stern,Young,Stem,Strict,Lenient,C,Select the synonym
+36,1.2,Synonym,Aberration,Intensification,Deviation,Rationally,Justification,B,Select the synonym
+37,1.2,Synonym,Repeated,Disputed,Elaborated,Explained,Reiterated,D,Select the synonym
+38,1.2,Synonym,Revere,Condemn,Reverse,Humiliate,Respect,D,Select the synonym
+39,1.2,Synonym,Erudite,Scholarly,Unlettered,Stingy,Sloopy,A,Select the synonym
+40,1.2,Synonym,Hallucination,Delusion,Habitat,Dress,Deception,A,Select the synonym
+41,1.2,Synonym,Salacious,Angry,Unhappy,Satisfied,Lustful,D,Select the synonym
+42,1.2,Synonym,Derive,Contain,Attain,Sustain,Obtain,D,Select the synonym
+43,1.2,Synonym,Insolent,The sole of a shoe,Disrespectful,Insoluble,Depreciating,B,Select the synonym
+44,1.2,Synonym,Innocuous,Irresponsible,Careless,Harmless,Insufficient,C,Select the synonym
+45,1.2,Synonym,Ingenuous,Clever,Innocent,Artful,Cunning,B,Select the synonym
+46,1.2,Synonym,Parsimony,Expenditure,Bankruptcy,Bribery,Miserliness,D,Select the synonym
+47,1.2,Synonym,Tribulation,Palpitation,Suffering,Weakness,Stimulation,B,Select the synonym
+48,1.2,Synonym,ramparts,Ropway,Staircase,Parapet,Scaffold,C,Select the synonym
+49,1.2,Synonym,Garrulous,Talkative,Sedative,Vocative,Positive,B,Select the synonym
+50,1.2,Synonym,Tinsel,Tinkle,Decoration,Atin,Colourful,B,Select the synonym
+51,1.2,Synonym,Labyrinth,Meandering,Rotating,Pacing,Wriggling,A,Select the synonym
+52,1.2,Synonym,Advocate,Determine,Predict,Pronounce,Support,D,Select the synonym
+53,1.2,Synonym,Preamble,Introduction,Definition,Mediation,Conclusion,A,Select the synonym
+54,1.2,Synonym,Collate,Prescribe,Assemble,Describe,Narrate,B,Select the synonym
+55,1.2,Synonym,Absolve,Consume,Punish,Acquit,Withheld,C,Select the synonym
+56,1.2,Synonym,Ascription,Description,Account,Attribution,Cure,C,Select the synonym
+57,1.2,Synonym,Toil,Test,Spoil,Work hard,Tell,C,Select the synonym
+58,1.2,Synonym,Mimic,Tease,Refresh,Greet,Copy,D,Select the synonym
+59,1.2,Synonym,Kiosk,Store,Shop,Booth,Mall,A,Select the synonym
+60,1.2,Synonym,Wholesome,Complete,Ripe,Sound,Desirable,C,Select the synonym
+61,1.2,Synonym,Infirm,Unsteady,Timid,Nervous,Weak,D,Select the synonym
+62,1.2,Synonym,Cordial,Affectionate,Generous,Friendly,Kind,C,Select the synonym
+63,1.2,Synonym,Sole,Only,Principal,Important,Immediate,A,Select the synonym
+64,1.2,Synonym,Systematically,Scientifically,Technically,Methodically,Symmetrically,C,Select the synonym
+65,1.2,Synonym,Assault,Attack,Comfort,Construct,Attach,A,Select the synonym
+66,1.2,Synonym,Protrude,Lengthen,Uphold,Bulge,Attach,C,Select the synonym
+67,1.2,Synonym,Accomplish,Surrender,Achieve,Forsake,Abandon,B,Select the synonym
+68,1.2,Synonym,Apex,Bottom,Outward,Top,Inward,C,Select the synonym
+69,1.2,Synonym,Baffle,Strike,Puzzle,Flutter,Surpass,B,Select the synonym
+70,1.2,Synonym,Gaol,Destination,Garden,Jail,Bird,C,Select the synonym
+71,1.2,Synonym,Loathing,Warmith,Affectation,Hatred,Affection,C,Select the synonym
+72,1.2,Synonym,Pragmatic,Intelligent,Wise,Religious,Practical,D,Select the synonym
+73,1.2,Synonym,Notion,Thought,Fact,Truth,Hypothesis,A,Select the synonym
+74,1.2,Synonym,Vivacious,Poisonous,Energetic,Tricky,Slow,B,Select the synonym
+75,1.2,Synonym,Copious,Abundant,Enjoyable,Capable,Coptable,A,Select the synonym
+76,1.2,Synonym,Prerogative,Formative,Prevention,Privilege,Protective,C,Select the synonym
+77,1.2,Synonym,Aggravate,Increase,Big,Angry,Intensify,D,Select the synonym
+78,1.2,Synonym,Sycophants,Advisors,Flatterers,Servants,Sadists,B,Select the synonym
+79,1.2,Synonym,Flout,Ignore,Refuse,Condemnation,Disregard,D,Select the synonym
+80,1.2,Synonym,Fallacy,Smart move,Unfounded fear,Famous invention,Mistaken belief,D,Select the synonym
+81,1.2,Synonym,Diligent,Conceited,Great,Hard working,Proud,C,Select the synonym
+82,1.2,Synonym,Garnulous,Grumpy,Important,Friendly,Talkative,D,Select the synonym
+83,1.2,Synonym,Zenith,Hope,Ideal,Peak,Reality,,Select the synonym
+84,1.2,Synonym,Proximity,Nearness,Affinity,Prospect,Rapport,A,Select the synonym
+85,1.2,Synonym,Vociferous,Violent,Loud,Secret,1,B,Select the synonym
+86,1.2,Synonym,Fictional,Genuine,Authentic,Fanciful,Real,C,Select the synonym
+87,1.2,Synonym,Trivial,Crucial,Significant,Vital,Ordinary,D,Select the synonym
+88,1.2,Synonym,Impudent,Vigilant,Astute,Insolent,Arrogant,C,Select the synonym
+89,1.2,Synonym,Pompous,Pretentious,Supportive,Demanding,Flashy,A,Select the synonym
+90,1.2,Synonym,Annexure,Retirement,Commencement,Attachment,Development,C,Select the synonym
+91,1.2,Synonym,Errand,Energy,Task,Mistake,Blunder,B,Select the synonym
+92,1.2,Synonym,Bequeath,Give,Disclose,Scold,Surround,A,Select the synonym
+93,1.2,Synonym,Nonchalant,Imaginary,Casual,Neutral,Formal,B,Select the synonym
+94,1.2,Synonym,Forbearance,Deliverance,Patience, Extravagance,Relevance,B,Select the synonym
+95,1.2,Synonym,Inadvertent,Unexpected,Unintentional,Undisturbed,Ignorant,B,Select the synonym
+96,1.2,Synonym,Fortitude,Courage,Protection,Safety,Similarity,A,Select the synonym
+97,1.2,Synonym,Duplicity,Artlessness,Deceit,Cleverness,Repetition,B,Select the synonym
+98,1.2,Synonym,Fidelity,Resourcefulness,Strength,Weakness,Faithfulness,D,Select the synonym
+99,1.2,Synonym,Vanguard,Officer,Flag bearer,Pioneer,Race drive,B,Select the synonym
+100,1.2,Synonym,Narcissism,Unpleasant Behaviour,Self-condemnation,Self-admiration,Rude-behaviour,C,Select the synonym
+101,1.2,Synonym,Camouflage,Disguise,Cover,Demonstrate,Fabric,A,Select the synonym
+102,1.2,Synonym,Yearn,Deny,Accept,Confront,Long,D,Select the synonym
+103,1.2,Synonym,Pensive,Reluctant,Unhappy,thoughtful,Precise,C,Select the synonym
+104,1.2,Synonym,Impeccable,Inoffensive,Flawless,Upright,Harmless,B,Select the synonym
+105,1.2,Synonym,Nexus,Connection,Distance,Deficit,Difference,A,Select the synonym
+106,1.2,Synonym,Mammoth,Straight,Huge,Wild,Greedy,B,Select the synonym
+107,1.2,Synonym,Hyperbole,Expansion,Imitation,Decoration,Exaggeration,D,Select the synonym
+108,1.2,Synonym,Eulogy,Apology,Address,Speech,Praise,D,Select the synonym
+109,1.2,Synonym,Menacingly,Dangerously,Threateningly,Harmfully,Hideously,B,Select the synonym
+110,1.2,Synonym,Indiscriminate,Undifferentiated,Instant,Sensible,Discreet,A,Select the synonym
+111,1.2,Synonym,Literal,Verbatim,Formal,Idealistic,Outdated,A,Select the synonym
+112,1.2,Synonym,Intricate,Puzzling,Illusive,Complicated,Assertive,C,Select the synonym
+113,1.2,Synonym,Expeditiously,Rudely,Gently,Meekly,Quickly,D,Select the synonym
+114,1.2,Synonym,Idiosyncrasies,Demands,Needs,Ideologies,Eccentricities,D,Select the synonym
+115,1.2,Synonym,Clandestinely,Secretly,Openly,Financially,Systematically,A,Select the synonym
+116,1.2,Synonym,Periphery,Circle,Boundary,Edge,Terminus,C,Select the synonym
+117,1.2,Synonym,Exonerate,Absolve,Execute,Negate,Charge,B,Select the synonym
+118,1.2,Synonym,Exquisite,Exact,Wonderful,Quizzical,Exciting,B,Select the synonym
+119,1.2,Synonym,Comprehensive,Adhesive,Expensive,Alternative,Inclusive,D,Select the synonym
+120,1.2,Synonym,Apparent,Glaring,Vague,Similar,Dress,A,Select the synonym
+121,1.2,Synonym,Discourse,Sermon,Calamity,Intricate,Worsen,A,Select the synonym
+122,1.2,Synonym,Bombastic,Pompous,Sensitive,Rapid,Sufficient,A,Select the synonym
+123,1.2,Synonym,Customary,Unusual,Traditional,Rare,Exception,B,Select the synonym
+124,1.2,Synonym,Slain,Pained,Wronged,Duped,Killed,D,Select the synonym
+125,1.2,Synonym,Swap,Snap,Exchange,Break,Exclude,B,Select the synonym
+126,1.2,Synonym,Prudent,Wise,Cunning,Frank,Severe,A,Select the synonym
+127,1.2,Synonym,Genius,A generous person,A foreigner,A person with uncommon intellect,An athlete,C,Select the synonym
+128,1.2,Synonym,Culmination,Conclusion,Climax,Abyss,Cultivation,A,Select the synonym
+129,1.2,Synonym,Regard,Respect,Liking,Love,Suspicion,A,Select the synonym
+130,1.2,Synonym,Horrendous,Very huge,Greatly unpleasant,Midly sincere,Most pleasant,B,Select the synonym
+131,1.2,Synonym,Authentic,Admirable,Genuine,Adjustable,None,B,Select the synonym
+132,1.2,Synonym,Rectify,Correct,Alter,Erase,Continue,A,Select the synonym
+133,1.2,Synonym,Miraculous,Mysterious,Sudden,Amazing,Unexpected,C,Select the synonym
+134,1.2,Synonym,Warranty,Threat,Guarantee,Order of arrest,Issue,B,Select the synonym
+135,1.2,Synonym,Novice,Beginner,Virtuous,Trainer,Learner,A,Select the synonym
+136,1.2,Synonym,Adversary,Poverty,Contestant,Opponent,Antagonistic,C,Select the synonym
+137,1.2,Synonym,Dishonour,Infamy,Glory,Uncouth,Wicked,A,Select the synonym
+138,1.2,Synonym,Erudite,Scholarly,Friendly,Miserly,Lovely,A,Select the synonym
+139,1.2,Synonym,Idea,Comprehension,Notion,Emotion,Gist,B,Select the synonym
+140,1.2,Synonym,Hostile,Poor,Antagonistic,Delinquent,Reticent,B,Select the synonym
+141,1.2,Synonym,Friendly,Gentle,Amiable,Considerate,Industrious,B,Select the synonym
+142,1.2,Synonym,Veil,Seclude,Moan,Conceal,Repent,C,Select the synonym
+143,1.2,Synonym,Recurrent,Flowing backward,Healing quickly,Happening repeatedly,Timely,C,Select the synonym
+144,1.2,Synonym,Peculiar,Same,Strange,Surprising,Tiring,B,Select the synonym
+145,1.2,Synonym,Prosper,Cherish,Progress,Thrive,Rich,C,Select the synonym
+146,1.2,Synonym,Eminent,Confident,Authentic,Ingenious,Illustrious,D,Select the synonym
+147,1.2,Synonym,Sanitise,Pleasant,Disinfect,Pious,Crazy,A,Select the synonym
+148,1.2,Synonym,Favourite,Preferred,Focussed,Pleasurable,Disliked,A,Select the synonym
+149,1.2,Synonym,Fortitude,Composure,Confidence,Courage,Prudence,C,Select the synonym
+150,1.2,Synonym,Magnificent,Magnanimous,Modest,Generous,Splendid,D,Select the synonym
+151,1.2,Synonym,Spirited,Heated,Drunk,Enthusiastic,Possessed,C,Select the synonym
+152,1.2,Synonym,Gloomy,Misty,Obscure,Murky,Shadowy,C,Select the synonym
+153,1.2,Synonym,Grumble,To scold,To complain,To sheer,To fight,B,Select the synonym
+154,1.2,Synonym,Crude,Unrefined,Cruel,Rude,Savage,A,Select the synonym
+155,1.2,Synonym,Flaunt,Cut,Deceive,Exhibit,Blame,C,Select the synonym
+156,1.2,Synonym,Subjugate,Capitulate,Conquer,Strike,Confuse,B,Select the synonym
+157,1.2,Synonym,Behaviour,Conduct,Blessing,Character,Response,A,Select the synonym
+158,1.2,Synonym,Stringent,Flexible,Inflexible,Staunch,Tough,D,Select the synonym
+159,1.2,Synonym,Deliberately,Spontaneously,Inadvertently,Intentionally,Naturally,C,Select the synonym
+160,1.2,Synonym,Poignant,Showy,Sad,Silly,Snobbish,D,Select the synonym
+161,1.2,Synonym,Querulous,Critical,Curious,Complaining,Ambiguous,C,Select the synonym
+162,1.2,Synonym,Audacious,Brilliant,Powerful,Bold,Frightening,C,Select the synonym
+163,1.2,Synonym,Perilous,Hazardous,Rigorous,Resilient,Requisite,A,Select the synonym
+164,1.2,Synonym,Reverie,Determination,Day-dream,Reality,Realization,B,Select the synonym
+165,1.2,Synonym,Inclement,Selfish,Active,Genial,Unselfish,C,Select the synonym
+166,1.2,Synonym,Genial,Cordial,Unselfish,Careful,Specific,A,Select the synonym
+167,1.2,Synonym,Accrue,Accumulate,Accommodate,Grow,Suffice,C,Select the synonym
+168,1.2,Synonym,Loquacious,Talkative,Slow,Content,Unclear,A,Select the synonym
+169,1.2,Synonym,Vindictive,Imaginative,Accusative,Spiteful,Aggressive,C,Select the synonym
+170,1.2,Synonym,Barren,Good,Wholesome,Unproductive,Profitable,C,Select the synonym
+171,1.2,Synonym,Infamy,Notoriety,Glory,Integrity,Familiarity,A,Select the synonym
+172,1.2,Synonym,Intrepid,Hesitant,Fearless,Extrovert,Rash,B,Select the synonym
+173,1.2,Synonym,Prodigal,Exclusive,Productive,Lavish,Carefree,C,Select the synonym
+174,1.2,Synonym,Perspicuous,Relevant,Precise,Brief,Clear,D,Select the synonym
+175,1.2,Synonym,Deluge,Confusion,Deception,Flood,Weapon,C,Select the synonym
+176,1.2,Synonym,Preponderance,Pre-eminence,Dominance,Domineering,Preoccupation,B,Select the synonym
+177,1.2,Synonym,Lucidity,Fluidity,Politeness,Clarity,Fluency,C,Select the synonym
+178,1.2,Synonym,Indict,Implicate,Elude,Charge,Manifest,C,Select the synonym
+179,1.2,Synonym,Appraise,Accuse,Praise,Appreciate,Judge,D,Select the synonym
+180,1.2,Synonym,Collusion,Disagreement with,Outburst of anger,Secret understanding,Show favour of,C,Select the synonym
+181,1.2,Synonym,Shortcomings,Regular late coming,Taking short intervals,Weaknesses,Strong points,C,Select the synonym
+182,1.2,Synonym,Prosper,Protrude,Flourish,Provoke,Futile,B,Select the synonym
+183,1.2,Synonym,Security,Assistance,Component,Concealment,Protection,D,Select the synonym
+184,1.2,Synonym,Commended,Abused,Praised,Honoured,Liked,B,Select the synonym
+185,1.2,Synonym,Sufficient,Full,Complete,Enough,Less,C,Select the synonym
+186,1.2,Synonym,Benevolent,Beneficial,Kind,Helpful,Supportive,C,Select the synonym
+187,1.2,Synonym,Ancestors,Extinct tribes,Relatives,Forefathers,Old people,C,Select the synonym
+188,1.2,Synonym,Embrace,Impress,Except,Embarrass,Accept,D,Select the synonym
+189,1.2,Synonym,Meek,Light-hearted,Serious,Submissive,Benigh,C,Select the synonym
+190,1.2,Synonym,Confidential,Obvious,Honest,Secret,Accurate,C,Select the synonym
+191,1.2,Synonym,Censure,Criticise,Warn,Advise,Evaluate,A,Select the synonym
+192,1.2,Synonym,Illicit,Unlawful,Disgraceful,Improper,Infamous,A,Select the synonym
+193,1.2,Synonym,Obstinate,Antagonistic,Abstruse,Intrinsic,Stubborn,D,Select the synonym
+194,1.2,Synonym,Dangerous,Safe,Strong,Hazardous,Secure,C,Select the synonym
+195,1.2,Synonym,Perquisite,Incentive,Privilege,Bonus,Reward,D,Select the synonym
+196,1.2,Synonym,Controvert,Subvert,Indict,Contradict,Confuse,C,Select the synonym
+197,1.2,Synonym,Virulent,Defunct,Deadly,Daring,Deceptive,B,Select the synonym
+198,1.2,Synonym,Spirited,Admirable,Admirable,Advanced,Ardent,D,Select the synonym
+199,1.2,Synonym,Execrate,Curse,Deplore,Denounce,Desecrate,A,Select the synonym
+200,1.2,Synonym,Solecism,Wise saying,Witty quip,Clever argument,Grammatical error,D,Select the synonym
+201,1.2,Synonym,Corroborate,Collaborate,Substantiate,Co-operate,Correlate,B,Select the synonym
+202,1.2,Synonym,Delirious,Delicious,Pleasing,Desperate,Excited,D,Select the synonym
+203,1.2,Synonym,Licentious,Immoral,Intellectual,Moral,Without licence,A,Select the synonym
+204,1.2,Synonym,Squander,Expensive,Waste,Litter,Economical,B,Select the synonym
+205,1.2,Synonym,Infuriate,Burn,Disgrace,Threaten,Enrage,D,Select the synonym
+206,1.2,Synonym,Prospective,Potential,Prosperous,Perplexed,Possible,A,Select the synonym
+207,1.2,Synonym,Lousy,Unbearable,Unpleasant,Awful,Stinking,C,Select the synonym
+208,1.2,Synonym,Accentuated,Exhibited,Devalued ,Mitigated,Sharpened,D,Select the synonym
+209,1.2,Synonym,Predominantly,Emphatically,Forcefully,Mostly,Profoundly,C,Select the synonym
+210,1.2,Synonym,Fatuous,Fastidious,Fantastic,Funny,Silly,D,Select the synonym
+211,1.2,Synonym,Artful,Artistic,Cunning,Intelligent,Attractive,B,Select the synonym
+212,1.2,Synonym,Propinquity,Propensity,Prosperity,Neamess,Foresight,C,Select the synonym
+213,1.2,Synonym,Promiscuous,Conspicuous,Virtuous,Indiscriminate,Spontaneous,C,Select the synonym
+214,1.2,Synonym,Irascible,Temperamental,Envious ,Angry,Irritable,D,Select the synonym
+215,1.2,Synonym,Debacle,Decline,Downfall ,Discomfiture,Degeneration,B,Select the synonym
+216,1.2,Synonym,Ostracise,Banish,Belittle ,Beguile,Besiege,A,Select the synonym
+217,1.2,Synonym,Prophylactic,Antagonistic,Toxic,Preventive,Purgative,C,Select the synonym
+218,1.2,Synonym,Coddle,Huddle,Satisfy,Protect,Cheat,C,Select the synonym
+219,1.2,Synonym,Flimsy,Funny,Weak,Irrational,Partisan,B,Select the synonym
+220,1.2,Synonym,Derision,Humiliation,Embarrassment,Ridicule,Condemnation,C,Select the synonym
+221,1.2,Synonym,Trite,Commonplace,Clever,Brief,Impudent,A,Select the synonym
+222,1.2,Synonym,Luxuriant,Luxury loving,Lovely,Rich,Abundant,C,Select the synonym
+223,1.2,Synonym,Cantankerous,Cancerous,Ferocious,Quarrelsome,Fissiparous,C,Select the synonym
+224,1.2,Synonym,Onus,Sadness,Happiness,Responsibility,Criticism,C,Select the synonym
+225,1.2,Synonym,Garish,Unusual,Exciting,Confused,Gaudy,D,Select the synonym
+226,1.2,Synonym,Baleful,Harmful,Doubtful,Useful,Helpful,A,Select the synonym
+227,1.2,Synonym,Duplicity,Repetition,Artlessness,Deception,Cleverness,C,Select the synonym
+228,1.2,Synonym,Vagary,Lapse of memory,Companionship,Gang,Unpredictable change,D,Select the synonym
+229,1.2,Synonym,Evince,Look,Try,Apply,Show,D,Select the synonym
+230,1.2,Synonym,Morbid,Ignorant,Scandalous,Unhealthy,Innocent,C,Select the synonym
+231,1.2,Synonym,Insurgent,Rebel,Eccentric,Emigrant,Spy,A,Select the synonym
+232,1.2,Synonym,Truant,One who likes to speak with,One who trusts everyone,One who stays away without permission ,A truthful aunt,C,Select the synonym
+233,1.2,Synonym,Misanthrope,One who hates whole mankind,One who hates women,One who hates men ,One who loves mankind,A,Select the synonym
+234,1.2,Synonym,Reparation,Compensation,Correction,Aspersion,Delegation,A,Select the synonym
+235,1.2,Synonym,Impair,Weaken,Couple,Double,Repair,A,Select the synonym
+236,1.2,Synonym,Morose,Genial,Gentle,Gloomy,Idle,C,Select the synonym
+237,1.2,Synonym,Inundation,Drought,Imposition,Flood,Snowfall,C,Select the synonym
+238,1.2,Synonym,Pristine,Novel,Strange,Contemporary,Original,D,Select the synonym
+239,1.2,Synonym,Effigy,Proxy,Duplicate,Dummy,Replica,C,Select the synonym
+240,1.2,Synonym,Frontier,Edge,Landmark,Boundary,Comer,C,Select the synonym
+241,1.2,Synonym,Rout,Death,Defeat,Loss,Crash,B,Select the synonym
+242,1.2,Synonym,Irreproachable,Remarkable,Extraordinary,Faultless,Immense,C,Select the synonym
+243,1.2,Synonym,Felicity,Prosperity,Honesty,Bliss,Sorrow,C,Select the synonym
+244,1.2,Synonym,Knave,Emperor,Enchanter,Soldier,Scoundrel,D,Select the synonym
+245,1.2,Synonym,Prodigal,Huge,Enchanter,Soldier,Wasteful,D,Select the synonym
+246,1.2,Synonym,Impose,Fertilizer,Dispatch,Tax,Postage,C,Select the synonym
+247,1.2,Synonym,Coarse,Academic,Grain,Rough,Training,C,Select the synonym
+248,1.2,Synonym,Forego,Renounce,Disown,Leave,Accumulate,A,Select the synonym
+249,1.2,Synonym,Recipients,Creators,Donors,Receivers,Instigators,C,Select the synonym
+250,1.2,Synonym,Illicit,Immoral,Illegal,Ineligible,Illegible,B,Select the synonym
+251,1.2,Synonym,Flair,Talent,Tendency,Bias,Need,A,Select the synonym
+252,1.2,Synonym,Conservation,Preservation,Respiration,Correction,Confusion,A,Select the synonym
+253,1.2,Synonym,Abysmal,Sickening,Gloomy,Sad,Bottomless,D,Select the synonym
+254,1.2,Synonym,Salient,Valiant,Variant,Prudent,Prominent,D,Select the synonym
+255,1.2,Synonym,Decamp,Move,Encamp,Flee,Hide,C,Select the synonym
+256,1.2,Synonym,Philanthropist,Benefactor,Beneficiary,Matron,Sponsor,A,Select the synonym
+257,1.2,Synonym,Exotic,Alien,Stranger,Rare,Grand,A,Select the synonym
+258,1.2,Synonym,Incapacitate,Cripple,Strengthen,Imprison,Invent,A,Select the synonym
+259,1.2,Synonym,Congregation,Concentration,Meeting,Discussion,Judgement,B,Select the synonym
+260,1.2,Synonym,Indignation,Hatred,Anger,Disapproval,Contempt,B,Select the synonym
+261,1.2,Synonym,Acronym,A word with two or more meanings ,A word of new coinage ,A word formed by the initial letters of words ,A word of picturesque effect,C,Select the synonym
+262,1.2,Synonym,Meticulous,Interfere,Courage,Agreement,Careful,D,Select the synonym
+263,1.2,Synonym,Rescind,Change,Revoke,Repeat,Reconsider,B,Select the synonym
+264,1.2,Synonym,Antipathy,Dishonesty,Revoke,Repeat,Dislike,D,Select the synonym
+265,1.2,Synonym,Dubious,Doubtful,Disputable,Duplicate,Dangerous,A,Select the synonym
+266,1.2,Synonym,Flabbergasted,Scared,Embarrassed,Dumbfounded,Humiliated,C,Select the synonym
+267,1.2,Synonym,Eternal,Innumerable,Unmeasurable,Prolonged,Perpetual,D,Select the synonym
+268,1.2,Synonym,Genuine,Authentic,Legitimate,Reliable,Pure,A,Select the synonym
+269,1.2,Synonym,Obscene,Indecent,Incorrigible,Ridiculous,Intolerable,A,Select the synonym
+270,1.2,Synonym,Accoutrements,Relatives,Companions,Calculations,Equipments,D,Select the synonym
+271,1.2,Synonym,Veracity,Freedom,Truth,Wisdom,Loyalty,B,Select the synonym
+272,1.2,Synonym,Incessantly,Continuously,Inevitably,Regularity,Indiscreetly,A,Select the synonym
+273,1.2,Synonym,Heralded,Clapped,Proclaimed,Protested,Rewarded,B,Select the synonym
+274,1.2,Synonym,Detrimental,Deplorable,Fundamental ,Harmful,Disgraceful,C,Select the synonym
+275,1.2,Synonym,Colossal,Gigantic,Colourful,Beautiful,Fantastic,A,Select the synonym
+276,1.2,Synonym,Stubborn,Timid,Arrogant,Adamant,Angry,C,Select the synonym
+277,1.2,Synonym,Invariable,Usual,Universal,Constant,Similar,C,Select the synonym
+278,1.2,Synonym,Indictment,Revelation,Acquittal,Refusal,Accusation,D,Select the synonym
+279,1.2,Synonym,Dulcet,Sweet,Dull,Hard,Sour,A,Select the synonym
+280,1.2,Synonym,Slither,Slide,Move,Shake,Slip,A,Select the synonym
+281,1.2,Synonym,Apposite,Contrary,Bitter,Appropriate,Misleading,C,Select the synonym
+282,1.2,Synonym,Scorn,Ridicule,Laugh,Condemn,Criticize,C,Select the synonym
+283,1.2,Synonym,Impious,Holy,Mischievous,Shrewd,Irreverent,D,Select the synonym
+284,1.2,Synonym,Freelance,Self-betrayed,Self-centred,Self-employed,Self-driven,C,Select the synonym
+285,1.2,Synonym,Rare,Common,Usual,Scarce,Few,C,Select the synonym
+286,1.2,Synonym,Avarice,Generosity,Envy,Greed,Hatred,C,Select the synonym
+287,1.2,Synonym,August,Majestic,Important,Difficult,Huge,A,Select the synonym
+288,1.2,Synonym,Decimated,Denounced,Destroyed,Successful,Depressed,B,Select the synonym
+289,1.2,Synonym,Hurdle,Obstacle,Ban,Hedge,Relay,A,Select the synonym
+290,1.2,Synonym,Sombre,Gloomy,Quiet,Serious,Sleepy,A,Select the synonym
+291,1.2,Synonym,Regress,Deteriorate,Degenerate,Backslide,Lapse,C,Select the synonym
+292,1.2,Synonym,Toxic,Bitter,Foul-smelling,Remedial,Poisonous,D,Select the synonym
+293,1.2,Synonym,Yardstick,Summation,Size ,Statistics,Standard,D,Select the synonym
+294,1.2,Synonym,Little,Trivial,Petty,Sample,simple,B,Select the synonym
+295,1.2,Synonym,Obstinate,Stubborn,Pretty,Silly,Clever,A,Select the synonym
+296,1.2,Synonym,Alert,Hostile,Watchful,Brave,Quick,B,Select the synonym
+297,1.2,Synonym,Accede,Consent,Access,Assess,Proceed,A,Select the synonym
+298,1.2,Synonym,Superannuated,Experienced,Accepted,Retired,Senile,C,Select the synonym
+299,1.2,Synonym,Audacity,Strength,Boldness,Asperity,Fear,B,Select the synonym
+300,1.2,Synonym,Decrepitude,Disease,Coolness,Crowd,Feebleness,D,Select the synonym
+301,1.2,Synonym,Transition,Position,Translation,Change,Movement,C,Select the synonym
+302,1.2,Synonym,Accused,Indicated,Indicted,Induced,Instigated,B,Select the synonym
+303,1.2,Synonym,Beckoned,Accused,Called,Sent,Acquitted,B,Select the synonym
+304,1.2,Synonym,Genuine,Generous,Healthy,Natural,Original,D,Select the synonym
+305,1.2,Synonym,Command,Lead,Instruct ,Manage,Supervise,B,Select the synonym
+306,1.2,Synonym,Gnome,Giant,Dwarf,Native,Alien,B,Select the synonym
+307,1.2,Synonym,Ablution,Censure,Forgiveness,Absolution,Washing,D,Select the synonym
+308,1.2,Synonym,Surmount,Discount,Surround,Overcome,Capture,C,Select the synonym
+309,1.2,Synonym,Torpid,Insipid,Stupid,Sensitive,Inactive,D,Select the synonym
+310,1.2,Synonym,Selection,Denial,Preference,Refusal,Display,B,Select the synonym
+311,1.2,Synonym,Ostentation ,Pomp,Pretence,Abundance,Plenty,A,Select the synonym
+312,1.2,Synonym,Convict,Adventurer,Fugitive ,Criminal,Impostor,C,Select the synonym
+313,1.2,Synonym,Itinerant,Frequent use of the word ‘it’,Anything involving repetition,Plan for a proposed journey,Travelling from place to place,D,Select the synonym
+314,1.2,Synonym,Transparent,Verbose,Involved,Witty,Lucid,D,Select the synonym
+315,1.2,Synonym,Obsession,Preccupation,Suspicious,Frustration,Dejection,A,Select the synonym
+316,1.2,Synonym,Dilate,Spin,Weaken,Widen,Push,C,Select the synonym
+317,1.2,Synonym,Duplication,Breed,Reproduction,Print,Copying,D,Select the synonym
+318,1.2,Synonym,Priority,Urgency,Protocol,Precedence,Necessity,C,Select the synonym
+319,1.2,Synonym,Flutter,Soar,Agitate,Change,Float,B,Select the synonym
+320,1.2,Synonym,Successive,Rapid,Victorious,Beneficient,Consecutive,D,Select the synonym
+321,1.2,Synonym,Ravage,Destroy,Break,Demolish,Abolish,A,Select the synonym
+322,1.2,Synonym,Superstitious,Pious,Traditional,Irrational,Sacred,C,Select the synonym
+323,1.2,Synonym,Mentor,Guide,Genius,Stylist,Philosopher,A,Select the synonym
+324,1.2,Synonym,Garnish,Paint,Adorn,Gamer,Banish,B,Select the synonym
+325,1.2,Synonym,Infructuous,Meaningless,Unnecessary,Redundant,Fruitless,D,Select the synonym
+326,1.2,Synonym,Fidelity,Affection,Allegiance,Accuracy,Loyalty,B,Select the synonym
+327,1.2,Synonym,Gruff,Hard,Rough,Though,Sturdy,B,Select the synonym
+328,1.2,Synonym,Doleful,Mournful,Sober,Regretful,Cheerless,A,Select the synonym
+329,1.2,Synonym,Fatal,Terrible,Deadly,Poisonous,Wrong,B,Select the synonym
+330,1.2,Synonym,Irreverence,Disrespectful,Cruelty,Unkindness,Invalidity,A,Select the synonym
+331,1.2,Synonym,Amicable,Poisonous,Friendly,Satisfying,Heartening,B,Select the synonym
+332,1.2,Synonym,Prudent,Skilled,Experienced,Cautious,Criminal,A,Select the synonym
+333,1.2,Synonym,Panacea,Flatter,Praise,Inactivity,Cure-all,D,Select the synonym
+334,1.2,Synonym,Benevolence,Ill will,Morbidity,Kindness,Vision,C,Select the synonym
+335,1.2,Synonym,Vindicate,Open,Ventilate,Justify,Recommend,C,Select the synonym
+336,1.2,Synonym,Occult,Religious,Unnatural,Supernatural,Strong,C,Select the synonym
+337,1.2,Synonym,Menace,Request,Prayer,Threat,Curse,C,Select the synonym
+338,1.2,Synonym,Delineate,Expand,Portrary,Explain,Argue,B,Select the synonym
+339,1.2,Synonym,Abrogate,Elope,Gateerash,Abolish,Destroy,C,Select the synonym
+340,1.2,Synonym,Beautiful,Handsome,Alluring,Appealing,Attractive,A,Select the synonym
+341,1.2,Synonym,Momentous,Important,Temporary,Fleeting,Monumental,A,Select the synonym
+342,1.2,Synonym,Infatuation,Emotion,Passion,Imagination,Compassion,B,Select the synonym
+343,1.2,Synonym,Consignee,Delegate,Representative,Nominee,Messenger,C,Select the synonym
+344,1.2,Synonym,Tramp,Wanderer,Cheat,Traveller,Pilgrim,A,Select the synonym
+345,1.2,Synonym,Censure,Criticise,Appreciate ,Blame,Abuse,A,Select the synonym
+346,1.2,Synonym,Diligent,Industrious,Meditation ,Intelligent,Energetic,A,Select the synonym
+347,1.2,Synonym,Contemplation,Consideration,Argument ,Flattery,Institution,A,Select the synonym
+348,1.2,Synonym,Adulation,Duration,Argument,Flattery,Institution,C,Select the synonym
+349,1.2,Synonym,Quaver,Quarrel,Argument,Waver,Tremble,D,Select the synonym
+350,1.2,Synonym,Momentous,Timely,Important,Hopeless,Wrong,B,Select the synonym
+351,1.2,Synonym,Munificent,Gentle,Generous ,Greatness,Greedy,B,Select the synonym
+352,1.2,Synonym,Debacle,Complication,Trickery,Evil,Collapse,D,Select the synonym
+353,1.2,Synonym,Parables,Idioms,Comparison,Stories,Examples,C,Select the synonym
+354,1.2,Synonym,Consort,Partner,Relative,Enemy,Ally,A,Select the synonym
+355,1.2,Synonym,Grandeur,Magnificence,Admiration,Happiness,Awe,A,Select the synonym
+356,1.2,Synonym,Inception,Initiative,Beginning,Initial,Origin,B,Select the synonym
+357,1.2,Synonym,Colossal,Famous,Vigorous,Energetic,Enormous,D,Select the synonym
+358,1.2,Synonym,Paradox,Paradise,Question,Puzzle,Challenge,C,Select the synonym
+359,1.2,Synonym,Proliferate,Proliteiat,Prohibit ,Stipulate,Reproduce,D,Select the synonym
+360,1.2,Synonym,Benevolent,Friendly,Charitable,Affectionate,Helpful,B,Select the synonym
+361,1.2,Synonym,Acumen,Intelligence,Insight ,Wisdom,Knowledge,B,Select the synonym
+362,1.2,Synonym,Confiscate,To confuse,To obscure,To seize by authority,To steal,C,Select the synonym
+363,1.2,Synonym,Degeneration,Deterioration,Degradation,Demotion,Humiliation,B,Select the synonym
+364,1.2,Synonym,Clemency,Empathy,Kindness,Sympathy,Forgiveness,B,Select the synonym
+365,1.2,Synonym,Precedence,Pre-eminence,Primacy,Preference,Importance,C,Select the synonym
+366,1.2,Synonym,Inn,Factory,Hotel,Kitchen,Shop,B,Select the synonym
+367,1.2,Synonym,Satiate,Satisfy,Dissatisfy,Nullify,Millify,A,Select the synonym
+368,1.2,Synonym,Iniquity,Hostility,Speed,Imbalance,Wickedness,D,Select the synonym
+369,1.2,Synonym,Dishevelled,Untidy,Foolish,Sad,Clean,A,Select the synonym
+370,1.2,Synonym,Obnoxious,Depression,Disgusting,Arrogant,Filthy,B,Select the synonym
+371,1.2,Synonym,Covenant,Case,Coupon,Contract,Settlement,C,Select the synonym
+372,1.2,Synonym,Deference,Indifference,Sympathy,Respect,Flattery,C,Select the synonym
+373,1.2,Synonym,Abrogate,Repeal,Destroy,Delay,Dismiss,A,Select the synonym
+374,1.2,Synonym,Intrepid,Ambitious,Determined,Talkative,Fearless,D,Select the synonym

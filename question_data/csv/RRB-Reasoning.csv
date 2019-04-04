@@ -1,0 +1,744 @@
+sl.no.,correct,QuestionLink,direction,explanation,sectionType,optA,optB,optC,optD,category,usedFor,lang,source,name
+1,d,https://i.imgur.com/9jBd2hi.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+2,a,https://i.imgur.com/kWhPQf4.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+3,a,https://i.imgur.com/maD6tVr.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+4,b,https://i.imgur.com/jjPMBI6.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+5,c,https://i.imgur.com/t7BRVMI.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+6,d,https://i.imgur.com/bqnI8Ee.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+7,c,https://i.imgur.com/CeLUPpZ.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+8,d,https://i.imgur.com/4gmKig2.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+10,b,https://i.imgur.com/Y3hDv8K.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+11,b,https://i.imgur.com/OlH2NbU.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+12,b,https://i.imgur.com/zfkEVaX.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+13,c,https://i.imgur.com/ZlPWFQn.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+14,c,https://i.imgur.com/Vcyw4yj.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+15,b,https://i.imgur.com/MvM3n2W.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+16,c,https://i.imgur.com/PwXpP2l.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+17,a,https://i.imgur.com/bTrm00E.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+18,c,https://i.imgur.com/Oo5I8qz.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+19,b,https://i.imgur.com/BurOIXq.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+21,b,https://i.imgur.com/7CmIKMo.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+22,d,https://i.imgur.com/TlHTlUZ.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+23,d,https://i.imgur.com/2nRXHI6.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+24,c,https://i.imgur.com/hxhDs9u.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+25,b,https://i.imgur.com/5HaAnwa.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+26,a,https://i.imgur.com/6pOpYNF.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+27,a,https://i.imgur.com/HxYApik.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+28,d,https://i.imgur.com/obNN2xb.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+29,d,https://i.imgur.com/yS0BjFp.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+30,c,https://i.imgur.com/YTphEsM.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+31,a,https://i.imgur.com/LZcSZQR.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+32,b,https://i.imgur.com/626SQza.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+33,d,https://i.imgur.com/mKfDmtE.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+35,a,https://i.imgur.com/0nEKoVV.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+36,b,https://i.imgur.com/bzyJlPZ.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+37,a,https://i.imgur.com/ceqe8UE.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+38,b,https://i.imgur.com/muyCZvO.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+39,d,https://i.imgur.com/IqOREOK.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+40,c,https://i.imgur.com/ncBuz8W.png,,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+41,d,https://i.imgur.com/bJRFIvL.png,https://i.imgur.com/5prkqZC.png,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+42,a,https://i.imgur.com/oQhASBV.png,https://i.imgur.com/5prkqZC.png,,Reasoning,A,B,C,D,2.1,SSC,Hindi,JEN,
+1,2,https://i.imgur.com/cfVj3Hz.png,,https://i.imgur.com/l2fPO7I.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+4,1,https://i.imgur.com/T8FXMBr.png,,https://i.imgur.com/i9sJlZQ.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+6,1,https://i.imgur.com/2EgpV00.png,,https://i.imgur.com/dV5Vfv5.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+7,1,https://i.imgur.com/wKH02JR.png,,https://i.imgur.com/PJzipBp.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+8,1,https://i.imgur.com/dhXbqNw.png,,https://i.imgur.com/t7dwXsA.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+9,2,https://i.imgur.com/OZgFT4C.png,,https://i.imgur.com/ZpqGDS1.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+10,4,https://i.imgur.com/5j1RJEN.png,,https://i.imgur.com/09sYBWe.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+11,1,https://i.imgur.com/qiukzqt.png,,https://i.imgur.com/fdE5rk1.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+13,2,https://i.imgur.com/o1bmrsZ.png,,https://i.imgur.com/3qCI6gT.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+14,1,https://i.imgur.com/emS2wv5.png,,https://i.imgur.com/6AykZ15.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+15,2,https://i.imgur.com/OKWUGn9.png,,https://i.imgur.com/2ic6G23.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+16,4,https://i.imgur.com/eGZco4d.png,,https://i.imgur.com/2G5OlXP.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+17,1,https://i.imgur.com/ZpyyIUB.png,,https://i.imgur.com/bljHXjO.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+18,1,https://i.imgur.com/KaDShgc.png,,https://i.imgur.com/f0fnnGs.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+19,4,https://i.imgur.com/SMQkd9J.png,,https://i.imgur.com/4aBojU2.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+20,4,https://i.imgur.com/jfPSOyZ.png,,https://i.imgur.com/0JuMUQ5.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+21,3,https://i.imgur.com/hykNJqw.png,,https://i.imgur.com/dwwUjCS.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+22,1,https://i.imgur.com/RrW2myQ.png,,https://i.imgur.com/iDbUesH.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+23,2,https://i.imgur.com/4ZuDW22.png,,https://i.imgur.com/bTsyMXK.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+24,2,https://i.imgur.com/mQik2p1.png,,https://i.imgur.com/qGxwHrz.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+25,3,https://i.imgur.com/DvD10sS.png,,https://i.imgur.com/3AZ5fsX.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+26,2,https://i.imgur.com/d2gLEF3.png,,https://i.imgur.com/cDAyX1w.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+27,2,https://i.imgur.com/29S6Ab7.png,,https://i.imgur.com/CFLJ21z.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+28,1,https://i.imgur.com/r2ZLCYj.png,,https://i.imgur.com/oeHUEL0.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+29,2,https://i.imgur.com/JrcwjTf.png,,https://i.imgur.com/Sr67urF.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+30,3,https://i.imgur.com/FIlqdxI.png,,https://i.imgur.com/FAhLyzS.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+32,1,https://i.imgur.com/J8wM0Ig.png,,https://i.imgur.com/zoWBYzb.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+33,3,https://i.imgur.com/hSsOd5R.png,,https://i.imgur.com/vP3rV1e.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+34,4,https://i.imgur.com/HTeFHgT.png,,https://i.imgur.com/ErTyG9n.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+35,4,https://i.imgur.com/0qiwKp1.png,,https://i.imgur.com/Z0FwLdR.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+36,4,https://i.imgur.com/VPyaOZn.png,,https://i.imgur.com/UauftRs.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+37,4,https://i.imgur.com/nSd8jrj.png,,https://i.imgur.com/EVNly4W.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+38,1,https://i.imgur.com/bVK4jod.png,,https://i.imgur.com/UruPPAh.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+39,3,https://i.imgur.com/Z8MbvnJ.png,,https://i.imgur.com/aXDksm7.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+40,1,https://i.imgur.com/Srqkpuk.png,,https://i.imgur.com/S0Dzz65.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+41,1,https://i.imgur.com/FPAXAgS.png,,https://i.imgur.com/MAIGuaj.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+42,3,https://i.imgur.com/PNIuoa4.png,,https://i.imgur.com/8gRfUOC.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+43,3,https://i.imgur.com/cpVXOns.png,,https://i.imgur.com/0DATI49.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+44,4,https://i.imgur.com/xIya3Ic.png,,https://i.imgur.com/0vIp3p7.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+45,4,https://i.imgur.com/5wocsul.png,,https://i.imgur.com/cNDhWCg.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+46,3,https://i.imgur.com/bU3VkXJ.png,,https://i.imgur.com/tjVgZ8S.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+47,2,https://i.imgur.com/YCj9DyS.png,,https://i.imgur.com/kL7hgsO.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+48,3,https://i.imgur.com/fl1ErZj.png,,https://i.imgur.com/z6JrLhq.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+49,4,https://i.imgur.com/HN6qQR9.png,,https://i.imgur.com/lOXYIyP.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+51,1,https://i.imgur.com/niiS8Lr.png,,https://i.imgur.com/lSXKrFt.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+52,2,https://i.imgur.com/EoqrgbJ.png,,https://i.imgur.com/UScPkG8.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+53,2,https://i.imgur.com/CWRZccg.png,,https://i.imgur.com/q8qGHt8.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+54,3,https://i.imgur.com/jGx8qLW.png,,https://i.imgur.com/u6Ve4tY.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+55,3,https://i.imgur.com/gQ7u3BK.png,,https://i.imgur.com/FrbgVav.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+56,3,https://i.imgur.com/qoz7S2f.png,,https://i.imgur.com/4pg1mdM.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+57,4,https://i.imgur.com/67ElOyb.png,,https://i.imgur.com/WQcsl8C.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+58,1,https://i.imgur.com/1rS8Liy.png,,https://i.imgur.com/9FKtNVr.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+59,4,https://i.imgur.com/6QT6kEf.png,,https://i.imgur.com/j2vxedV.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+60,3,https://i.imgur.com/L9eB2Q9.png,,https://i.imgur.com/vAqR8Bh.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+61,4,https://i.imgur.com/FRUGEbr.png,,https://i.imgur.com/ZGmX5JP.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+63,3,https://i.imgur.com/0fewlps.png,,https://i.imgur.com/Itd9AIj.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+64,2,https://i.imgur.com/NHHILiV.png,,https://i.imgur.com/Cux0fPJ.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+65,1,https://i.imgur.com/GuJWfdh.png,,https://i.imgur.com/XsyU9xD.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+66,4,https://i.imgur.com/0ySrDKz.png,,https://i.imgur.com/B2vJhfe.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+67,3,https://i.imgur.com/r20axXh.png,,https://i.imgur.com/LmPuRTr.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+68,2,https://i.imgur.com/BXrc6Gq.png,,https://i.imgur.com/U2xnpUk.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+69,3,https://i.imgur.com/7eBEkQX.png,,https://i.imgur.com/jzd7PAl.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+70,1,https://i.imgur.com/jywHJyk.png,,https://i.imgur.com/RtaWVmx.png,Reasoning,A,B,C,D,19.1,ssc,Bi,Vidya,Blood Relation
+1,a,https://i.imgur.com/zhr4tN0.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+2,c,https://i.imgur.com/6NKQCIB.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+3,d,https://i.imgur.com/F0K1I7V.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+4,b,https://i.imgur.com/lJSTeR4.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+5,b,https://i.imgur.com/NwJXinQ.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+6,a,https://i.imgur.com/PYHOEAH.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+7,a,https://i.imgur.com/e5SmZVA.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+8,d,https://i.imgur.com/TP8O6IT.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+9,d,https://i.imgur.com/25ZV0bk.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+10,c,https://i.imgur.com/54l8XxS.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+11,a,https://i.imgur.com/f2hhpcA.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+12,c,https://i.imgur.com/rPpdb1i.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+13,d,https://i.imgur.com/Z7qb8e4.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+14,b,https://i.imgur.com/DNYJUhy.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+15,d,https://i.imgur.com/rj30eDg.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+16,a,https://i.imgur.com/hIEmXS1.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+17,b,https://i.imgur.com/Emkx0Xr.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+18,b,https://i.imgur.com/Adbx5zN.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+19,b,https://i.imgur.com/YjlKyO6.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+20,b,https://i.imgur.com/gnSYBMw.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+21,a,https://i.imgur.com/ZLBq2cr.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+22,a,https://i.imgur.com/IH3eMpN.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+23,d,https://i.imgur.com/25mMgJw.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+24,a,https://i.imgur.com/8ACT34B.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+25,b,https://i.imgur.com/c6k9BQR.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+27,b,https://i.imgur.com/TQ357F5.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+28,d,https://i.imgur.com/QcLnd1U.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+29,a,https://i.imgur.com/s2gp7cM.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+30,b,https://i.imgur.com/WRyJtk6.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+31,c,https://i.imgur.com/tbG2TjR.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+32,c,https://i.imgur.com/O5k6niJ.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+33,a,https://i.imgur.com/7PMp7dd.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+34,b,https://i.imgur.com/aWxQCUC.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+35,c,https://i.imgur.com/KeGjqQS.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+36,b,https://i.imgur.com/HyCobYJ.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+37,c,https://i.imgur.com/ickaMxG.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+38,d,https://i.imgur.com/8Y9xyLj.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+39,b,https://i.imgur.com/zec0aUO.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+40,d,https://i.imgur.com/U1qX4Tm.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+41,d,https://i.imgur.com/9vSfbwX.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+43,b,https://i.imgur.com/pKpcjKj.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+44,a,https://i.imgur.com/KOW0I1r.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+45,b,https://i.imgur.com/Ys7ETOy.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+46,d,https://i.imgur.com/sgXznfZ.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+47,b,https://i.imgur.com/S0tWBpA.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+48,a,https://i.imgur.com/zRyHn4S.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+49,d,https://i.imgur.com/CXDbw1r.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+50,a,https://i.imgur.com/0d6OYHI.png,,,Reasoning,A,B,C,D,14.1,SSC,Hindi,JEN,
+1,b,https://i.imgur.com/lzwLzko.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+2,d,https://i.imgur.com/2JaEyNj.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+3,b,https://i.imgur.com/nayDEoD.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+4,c,https://i.imgur.com/r0exLcM.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+5,a,https://i.imgur.com/Drrbiwg.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+6,c,https://i.imgur.com/BQCFSal.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+7,d,https://i.imgur.com/d3alSvY.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+8,c,https://i.imgur.com/WnABIqi.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+9,c,https://i.imgur.com/tindD74.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+10,b,https://i.imgur.com/vw9ZMHT.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+11,d,https://i.imgur.com/hW2iN2p.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+12,b,https://i.imgur.com/OQJBPgW.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+13,a,https://i.imgur.com/iiPsP0f.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+14,d,https://i.imgur.com/T2KuVA5.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+15,c,https://i.imgur.com/PfgN4jE.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+16,b,https://i.imgur.com/ae7BpPz.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+17,b,https://i.imgur.com/VCeAdo8.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+18,b,https://i.imgur.com/69YVjhS.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+19,b,https://i.imgur.com/IxfQ3cb.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+20,a,https://i.imgur.com/kByxbq6.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+21,b,https://i.imgur.com/UvxJdp0.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+22,a,https://i.imgur.com/AgBMqYw.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+23,a,https://i.imgur.com/FWiB7CV.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+25,b,https://i.imgur.com/n0X5GcE.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+26,a,https://i.imgur.com/LthxOnx.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+27,b,https://i.imgur.com/VTQkJYs.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+28,c,https://i.imgur.com/9pHPa4P.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+29,d,https://i.imgur.com/3tBVSWQ.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+30,c,https://i.imgur.com/P5YLhN1.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+31,c,https://i.imgur.com/NH3MGvg.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+32,b,https://i.imgur.com/xKvLiGp.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+33,b,https://i.imgur.com/SemgOV0.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+35,c,https://i.imgur.com/RrC4FWl.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+36,d,https://i.imgur.com/ekYGpDk.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+37,b,https://i.imgur.com/JLQycRr.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+38,c,https://i.imgur.com/FkR6HCs.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+39,d,https://i.imgur.com/fjrMaBF.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+40,d,https://i.imgur.com/UIePieV.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+41,d,https://i.imgur.com/aX3PNRi.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+42,c,https://i.imgur.com/Ede2KX6.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+43,a,https://i.imgur.com/k6bwVTM.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+44,c,https://i.imgur.com/UdFRcjp.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+45,b,https://i.imgur.com/VCwvgYS.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+46,b,https://i.imgur.com/2VWXWYx.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+47,b,https://i.imgur.com/PxYRr5r.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+48,a,https://i.imgur.com/RvzbCQr.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+49,b,https://i.imgur.com/OpfFcbU.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+50,a,https://i.imgur.com/VSAUR4O.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+51,c,https://i.imgur.com/nS15lXQ.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+52,c,https://i.imgur.com/fX6Agy8.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+53,a,https://i.imgur.com/w0BiEx1.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+54,b,https://i.imgur.com/3MeWlla.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+55,b,https://i.imgur.com/4cqTylX.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+56,c,https://i.imgur.com/gLeSCvz.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+57,a,https://i.imgur.com/6fQLW5B.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+58,c,https://i.imgur.com/qQzPirL.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+59,c,https://i.imgur.com/HafcYJN.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+60,a,https://i.imgur.com/ODc3VAy.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+61,b,https://i.imgur.com/PUp3ua8.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+62,b,https://i.imgur.com/z6M1ffA.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+63,b,https://i.imgur.com/m5Oybki.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+64,b,https://i.imgur.com/pqn8mLP.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+65,a,https://i.imgur.com/HC7PlBM.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+67,b,https://i.imgur.com/SRzf1L3.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+68,d,https://i.imgur.com/25S7hpi.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+69,d,https://i.imgur.com/Xlvci6B.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+70,b,https://i.imgur.com/z34HI8j.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+71,d,https://i.imgur.com/6kknZxQ.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+72,c,https://i.imgur.com/RcXkw3K.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+73,c,https://i.imgur.com/gngXZjZ.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+74,c,https://i.imgur.com/oaSopAo.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+75,d,https://i.imgur.com/xcwROR5.png,,,Reasoning,A,B,C,D,22.1,SSC,Hindi,JEN,
+1,2,https://i.imgur.com/FaQ7EDZ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UUIHA1P.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+2,3,https://i.imgur.com/HoFY3sg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GvVXmPn.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+3,4,https://i.imgur.com/TlKpVlW.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2w7YH9D.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+4,4,https://i.imgur.com/LeLUVSk.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/eUwoNv0.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+5,4,https://i.imgur.com/l8mTl2U.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2wiBh4F.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+6,2,https://i.imgur.com/DIA9Hve.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mOrPpg3.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+7,3,https://i.imgur.com/E3RuDpY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/zSWiwZR.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+8,4,https://i.imgur.com/M7wOSn6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/S3vjW9n.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+9,4,https://i.imgur.com/sqhG3X8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/bspzAih.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+10,2,https://i.imgur.com/U2Nt3pY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Yxix0lA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+11,4,https://i.imgur.com/1kpfiKf.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/QyOWEoh.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+12,3,https://i.imgur.com/cW1mZkH.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wHOAx10.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+13,2,https://i.imgur.com/3kmHWsH.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/b3kvVE0.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+14,3,https://i.imgur.com/phLKY3u.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EGqKE5U.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+15,4,https://i.imgur.com/s28W6Eq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Wp6bXih.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+16,1,https://i.imgur.com/TluZ7fu.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/57NJiR6.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+17,3,https://i.imgur.com/BdQuutk.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EKbTm7e.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+18,4,https://i.imgur.com/kbZYf5N.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wCqsdmH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+19,3,https://i.imgur.com/xo5FVL6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2RwvtOd.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+20,3,https://i.imgur.com/aoVwxZr.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/0RAGadQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+21,4,https://i.imgur.com/w3zb4t6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/M3QYFEh.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+22,4,https://i.imgur.com/VaoJJZ5.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/OvfVklB.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+23,4,https://i.imgur.com/vk0uag9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GkpMO60.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+24,1,https://i.imgur.com/TeMcJNP.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Yv6LFgQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+25,4,https://i.imgur.com/0auND7B.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xCCCAsx.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+26,3,https://i.imgur.com/FJlm9k3.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/kHmv1gG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+27,1,https://i.imgur.com/X9ynNzj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/XcChjHT.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+28,4,https://i.imgur.com/t0R4Aat.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/sjuvtQK.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+29,4,https://i.imgur.com/yblHGHq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/00Ceg4v.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+30,3,https://i.imgur.com/iyMp4tT.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vZtvkGL.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+31,3,https://i.imgur.com/jTXvnuF.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/KsiPwty.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+32,3,https://i.imgur.com/Ae3cm0v.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/52jXI9X.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+33,4,https://i.imgur.com/sT3kSD6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/QLTvJOR.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+34,4,https://i.imgur.com/vpmy0qw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/QOZfeZz.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+35,2,https://i.imgur.com/Rp86cfB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xw60g2A.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+36,4,https://i.imgur.com/sUupl53.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/e2jJt5l.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+37,2,https://i.imgur.com/91ihZGd.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/K8OzV7q.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+38,4,https://i.imgur.com/ACRDG6z.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/BKljMI9.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+39,3,https://i.imgur.com/qFbsx4j.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gKEukrq.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+40,4,https://i.imgur.com/d8OWXbK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/8WpAxpS.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+41,1,https://i.imgur.com/0DXRdh8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/eKjpbp7.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+42,2,https://i.imgur.com/K8ViuPs.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NZzhDew.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+43,1,https://i.imgur.com/0APtml3.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/KZReWOA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+44,4,https://i.imgur.com/SLNQDI3.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/IlzmQrG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+45,1,https://i.imgur.com/MaFNzvf.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/eXuLXQU.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+46,4,https://i.imgur.com/oQV6sfy.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/8zaCbNo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+47,4,https://i.imgur.com/oBTg0tg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Mm7f362.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+48,3,https://i.imgur.com/d5SUnVE.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gafnN7j.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+49,4,https://i.imgur.com/BI02VRP.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vtH7wGA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+53,2,https://i.imgur.com/tipNWZc.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/PJqA3Fr.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+54,4,https://i.imgur.com/yWdDpEB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/PjIENo1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+55,4,https://i.imgur.com/DO6oCra.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/HfzrWAI.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+56,1,https://i.imgur.com/6HQrEE8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UGL6YZS.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+57,4,https://i.imgur.com/AqQK9iY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/bRMaiLF.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+58,4,https://i.imgur.com/PuoxQwu.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/sBuDo4l.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+59,4,https://i.imgur.com/FX9PsaE.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NkSgAbY.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+60,1,https://i.imgur.com/CW7R3qr.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2i46byt.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+61,4,https://i.imgur.com/KwR28Ph.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/F5bDpF5.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+62,4,https://i.imgur.com/FLXtGPv.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/onIUYw2.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+63,4,https://i.imgur.com/XoDC59X.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/L1FHVAd.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+64,3,https://i.imgur.com/JmlqFo4.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UbDmS2Q.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+65,1,https://i.imgur.com/UoBZ7xq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/u5WhAft.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+66,3,https://i.imgur.com/J7dVwiM.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/3o1Qz02.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+67,2,https://i.imgur.com/aWsGpSI.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/XUBCgx1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+68,2,https://i.imgur.com/LvWZgZQ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RnLtZWo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+69,1,https://i.imgur.com/gklImm4.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/9D4zi1P.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+70,4,https://i.imgur.com/EWt70ml.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/s3oBvp1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+71,4,https://i.imgur.com/AgdQHVU.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/JyPJdpE.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+72,1,https://i.imgur.com/SV114bS.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wvoqQW7.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+73,1,https://i.imgur.com/aWsRIAt.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/3aEM9C7.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+74,3,https://i.imgur.com/4sobMSK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/oz1Dk1U.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+75,1,https://i.imgur.com/1cnH9Fx.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mOBh67H.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+76,4,https://i.imgur.com/RUFu8ay.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/rvL9a2A.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+77,3,https://i.imgur.com/R5WXPmj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gX3OvPs.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+78,4,https://i.imgur.com/4NjwK0c.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wvhIZdW.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+79,4,https://i.imgur.com/neaYB0q.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xycwMI1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+80,4,https://i.imgur.com/YwDA89i.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EE8f6ur.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+81,3,https://i.imgur.com/sbrp8Fp.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/te4NDJA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+82,3,https://i.imgur.com/G9YpQnQ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/cLnRDc8.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+83,2,https://i.imgur.com/eOvZE8g.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/dgcFrU1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+84,4,https://i.imgur.com/pjpEfHT.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vOekm0Q.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+85,4,https://i.imgur.com/gMQigHQ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/aUEebKi.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+86,3,https://i.imgur.com/cDHdQlx.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/er3Umig.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+87,4,https://i.imgur.com/d5Q3u0H.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/iGXDNcc.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+88,2,https://i.imgur.com/rQmDjhT.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/WCVAJYi.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+89,2,https://i.imgur.com/1wrz4IF.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ZoXsZMF.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+90,4,https://i.imgur.com/pP4yg56.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/iFrrRGa.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+91,2,https://i.imgur.com/Mp1ifpZ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/uheNBav.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+92,3,https://i.imgur.com/z7b0rnq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xI50E7Q.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+93,4,https://i.imgur.com/SV3fHzB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xUSsgVY.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+94,1,https://i.imgur.com/EK51sXX.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ZwpDUR2.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+95,4,https://i.imgur.com/0hxAL6H.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Uonks1q.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+96,4,https://i.imgur.com/U45kCUP.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2Xh1D37.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+97,3,https://i.imgur.com/tQFuEDV.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/R6yAp3d.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+98,2,https://i.imgur.com/AUXtTaU.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/tVAf0eH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+99,2,https://i.imgur.com/LuBQ9C0.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Ub7R4LQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+100,4,https://i.imgur.com/o0fa6jA.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/K3GXMHh.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+101,3,https://i.imgur.com/qerQ74i.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/G15l43U.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+102,4,https://i.imgur.com/HgNqluE.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/PTH6dKB.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+103,4,https://i.imgur.com/fkziwJK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gw90rt4.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+104,2,https://i.imgur.com/tsLwG0S.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/eKSpCgA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+105,1,https://i.imgur.com/Zz0u3Xq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lHe8RxD.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+106,4,https://i.imgur.com/7B8vAax.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/29z2qcQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+107,4,https://i.imgur.com/b3rYlP0.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/M7LEpKd.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+108,4,https://i.imgur.com/j5zxnmV.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/XpNY4wB.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+109,4,https://i.imgur.com/1KeLojx.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ifJAxq8.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+110,3,https://i.imgur.com/hVA9RDi.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EsDn5hZ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+111,4,https://i.imgur.com/HaGOeYj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/cysVSNR.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+112,4,https://i.imgur.com/YciIBJ0.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/0psTMOb.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+113,2,https://i.imgur.com/fb0e8FY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/sQNuAUu.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+114,2,https://i.imgur.com/UXKXMeB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/qLcvwYW.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+115,4,https://i.imgur.com/VG3f4Wm.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/MgwWMZ3.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+116,1,https://i.imgur.com/9Sd5Qcb.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/7pfefzW.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+117,2,https://i.imgur.com/4k7DmUi.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/R15eSR0.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+118,2,https://i.imgur.com/RPqfX6K.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GKmZF3C.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+119,3,https://i.imgur.com/WHYD9c6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/qRqNAZ7.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+120,3,https://i.imgur.com/m43jRM6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/BhJfiPw.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+121,3,https://i.imgur.com/GHywCLq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/yJVqzem.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+122,2,https://i.imgur.com/H5PP4ls.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/IiPqF3d.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+123,4,https://i.imgur.com/5vmgw3e.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/dlBjIYg.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+124,3,https://i.imgur.com/ZQJ417i.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RPf9cvD.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+125,1,https://i.imgur.com/GpQXsRY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/C90dBAB.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+126,4,https://i.imgur.com/M0JFDs2.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/8KrvEba.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+127,4,https://i.imgur.com/EqX6gG3.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NEIc1o8.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+128,1,https://i.imgur.com/XmVo147.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/q7Opn2h.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+129,4,https://i.imgur.com/sKTepl3.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/MDgJfis.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+130,4,https://i.imgur.com/5Mo6JD5.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/CW7BiMl.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+131,3,https://i.imgur.com/bQeZKdu.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/CHKDquk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+132,1,https://i.imgur.com/CD4V7Ct.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RAgp0Tt.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+133,2,https://i.imgur.com/ki7HZSJ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mA4HOXj.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+134,1,https://i.imgur.com/kMsqHXY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vqBWj8W.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+135,4,https://i.imgur.com/tFvPHyD.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/y2gzoz2.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+136,4,https://i.imgur.com/IonJVwv.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lLWZW7N.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+137,2,https://i.imgur.com/a6UL0dq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/YXRHhSf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+138,3,https://i.imgur.com/QQAHXWM.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/5LimDd0.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+139,4,https://i.imgur.com/zs41J0k.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/SSjrDvV.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+140,1,https://i.imgur.com/KqdvFAG.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/cmZ92Nu.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+141,3,https://i.imgur.com/dnbw24S.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wrCLFMv.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+142,4,https://i.imgur.com/t2lDEQt.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/qiF1nhD.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+143,4,https://i.imgur.com/rybcDc9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NxmtHtM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+144,1,https://i.imgur.com/qlsVd08.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/HHl4uSh.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+145,3,https://i.imgur.com/RKc3mJl.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/AFoQXIk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+146,4,https://i.imgur.com/08Ios9Q.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/tlJTOkq.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+147,2,https://i.imgur.com/6u8uzvI.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/oniOLy5.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+148,4,https://i.imgur.com/fFu7fi9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Wjhe8sG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+149,4,https://i.imgur.com/4xlbOz5.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/SM4ehV0.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+150,3,https://i.imgur.com/9keQrjM.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/9YP23qY.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+151,4,https://i.imgur.com/2pbnt9b.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ei6fLIP.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+152,4,https://i.imgur.com/ZSjKx6p.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/O9n5Ngj.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+153,1,https://i.imgur.com/KZoYhNJ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/YkkgYLv.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+154,3,https://i.imgur.com/TvRUcck.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/AbCafHk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+155,2,https://i.imgur.com/2WGimFP.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NtX2zQJ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+156,4,https://i.imgur.com/HvVMx4k.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/bG2wmBQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+157,4,https://i.imgur.com/i4uA6RN.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/CpsE1xi.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+158,4,https://i.imgur.com/9QkBSOw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/XiWFAWu.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+159,3,https://i.imgur.com/I68Zzim.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GgVcJPE.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+160,4,https://i.imgur.com/lIuddyA.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/6PHxE2O.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+161,1,https://i.imgur.com/pJMBouq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/oAwMbkz.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+162,4,https://i.imgur.com/bpr4taX.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/sbsxRnz.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+163,2,https://i.imgur.com/WZJa8md.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lCgWI9P.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+164,2,https://i.imgur.com/9QeOU88.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gPb300l.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+165,1,https://i.imgur.com/61UZXOk.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/JGHsnfP.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+166,4,https://i.imgur.com/31iqA6u.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/uTZX4gi.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+167,2,https://i.imgur.com/gueO4ro.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/0Iz4dSy.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+168,4,https://i.imgur.com/st7Pv8V.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UBBGPTs.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+169,4,https://i.imgur.com/027kEfD.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/uE2BDmQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+170,1,https://i.imgur.com/ZYPkQsd.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Ol3ucbG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+171,1,https://i.imgur.com/TORuE63.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EHlIyPM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+172,3,https://i.imgur.com/WacpSQO.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/m6tEKHn.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+173,2,https://i.imgur.com/D6iGdSh.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/nJlxwVM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+174,4,https://i.imgur.com/yIrgp36.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/e4vWigd.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+175,3,https://i.imgur.com/JPRuWa8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2rtYEvM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+176,2,https://i.imgur.com/VbSDILx.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mbfMuQg.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+177,4,https://i.imgur.com/EY3NrEI.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Alte6ZE.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+178,2,https://i.imgur.com/uWv38Pu.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/K5KnckE.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+179,2,https://i.imgur.com/hrFhe0d.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/0yad8wK.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+180,4,https://i.imgur.com/SOnJYvQ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/PqtdeSg.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+181,2,https://i.imgur.com/fLJS6pI.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EERprY5.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+182,3,https://i.imgur.com/zxWvtKf.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/AXVhomN.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+183,1,https://i.imgur.com/drcgkbq.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ygk5Zgm.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+184,4,https://i.imgur.com/U6EpUCi.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GUyvbom.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+185,4,https://i.imgur.com/z9N4Yvp.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xGfIqsL.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+186,1,https://i.imgur.com/LkAWobG.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/VPoH9LH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+187,4,https://i.imgur.com/PtoJbay.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gFLoOiM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+188,3,https://i.imgur.com/fqEEboE.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/PFIDxrY.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+189,3,https://i.imgur.com/4K0VhpI.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RUHTAVM.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+190,4,https://i.imgur.com/TPCO2c8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/VxwzPQo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+191,4,https://i.imgur.com/TwFUyjl.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/wMKxTHi.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+192,2,https://i.imgur.com/HgJVNIw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/3GeIIYp.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+193,2,https://i.imgur.com/jLsJlfg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lyD2NpV.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+194,1,https://i.imgur.com/37ZnVg9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/pJHVD9v.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+195,3,https://i.imgur.com/AkqIIhh.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/W7OyiTj.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+196,4,https://i.imgur.com/u9YSytS.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UfMC3Xq.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+197,4,https://i.imgur.com/Cg1PECl.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/AJQn025.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+198,4,https://i.imgur.com/O5DA7BU.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/GmdE0Ut.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+199,4,https://i.imgur.com/iE7VjmY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/chmR3Rm.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+200,4,https://i.imgur.com/yevDxcl.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/KpGkfwJ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+201,3,https://i.imgur.com/irlru27.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/XYvPdev.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+202,4,https://i.imgur.com/E0MpfVs.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ACIuep3.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+203,4,https://i.imgur.com/JfuZAVy.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/JgqKBTH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+204,3,https://i.imgur.com/CdxEdSZ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/08FHret.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+205,1,https://i.imgur.com/txTWdVy.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/nr3k4uy.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+206,3,https://i.imgur.com/IlVIFpe.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/0UhkbzT.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+207,3,https://i.imgur.com/EEWGr0B.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/diQn8CX.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+208,2,https://i.imgur.com/TaufnsR.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Il1Eu97.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+209,4,https://i.imgur.com/HPKZrNJ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/TW8bUa6.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+210,1,https://i.imgur.com/JgJpnAG.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/fz7gdtC.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+211,3,https://i.imgur.com/xRA8xJg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/CVG6NlN.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+212,4,https://i.imgur.com/XnCBgLo.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/xnrm4aT.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+213,3,https://i.imgur.com/xzwSAtP.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/jDzT1jH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+214,1,https://i.imgur.com/SLpKiYN.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lBmk8jx.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+215,2,https://i.imgur.com/JJULKhZ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2XPcKSL.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+216,3,https://i.imgur.com/onxF75o.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EjBlJgk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+217,2,https://i.imgur.com/1244pCj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/sVxQvBO.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+218,1,https://i.imgur.com/EAvUIJn.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vQt3Rxg.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+219,3,https://i.imgur.com/bey8rrX.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mzpkXxR.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+220,4,https://i.imgur.com/ZyN8VqB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/JXpKydg.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+221,4,https://i.imgur.com/rLK53dw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/8hy32GN.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+222,2,https://i.imgur.com/HduMPH0.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/r4oIhUl.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+223,2,https://i.imgur.com/14F9eQt.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/e6cZ75k.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+224,4,https://i.imgur.com/vscgKdt.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mBwxv4y.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+225,1,https://i.imgur.com/Rjv0LOj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Z5hJspx.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+226,3,https://i.imgur.com/juqLEU7.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/1Vd2Q96.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+228,1,https://i.imgur.com/JRv51RC.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/mmZ05dS.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+229,4,https://i.imgur.com/uVoMTJX.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/rX1adkH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+230,1,https://i.imgur.com/BqbwTRL.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ZmKYtlW.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+231,1,https://i.imgur.com/ie3hwAj.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/j9S7INf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+232,3,https://i.imgur.com/25Mwr59.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/EtGxZhf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+233,4,https://i.imgur.com/agG8PDS.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NIO7MIz.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+234,4,https://i.imgur.com/1djzV0r.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/V9l20aY.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+235,4,https://i.imgur.com/9AddJqK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/R6suMo4.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+236,4,https://i.imgur.com/vcSqPq4.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/gCqTurP.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+237,4,https://i.imgur.com/CsYCmAo.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/j8UfWb9.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+238,4,https://i.imgur.com/5lZQCMw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/UGfpOGJ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+239,1,https://i.imgur.com/YqS805T.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/IaaKgZS.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+240,3,https://i.imgur.com/MJBTnTd.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2Z4wXOF.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+241,3,https://i.imgur.com/JonNmjO.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/tZOYbvj.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+242,4,https://i.imgur.com/BFbYJWz.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/oErSKSc.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+243,4,https://i.imgur.com/U0hCyFm.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/rL2KNnb.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+244,2,https://i.imgur.com/law3Pk9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RBzNoeC.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+245,4,https://i.imgur.com/WD6X4im.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/NlYvSji.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+246,4,https://i.imgur.com/jVkLOOh.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/jk0crFt.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+247,4,https://i.imgur.com/FRixbdw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/figbiwN.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+248,4,https://i.imgur.com/yMxiLXw.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/IqFkOv2.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+249,2,https://i.imgur.com/ylVK1PE.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/99kcONo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+250,4,https://i.imgur.com/W9MF71E.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/KBpc3Gu.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+251,4,https://i.imgur.com/PJiCyGs.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/h96sD4I.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+252,4,https://i.imgur.com/cmvfubn.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/oIdTDdf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+253,4,https://i.imgur.com/J9qv9wQ.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/z43LvLl.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+254,1,https://i.imgur.com/OUsZhIg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/06Z3UxN.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+255,4,https://i.imgur.com/jcxUaPi.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ICoAFgn.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+256,4,https://i.imgur.com/a3Cq8e1.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vRdMAqL.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+257,4,https://i.imgur.com/6dlOIM5.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/dKagLvE.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+258,4,https://i.imgur.com/5LMuqfW.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/U1059Ag.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+259,4,https://i.imgur.com/U7YYvmA.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/VSdZOgf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+260,4,https://i.imgur.com/oZZZ4Xm.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vbZK8dH.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+261,1,https://i.imgur.com/PLgk8uB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vupK0ln.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+262,4,https://i.imgur.com/PfSVVh8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2SKPoqX.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+263,4,https://i.imgur.com/PljqqYs.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Y8mIKEo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+264,4,https://i.imgur.com/seQLFVp.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/uqxFK1N.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+265,4,https://i.imgur.com/m08wePB.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/S3ennqo.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+266,2,https://i.imgur.com/dyrCdtd.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/qYspOuj.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+267,1,https://i.imgur.com/OFLWAbD.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/nqWgJCp.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+268,4,https://i.imgur.com/s3RLFI6.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/aMZDmXD.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+269,1,https://i.imgur.com/rMYfcew.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/lzfuFqP.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+270,4,https://i.imgur.com/TzHqFZO.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/p2att1E.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+271,4,https://i.imgur.com/EIQ4tmA.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/3OZ0oI4.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+272,3,https://i.imgur.com/0OoYTXK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/U2oA0U1.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+273,4,https://i.imgur.com/4dgkLDX.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/BtnNfGt.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+274,4,https://i.imgur.com/CHtvQP9.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/WjKRZtW.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+275,4,https://i.imgur.com/bf0QDhi.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2JRKsne.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+276,4,https://i.imgur.com/jPJpX1P.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/Dx1B1bQ.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+277,3,https://i.imgur.com/CiYcFbl.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/P90MuQB.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+278,3,https://i.imgur.com/ezAfYp8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ITKAEXf.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+279,4,https://i.imgur.com/bb5POz8.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/7LA13cI.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+280,4,https://i.imgur.com/LeVJpib.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/2sZ5MPP.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+281,4,https://i.imgur.com/v4wRSIn.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/RIKpzv9.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+282,2,https://i.imgur.com/mT6lACL.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/vUnjriG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+283,3,https://i.imgur.com/p7xmJ05.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/HpDJIkk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+284,2,https://i.imgur.com/ZitAxcK.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/ix3KD0c.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+285,1,https://i.imgur.com/LmVpS85.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/hCWD5WU.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+288,1,https://i.imgur.com/fX9l6yC.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/HzSdUiG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+289,4,https://i.imgur.com/QQ8dAR0.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/QdoF9Xk.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+290,2,https://i.imgur.com/jNlfKMg.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/5ylayWh.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+291,4,https://i.imgur.com/TvvNfc5.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/AJTy1pG.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+292,1,https://i.imgur.com/TpAXHRY.png,https://i.imgur.com/hHAeGmn.png,https://i.imgur.com/8efqcwA.png,Reasoning,A,B,C,D,29.1,ssc,Bi,Vidya,Classification
+1,1,https://i.imgur.com/ahV9Jc6.png,,https://i.imgur.com/NmKibN7.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+2,2,https://i.imgur.com/lYbzhxN.png,,https://i.imgur.com/8CJ0VZB.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+3,2,https://i.imgur.com/MqZM89I.png,,https://i.imgur.com/cn1oxet.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+4,2,https://i.imgur.com/bSDD8dI.png,,https://i.imgur.com/aYGoXQk.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+5,3,https://i.imgur.com/0KuWVRR.png,,https://i.imgur.com/ds8z1LT.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+6,1,https://i.imgur.com/tLrYfKq.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+7,2,https://i.imgur.com/57DC9jo.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+9,2,https://i.imgur.com/HSq9OJ8.png,,https://i.imgur.com/hKBq4ne.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+10,3,https://i.imgur.com/F55UOrE.png,,https://i.imgur.com/eGODUGi.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+11,1,https://i.imgur.com/TEeft1e.png,,https://i.imgur.com/6jNKp1y.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+12,4,https://i.imgur.com/7pSa9OH.png,,https://i.imgur.com/y06ZtGG.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+13,3,https://i.imgur.com/InxAGLN.png,,https://i.imgur.com/BBqTNbI.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+14,1,https://i.imgur.com/7RINUuD.png,,https://i.imgur.com/XZQxkGb.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+15,3,https://i.imgur.com/YWfuw4z.png,,https://i.imgur.com/jvAy5uD.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+16,2,https://i.imgur.com/hPJILCt.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+17,2,https://i.imgur.com/r6as9qk.png,,https://i.imgur.com/p0x5fv1.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+18,1,https://i.imgur.com/qjY8qae.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+20,1,https://i.imgur.com/TuYh0oY.png,,https://i.imgur.com/sF0wgxc.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+21,3,https://i.imgur.com/lujxcMF.png,,https://i.imgur.com/UyMgDhl.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+22,2,https://i.imgur.com/OcYb2qP.png,,https://i.imgur.com/LfB4rbA.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+23,3,https://i.imgur.com/L8MnlpQ.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+24,1,https://i.imgur.com/ykbWCIX.png,,https://i.imgur.com/ODyrIlJ.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+25,2,https://i.imgur.com/mdOrEnX.png,,https://i.imgur.com/cvRN6rR.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+26,3,https://i.imgur.com/VyojwAZ.png,,https://i.imgur.com/Se9DNMy.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+27,2,https://i.imgur.com/GshnVs1.png,,https://i.imgur.com/3Bd3dyy.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+28,1,https://i.imgur.com/eKU1wE7.png,,https://i.imgur.com/xVcDpPQ.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+29,2,https://i.imgur.com/PBWy3y0.png,,https://i.imgur.com/Dz3Azk4.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+30,3,https://i.imgur.com/3NJBzrX.png,,https://i.imgur.com/XgIyz7d.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+31,3,https://i.imgur.com/7iDXQSp.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+32,3,https://i.imgur.com/30JyLKy.png,,https://i.imgur.com/y4lddSz.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+33,3,https://i.imgur.com/eBA8X7G.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+34,4,https://i.imgur.com/dYHcgY5.png,,https://i.imgur.com/6HTKpg0.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+35,3,https://i.imgur.com/kAzYsvI.png,,https://i.imgur.com/Vst4t1u.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+36,3,https://i.imgur.com/W3so6yH.png,,https://i.imgur.com/FRGEnzU.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+37,3,https://i.imgur.com/7cRVwjV.png,,https://i.imgur.com/iyANhyl.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+38,2,https://i.imgur.com/NcFpU6K.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+40,1,https://i.imgur.com/wxpsXTz.png,,https://i.imgur.com/IU7aQn4.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+41,4,https://i.imgur.com/SVVhOI4.png,,https://i.imgur.com/PJsd3qr.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+44,2,https://i.imgur.com/pu13kpx.png,,https://i.imgur.com/wH7TVff.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+45,1,https://i.imgur.com/pgCTLH2.png,,https://i.imgur.com/9XV29VE.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+46,3,https://i.imgur.com/pWHdJoQ.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+47,3,https://i.imgur.com/kFKThbc.png,,https://i.imgur.com/uI85hHx.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+48,3,https://i.imgur.com/Pl9Evgz.png,,https://i.imgur.com/APhB6H5.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+49,3,https://i.imgur.com/o0KCLoj.png,,https://i.imgur.com/P7ukI5D.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+51,2,https://i.imgur.com/fv6KpLi.png,,https://i.imgur.com/D64KAv3.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+52,2,https://i.imgur.com/jXowdUe.png,,,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+53,3,https://i.imgur.com/6SIZsZx.png,,https://i.imgur.com/yU3Mxcl.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+54,1,https://i.imgur.com/QjbNXTK.png,,https://i.imgur.com/QoYsqBn.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+55,2,https://i.imgur.com/GUjk7o0.png,,https://i.imgur.com/6yB4iKU.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+56,3,https://i.imgur.com/fcdIs17.png,,https://i.imgur.com/JF01oJb.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+58,1,https://i.imgur.com/PAc1EgY.png,,https://i.imgur.com/GximN2i.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+59,2,https://i.imgur.com/mLrldlI.png,,https://i.imgur.com/61qu19d.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+60,2,https://i.imgur.com/5OiSCAZ.png,,https://i.imgur.com/FNU13ZO.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+61,3,https://i.imgur.com/zktsFjb.png,,https://i.imgur.com/XreDD1B.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+62,3,https://i.imgur.com/Vz3RCdn.png,,https://i.imgur.com/tV1DM9Y.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+63,4,https://i.imgur.com/T2bh5Jn.png,,https://i.imgur.com/joLV5dh.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+65,1,https://i.imgur.com/SjnBF9u.png,,https://i.imgur.com/4ZjbmfA.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+66,1,https://i.imgur.com/li6x9ic.png,,https://i.imgur.com/a2dYQT1.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+67,1,https://i.imgur.com/1Cnrcac.png,,https://i.imgur.com/EZcS4ST.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+69,4,https://i.imgur.com/3DBm8C2.png,,https://i.imgur.com/JDauhtJ.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+70,2,https://i.imgur.com/W1i5riG.png,,https://i.imgur.com/6FoSpeq.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+71,2,https://i.imgur.com/vwVvTZm.png,,https://i.imgur.com/ZTkL2tR.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+72,4,https://i.imgur.com/P712BAd.png,,https://i.imgur.com/kECMF6M.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+74,4,https://i.imgur.com/Ltzs2Cn.png,,https://i.imgur.com/4f6HP8d.png,Reasoning,A,B,C,D,16.1,ssc,Bi,Vidya,Coding Decoding
+1,4,https://i.imgur.com/e5oruy1.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/BpEIOYo.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+2,4,https://i.imgur.com/z6bs7aR.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/cXKD6Va.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+4,4,https://i.imgur.com/hCbAiwu.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/Wh71Tuq.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+5,3,https://i.imgur.com/TlOfCjv.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/77ArBYC.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+7,2,https://i.imgur.com/Dyyv3Ad.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/xxIZk5l.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+10,2,https://i.imgur.com/ZOEd2SJ.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/TRgFEVR.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+12,1,https://i.imgur.com/9sfIQxf.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/IeBAC81.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+15,3,https://i.imgur.com/McBcV1K.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/XutbOrQ.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+17,1,https://i.imgur.com/XcgOFZ6.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/6yfzzcB.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+19,1,https://i.imgur.com/VluBq9Y.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/FzgSRFa.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+22,4,https://i.imgur.com/pcZLFKm.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/KxqfkJi.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+25,3,https://i.imgur.com/bLNcPFR.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/xBrZzau.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+27,2,https://i.imgur.com/SQo0NVp.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/pKQxveJ.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+28,4,https://i.imgur.com/lR3cgZ5.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/lXBqM7s.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+29,3,https://i.imgur.com/WfxYdKT.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/fZkG0lZ.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+30,4,https://i.imgur.com/EEzuHgd.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/fxgktfi.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+32,4,https://i.imgur.com/vWLtVfT.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/X2WeAXs.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+35,1,https://i.imgur.com/8IqGWwk.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/bsv1tTm.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+37,3,https://i.imgur.com/MA0Ix2v.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/cda3BlW.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+39,3,https://i.imgur.com/y26IDuV.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/O8jM7Lo.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+41,3,https://i.imgur.com/PZWJ8dH.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/VnOes9G.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+43,4,https://i.imgur.com/LSl8APG.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/9uwlnc2.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+45,2,https://i.imgur.com/BJbsW8m.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/2AYaLjh.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+47,3,https://i.imgur.com/RqWhDg3.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/3mh8UMn.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+49,2,https://i.imgur.com/1NC7YWW.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/0lQJstA.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+50,4,https://i.imgur.com/97VdBhO.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/GtncYv7.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+52,1,https://i.imgur.com/8hRO3O4.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/qAC12JL.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+54,1,https://i.imgur.com/34fpcqu.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/4XT1iLU.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+56,4,https://i.imgur.com/i1rA7L7.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/g7EF0O7.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+58,3,https://i.imgur.com/EW49QIh.png,https://i.imgur.com/ix3jlOp.png,https://i.imgur.com/icFL1hp.png,Reasoning,A,B,C,D,10.1,ssc,Bi,Vidya,Statement & Conclusion
+1,4,https://i.imgur.com/7DM4xu5.png,,https://i.imgur.com/HdyR4E4.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+2,1,https://i.imgur.com/WLGKbj5.png,,https://i.imgur.com/faVIiHe.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+3,1,https://i.imgur.com/Ei8YKFq.png,,https://i.imgur.com/f993QK5.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+4,4,https://i.imgur.com/Oku2QIc.png,,https://i.imgur.com/mKh6nJ2.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+5,1,https://i.imgur.com/zFFrblG.png,,https://i.imgur.com/VracKbv.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+6,2,https://i.imgur.com/52eTEBA.png,,https://i.imgur.com/L9WG61e.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+7,3,https://i.imgur.com/KcdlMk8.png,,https://i.imgur.com/vC4aXnq.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+8,2,https://i.imgur.com/nGDsomC.png,,https://i.imgur.com/ZZRTE7c.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+9,1,https://i.imgur.com/cmE8yRi.png,,https://i.imgur.com/yICjsq1.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+10,2,https://i.imgur.com/A6El3xn.png,,https://i.imgur.com/PhisR6t.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+11,3,https://i.imgur.com/BtjH9QJ.png,,https://i.imgur.com/tqDfyeS.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+12,3,https://i.imgur.com/x5F71mC.png,,https://i.imgur.com/Tee0fVh.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+13,1,https://i.imgur.com/B0hEBj4.png,,https://i.imgur.com/xcOs3aw.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+14,4,https://i.imgur.com/4lK3GRK.png,,https://i.imgur.com/4JhEMrG.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+15,2,https://i.imgur.com/VFTHCL3.png,,https://i.imgur.com/AkrHD9S.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+16,1,https://i.imgur.com/wKDu0DD.png,,https://i.imgur.com/yOEgJvM.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+17,1,https://i.imgur.com/WZFQOYT.png,,https://i.imgur.com/EhfRUWV.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+18,1,https://i.imgur.com/1WjWrvd.png,,https://i.imgur.com/U8I1a7Q.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+19,3,https://i.imgur.com/zcpKKfx.png,,https://i.imgur.com/6xL05vq.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+20,3,https://i.imgur.com/bDUeOEo.png,,https://i.imgur.com/AYoIPg0.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+21,1,https://i.imgur.com/Xt19t5s.png,,https://i.imgur.com/VmPJCbO.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+22,1,https://i.imgur.com/lJ6jR9q.png,,https://i.imgur.com/3AD6yyi.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+23,4,https://i.imgur.com/hqbpU4O.png,,https://i.imgur.com/VbxgPRR.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+24,1,https://i.imgur.com/p2vBccO.png,,https://i.imgur.com/vRIbAjI.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+25,2,https://i.imgur.com/UDmNQ6q.png,,https://i.imgur.com/UTagD1T.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+26,1,https://i.imgur.com/UytM95g.png,,https://i.imgur.com/VBKrJdV.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+27,3,https://i.imgur.com/AbHYqZX.png,,https://i.imgur.com/TNbnerE.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+28,1,https://i.imgur.com/XhwxgyG.png,,https://i.imgur.com/cFBwgBs.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+29,2,https://i.imgur.com/eICqJfK.png,,https://i.imgur.com/5ge2NC5.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+30,4,https://i.imgur.com/aKfE1xz.png,,https://i.imgur.com/UpB4YL6.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+31,1,https://i.imgur.com/seyIyZg.png,,https://i.imgur.com/g4isYJW.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+32,3,https://i.imgur.com/z0W45XU.png,,https://i.imgur.com/uKoLaVc.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+33,3,https://i.imgur.com/XYfijMx.png,,https://i.imgur.com/RwwNlyU.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+34,4,https://i.imgur.com/uh4WVtK.png,,https://i.imgur.com/ZB5C2yC.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+35,3,https://i.imgur.com/AjYZQXR.png,,https://i.imgur.com/YXRRe4Q.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+36,2,https://i.imgur.com/3IerAUY.png,,https://i.imgur.com/xDLUA30.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+37,4,https://i.imgur.com/1HKESIz.png,,https://i.imgur.com/n5lEraF.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+38,2,https://i.imgur.com/d9XKHiI.png,,https://i.imgur.com/J8eEbAy.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+39,2,https://i.imgur.com/bfNvHNY.png,,https://i.imgur.com/PM3xLys.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+40,2,https://i.imgur.com/zC7FsBi.png,,https://i.imgur.com/JctHYGr.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+41,3,https://i.imgur.com/wNPQ8HU.png,,https://i.imgur.com/tuTOrdv.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+42,3,https://i.imgur.com/SMelfcv.png,,https://i.imgur.com/Vk9APls.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+43,2,https://i.imgur.com/qy8rYTK.png,,https://i.imgur.com/z9pXK21.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+44,4,https://i.imgur.com/TNxkixh.png,,https://i.imgur.com/XC8f5i1.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+45,2,https://i.imgur.com/pJevIJd.png,,https://i.imgur.com/EhHxMfk.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+46,4,https://i.imgur.com/DUAWmTn.png,,https://i.imgur.com/JxNFYuk.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+47,4,https://i.imgur.com/mr5xieH.png,,https://i.imgur.com/uxgLBOv.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+48,2,https://i.imgur.com/H0TSfXb.png,,https://i.imgur.com/GvLzE8A.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+49,2,https://i.imgur.com/xmh9fY7.png,,https://i.imgur.com/rPQDuNE.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+50,1,https://i.imgur.com/kDMG24c.png,,https://i.imgur.com/wnDV8Hz.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+52,4,https://i.imgur.com/YzT1vsw.png,,https://i.imgur.com/60SCfr7.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+53,2,https://i.imgur.com/nIqkFpz.png,,https://i.imgur.com/mLXlplV.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+54,4,https://i.imgur.com/me0dxFi.png,,https://i.imgur.com/wL9Yect.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+55,3,https://i.imgur.com/LM32qcJ.png,,https://i.imgur.com/m7dhFIv.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+56,1,https://i.imgur.com/HsO96C7.png,,https://i.imgur.com/vjanHsP.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+57,3,https://i.imgur.com/joTPEbu.png,,https://i.imgur.com/po0tI9j.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+58,4,https://i.imgur.com/vTXVSF0.png,,https://i.imgur.com/331CEMd.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+59,3,https://i.imgur.com/IXMxGo7.png,,https://i.imgur.com/Xa7Kl1y.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+60,4,https://i.imgur.com/ozEsAKf.png,,https://i.imgur.com/cWMyWWX.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+61,1,https://i.imgur.com/0cwDVwR.png,,https://i.imgur.com/KF4qlnf.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+62,1,https://i.imgur.com/cZLZvOs.png,,https://i.imgur.com/xqeY0O6.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+63,1,https://i.imgur.com/od53K4l.png,,https://i.imgur.com/ExKaRzO.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+64,3,https://i.imgur.com/PKx2p6O.png,,https://i.imgur.com/s0i8OCr.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+65,1,https://i.imgur.com/p5RdfF5.png,,https://i.imgur.com/DLsWsd3.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+66,3,https://i.imgur.com/l58Q28k.png,,https://i.imgur.com/XiZIJfG.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+67,2,https://i.imgur.com/DVbtezB.png,,https://i.imgur.com/VJhYDun.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+68,4,https://i.imgur.com/CouixtT.png,,https://i.imgur.com/U77JpjF.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+69,3,https://i.imgur.com/VCopPPg.png,,https://i.imgur.com/aqqh5XJ.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+70,2,https://i.imgur.com/41iu8FB.png,,https://i.imgur.com/MwIXh3r.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+71,1,https://i.imgur.com/uYTseIf.png,,https://i.imgur.com/6oLu1x8.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+72,2,https://i.imgur.com/3kTiLfw.png,,https://i.imgur.com/yUbcqrs.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+73,4,https://i.imgur.com/5JQwC2s.png,,https://i.imgur.com/N2CBMAU.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+74,3,https://i.imgur.com/i2R8PBO.png,,https://i.imgur.com/pD3FVL2.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+75,3,https://i.imgur.com/arXefxM.png,,https://i.imgur.com/i9rLZJX.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+76,2,https://i.imgur.com/x2r9mny.png,,https://i.imgur.com/IGZeje9.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+77,2,https://i.imgur.com/CeIAW5r.png,,https://i.imgur.com/ZU2ZP7D.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+78,2,https://i.imgur.com/dWxjqVD.png,,https://i.imgur.com/3web5MB.png,Reasoning,A,B,C,D,15.1,ssc,Bi,Vidya,Mathematical Operations
+1,2,https://i.imgur.com/TQJrgbx.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/xkvgyVL.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+2,1,https://i.imgur.com/8qLrFtH.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/m0lCdTr.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+3,4,https://i.imgur.com/WaTBfek.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/u5ADKFt.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+4,1,https://i.imgur.com/W1WiSyv.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/bm52E37.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+5,2,https://i.imgur.com/hiC6iVB.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/bfA5fwp.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+6,3,https://i.imgur.com/AmFLud6.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/fM9SFpE.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+7,2,https://i.imgur.com/z29ru9N.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/e3rTotB.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+8,3,https://i.imgur.com/aauipAc.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/mtx0sM4.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+9,4,https://i.imgur.com/EYQcF91.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/z1aKHul.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+10,4,https://i.imgur.com/RVl58Tx.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/YiGvOq5.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+11,2,https://i.imgur.com/1heNv9P.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/00JF9pY.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+12,1,https://i.imgur.com/6Pu7dqk.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/zTzeZTM.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+13,1,https://i.imgur.com/Cf7VBSb.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/YYUJHJz.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+14,2,https://i.imgur.com/bcZXZ04.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/JabyAbS.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+15,4,https://i.imgur.com/7BZJ3id.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/XPaC945.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+16,2,https://i.imgur.com/PYZ55UY.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/3HDdvz7.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+17,3,https://i.imgur.com/TpZbrDn.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/loQ7kcn.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+18,1,https://i.imgur.com/4kaKdEt.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/x2HI9pC.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+19,3,https://i.imgur.com/5zED2au.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/5gwEQDp.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+20,2,https://i.imgur.com/80LPK8Q.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/GDpXOfG.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+21,1,https://i.imgur.com/UpJlkYr.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/sCwSCCE.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+22,3,https://i.imgur.com/X7dZRXr.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/IRUpP1Y.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+23,2,https://i.imgur.com/t68RInC.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/pMPXvlg.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+24,1,https://i.imgur.com/G3m8tu7.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/acJe835.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+25,2,https://i.imgur.com/IwnQgtD.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/GuZtW0v.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+26,4,https://i.imgur.com/xMylgDV.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/zho7uEu.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+27,1,https://i.imgur.com/FKXKOel.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/RfdOg8q.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+28,3,https://i.imgur.com/nXL3IN7.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/n25kn6K.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+29,2,https://i.imgur.com/NplzILz.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/NBhsdRI.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+30,3,https://i.imgur.com/FrYSZbL.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/mTPWU2s.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+32,1,https://i.imgur.com/uwir2Z0.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/Ssik1Br.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+33,4,https://i.imgur.com/HiC1Z8P.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/DbECWlE.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+34,4,https://i.imgur.com/AodERCE.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/xvMY9F9.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+35,4,https://i.imgur.com/wogMqO3.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/yBEthLY.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+36,3,https://i.imgur.com/7xjY87a.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/PgvSBFZ.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+37,4,https://i.imgur.com/6ogR1LG.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/Iw3GoXP.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+39,2,https://i.imgur.com/3RD0Sle.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/gcga3bv.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+40,3,https://i.imgur.com/nRPtgPr.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/GPCKdxP.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+41,1,https://i.imgur.com/Pgs8hcx.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/M1o74hg.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+42,3,https://i.imgur.com/lohR2ZJ.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/9Aamgfr.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+43,1,https://i.imgur.com/offvFHe.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/cK1GQez.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+44,2,https://i.imgur.com/u4jB16u.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/08Iikk6.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+46,2,https://i.imgur.com/N5A9xTK.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/JP6I7Q5.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+47,3,https://i.imgur.com/jTjXixW.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/wmuI2jI.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+48,2,https://i.imgur.com/Bg2wQb2.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/1tzP0eZ.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+49,2,https://i.imgur.com/41pABtI.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/vxgJiqW.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+50,4,https://i.imgur.com/UvvB4ca.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/pGNloGr.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+51,1,https://i.imgur.com/YvnQXsE.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/6T3PTGz.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+52,2,https://i.imgur.com/TxeDDZQ.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/IVpuG14.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+53,2,https://i.imgur.com/uVCMhMv.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/M0O8VlI.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+54,4,https://i.imgur.com/917GV9U.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/kCf0UAF.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+55,3,https://i.imgur.com/CazaR85.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/kKOaeGq.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+56,3,https://i.imgur.com/p7YXQTf.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/sqrPnkS.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+57,1,https://i.imgur.com/2YwZd4d.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/qQNwJUr.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+58,2,https://i.imgur.com/fXYhZr3.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/v9ejFNs.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+60,2,https://i.imgur.com/ZyfRqQI.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/ItGAzRI.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+61,1,https://i.imgur.com/hyVPu9h.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/2Zh8XfM.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+62,4,https://i.imgur.com/asLigbG.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/IpmFCa3.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+63,2,https://i.imgur.com/iI3kJcT.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/1nxPZxv.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+64,1,https://i.imgur.com/da4DW3H.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/sa3e9qk.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+65,1,https://i.imgur.com/4bdyH8M.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/EhF8b8p.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+67,1,https://i.imgur.com/zAMnhqc.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/T7roJow.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+68,1,https://i.imgur.com/rE5Jjd5.png,https://i.imgur.com/hH0DAuy.png,https://i.imgur.com/OsKla9M.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram
+71,3,https://i.imgur.com/fgYq1Hh.png,,https://i.imgur.com/oMQizBX.png,Reasoning,A,B,C,D,11.1,ssc,Bi,Vidya,Venn Diagram

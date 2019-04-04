@@ -1,0 +1,11 @@
+.container {
+	background-color:#f57f020f;
+	border:5px;
+}
+.strongTopics {
+	background-color:#1af5020a;
+	border:5px;
+	border-color:#f57f020f;
+	padding:10px;
+	
+}

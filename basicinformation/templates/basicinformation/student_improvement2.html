@@ -1,0 +1,132 @@
+{%load staticfiles%}
+{%load improvementTag%}
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>$('#loadingstudentImprovement1').hide();</script>
+<br>
+<br>
+{%if overall == None %}
+<div class="alert alert-warning">
+<h2 style='text-align:center;'> Not enough data to show your progress chart, please take a few more tests. </h2>
+</div>
+{%endif%}
+    <script>
+$(document).ready(function () {
+	{% for k,v in overall.items %}
+	
+	var ctx{{forloop.counter}} = document.getElementById("myChart{{forloop.counter}}");
+	var myChart = new Chart(ctx{{forloop.counter}}, {
+            type: 'line',
+            data: {
+		    
+		    labels: [{%for i in v.dic %}{% for j in i%}{%if forloop.counter == 3 %}'{{j}}',{%endif%}{%endfor%}{%endfor%}],
+                datasets: [{
+			label:'Accuracy in category - {{k}} ' ,
+
+			data: [{%for i in v.dic %}{% for j in i%}{%if forloop.counter == 2 %}{{j}},{%endif%}{%endfor%}{%endfor%}],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		                                            ],
+
+
+
+
+                                  borderWidth: 3
+
+
+
+		}]
+            },
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+		    
+                scales: {
+                    yAxes: [{
+                        ticks: {
+
+                        }
+                    }]
+                }
+            }
+        });
+{%endfor%}
+        });
+
+
+</script>
+    <script>
+$(document).ready(function () {
+	var ctxsubjectChart = document.getElementById("subjectChart");
+	var myChart = new Chart(ctxsubjectChart, {
+            type: 'line',
+            data: {
+		    labels: [{%for tdiff,mdiff in subjectProgress%}'{{tdiff}} days',{%endfor%}],
+                datasets: [{
+			label:'Marks difference with days' ,
+
+
+
+			data: [{%for tdiff,mdiff in subjectProgress%}{{mdiff}},{%endfor%}],
+			backgroundColor: [
+                        'rgba(255, 99, 132, 1)',
+		                                      ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		                                            ],
+
+
+
+
+                                  borderWidth: 3
+
+
+
+		}]
+            },
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+		    
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+
+                        }
+                    }]
+                }
+            }
+        });
+        });
+
+
+</script>
+
+<div class='container'>
+	<h2 class='text-center'> <strong>Progress in overall subject</strong> </h4>
+	<div class='thumbnail'>
+	<div class='caption'>
+		    <h4 class='text-center'> <strong> {{k}}</strong> </h4>
+		    <div>
+	<canvas  id="subjectChart"   height="300" >
+</canvas>
+		    </div>
+	
+	    </div>
+	    </div>
+</div>
+
+<div class='container'>
+		    <h2 class='text-center'> <strong>Accuracy Topic wise over time.</strong> </h4>
+	{% for k,v in overall.items %}
+	<div class='thumbnail'>
+	<div class='caption'>
+		    <h4 class='text-center'> <strong> {{k}}</strong> </h4>
+		    <div>
+	<canvas  id="myChart{{forloop.counter}}"   height="300" >
+</canvas>
+		    </div>
+	
+	    </div>
+	    </div>
+		{%endfor%}
+	    </div>

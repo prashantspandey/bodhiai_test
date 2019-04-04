@@ -1,0 +1,48 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+	  $('#loadinganalysis2').hide();
+    var pr
+	$('select[name="testid"]').change(function(){
+		var testid = $(this).val();
+         $('#onlinetestanalysis').removeClass("hidden");
+         $('#onlinetestanalysis').html('').load('{% url 'basic:teacher_update_page' %}?onlinetestid='+testid);
+	  $('#loadinganalysis3').show();
+	});
+
+
+});
+    </script>
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a Test</div>
+  <div class="panel-body">
+	  {%if not tests%}
+	  <h3 style="text-align:center;font-weight:bold;"> No tests taken yet.To create a test click on "Create Test" in the nav-bar at top. </h3>
+	  {%else%}
+
+	 <!--
+{% for i in tests %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default testButton" value ="{{i.id}}" id="onlineTestid{{forloop.counter}}">{{i.published}}</button>
+</div>
+{%endfor%}
+	 -->
+	 <select class="form-control" id="onlineTestid{{forloop.counter}}" name="testid" value="{{teest.id}}">
+	 <option disabled selected value>-- Choose a Test -- </option>
+	 {% for test in tests %}
+	 <option value="{{test.id}}">{{test.published}} </option>
+
+	 {%endfor%}
+	 </select>
+{%endif%}
+        </div>
+<div id = 'loadinganalysis3' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+<div class='hidden' id = 'onlinetestanalysis'>
+{%include 'basicinformation/teacher_online_analysis3.html' %}
+</div>

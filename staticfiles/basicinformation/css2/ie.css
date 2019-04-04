@@ -1,0 +1,77 @@
+
+.navbar { min-height: 119px;}
+.navbar-brand img{height:114px;}
+
+.navbar-nav > li i{display:block; line-height:36px; text-align:center; padding-top:28px;}
+.navbar-nav > li {float: left;}
+.navbar-nav > li .dropdown-menu i{display: inline; line-height: normal; text-align:left; padding-top: inherit;}
+.navbar-nav [class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {font-family: Flaticon; font-size: 42px; font-style: normal; margin-left: 0px; }
+.navbar-nav > li > a { padding-top: 0px; padding-bottom: 0px; font-size:14px; height:119px; text-align:center}
+.navbar-right .dropdown-menu {right: auto;left: 0px;}
+
+.dropdown-menu { font-size: 14px;  border: 0px solid rgba(0, 0, 0, 0.15);  border-radius:0px; box-shadow: none; background: #F5F5FA; padding:10px 20px;}
+.dropdown-menu li   a { display: block; padding: 7px 0px; clear: both; font-weight: 300; line-height: 1.42857; color: #777; font-size:14px; }
+
+.carousel {height: 300px; margin-bottom: 60px;}
+.carousel .item {height: 300px;}
+.carousel-inner > .item > img {height: 300px;}
+
+.main-text{position: absolute; top: 0px;  height:300px; font-size:14px;  z-index:15; padding-top:0px;  padding-bottom:0px; margin-bottom:0px;}
+.main-text h1 {font-size: 18px;}
+.carousel-caption span{  font-size:26px;  }
+
+.padded-multiline span {background-color: rgb(46, 48, 146);}
+
+#carousel-testimonials .carousel-caption p.author{  font-size:13px;}
+
+.featurette-heading {margin-top: 120px;}
+
+
+
+.testimonials   .carousel-caption p {margin-bottom: 15px; font-size: 16px; line-height: 1.4;}
+#carousel-testimonials .textarea{ width:60%; }
+#carousel-testimonials .carousel-caption p { margin-left:20%;}
+#carousel-testimonials .carousel-caption p.author{ padding-top:15px; font-size:16px;}
+#carousel-testimonials .carousel-caption { padding-bottom: 60px;}
+
+#carousel-testimonials .carousel-inner .slide1{background:url(images/testimonials/image1.jpg) no-repeat; background-position:right; background-size:auto}
+#carousel-testimonials .carousel-inner .slide2{background:url(images/testimonials/image3.jpg) no-repeat; background-position:right;  background-size:auto}
+#carousel-testimonials .carousel-inner .slide3{background:url(images/testimonials/image2.jpg) no-repeat; background-position:right;  background-size:auto}
+
+.testimonials .carousel {height: 380px; margin-bottom: 0px;}
+.testimonials .carousel-inner > .item > img { height: 380px;}
+.testimonials .carousel .item {height: 380px;}
+
+#carousel-testimonials .textarea{ background:#F7931D; height:330px;  }
+
+.featurette-heading {font-size: 50px;}
+	
+
+.navbar {min-height: 139px;}
+.navbar-brand img{height:134px;}
+.navbar-nav > li i{line-height:48px; padding-top:30px;}
+.navbar-nav > li .dropdown-menu i{display: inline; line-height: normal; text-align:left; padding-top: inherit;}
+.navbar-nav [class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after { font-family: Flaticon; font-size: 48px; font-style: normal; margin-left: 0px; }
+.navbar-nav > li > a {font-size:16px; height:138px; }
+
+	
+.main-text{font-size:15px; }
+.main-text h1 {font-size: 25px;}
+
+.testimonials   .carousel-caption p {font-size: 18px;}
+#carousel-testimonials .carousel-caption { padding-bottom: 80px; width:100%;}
+#carousel-testimonials .carousel-caption p.author{ font-size:14px;}
+#carousel-testimonials .textarea {
+    width: 100%; margin-left:0px;
+}
+#carousel-testimonials .carousel-caption p {
+    margin-left: 0%;
+}
+
+#car
+.quotestrip{ }
+
+.parallax-window {background: none; display:none}
+.parallax-mirror {    background: none; display:none}
+
+.products .text{height:280px}

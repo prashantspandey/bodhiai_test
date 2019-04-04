@@ -1,0 +1,55 @@
+{%load staticfiles %}
+<html>
+	<head>
+<script>
+		 $(document).ready(function () {
+		var pr
+    $(".clicksubs").click(function(){
+
+         $(eval("'#'+pr")).removeClass("btn btn-default").addClass("btn btn-success");
+	ajKl = $(this).attr('value');
+	clickbatch = $('#oneClickBatches').attr('value');
+         $('#includeSubs').removeClass("hidden");
+         $('#includeSubs').html('').load('{% url 'QuestionsAndPapers:oneClickTest2' %}?questionsubjects='+encodeURIComponent(ajKl)+','+clickbatch);
+             $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+        $('#analysisType').removeClass('hidden');
+
+    pr = $(this).attr('id');
+
+     		    });
+     		    });
+
+
+
+</script>
+	</head>
+<body>
+	<div class="panel panel-default" >
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Subjects you want to include </div>
+  <div class="panel-body">
+{% for i in subjects %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center clicksubs" id="{{i}}" value="{{i}}" >{{i}} </button>
+</div>
+
+{%endfor%}
+
+<input type='text' value='{{oneClickBatch}}' id = 'oneClickBatches'  class='hidden' >
+
+        </div>
+
+		</div>
+	<div class="hidden panel panel-default" id="includeSubs" >
+	<div class="panel-heading text-center" style ='text-align:center;font-weight:bold;'  >Areas to include</div>
+  <div class="panel-body" >
+</div>
+</div>
+
+
+
+
+</body>
+
+</html>

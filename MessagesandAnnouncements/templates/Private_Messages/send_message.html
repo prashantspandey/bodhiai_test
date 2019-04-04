@@ -1,0 +1,37 @@
+<html>
+	<body>	
+		
+
+		{% if created %}
+		<div class='well'>
+		
+		<h3> To: {{mess.receiver}}</h3>
+		<h4> Subject: {{mess.subject}}</h4>
+		<h4> Message: {{mess.body}} </h4>
+		<h4> Time: {{mess.sent_date}}</h4>
+		<a href="{%url 'pms:messages' %}"<button type="button" class="btn btn-default text-center" id="backButton">Go to Messages Home</button></a>
+		</div>	
+		{%else%}
+		<div class='well'>
+		
+			
+		<form action="{%url 'pms:sendMessage' %}" method='post'>
+			{%csrf_token%}
+			{% if messagain %}
+			TO<br> <input type='text' disabled align='center' value="{{messagain}}" name="receiver"><br><br><br>
+			<input type='hidden' value="{{messagain.id}}" name="receiver">
+			{%else%}
+			TO<br> <input type='text' disabled align='center' value="{{message_info.receiver}}" name="receiver"><br><br><br>
+			<input type='hidden' value="{{sid}}" name="receiver">
+			{%endif%}
+		Subject <br>
+		<input type="text" name="subject"><br><br><br>
+		Message<br>	
+	<textarea name='body' cols = '80' rows="5"></textarea><br><br><br>
+			<input type="submit" value="Submit">
+		</form>
+		</div>	
+		{%endif%}
+	</body>
+</html>
+

@@ -1,0 +1,87 @@
+from rest_framework import generics
+from django.utils import timezone
+from celery.result import AsyncResult 
+from rest_framework.decorators import api_view
+from rest_framework.views import APIView
+from basicinformation.models import *
+from django.http import Http404, HttpResponse 
+from .serializers import *
+from QuestionsAndPapers.api.views import *
+from basicinformation.marksprediction import *
+from QuestionsAndPapers.models import *
+from basicinformation.models import * 
+from basicinformation.marksprediction import * 
+from membership.api.views import add_subjects
+import json
+import random
+from basicinformation.nameconversions import *
+from membership.api.serializers import *
+from rest_framework.response import Response
+from rest_framework.permissions import (
+    IsAuthenticated
+)
+from basicinformation.tasks import *
+import datetime
+from decimal import Decimal
+
+
+
+class ChatBoxAPIView(APIView):
+    def post(self,request,*args,**kwargs):
+        data = request.data
+        page = data['page']
+        language = data['language']
+        context = data['context']
+        context_list = context.split(',')
+        total_contexts = 3
+        if len(context_list) == total_contexts:
+            return Response({'context':False})
+        if page == 'testResult':
+            context_list =[]
+            test_id = data['test_id']
+            marks = SSCOnlineMarks.objects.get(test__id = test_id)
+            right_answers = len(marks.rightAnswers)
+            wrong_answers = len(marks.wrongAnswers)
+            total_attempted = len(marks.allAnswers)
+            total_questions = len(marks.allAnswers) + len(skippedAnswers)
+ 
+
+            if context == 'test_result_start':
+               percent_attempted = (total_attempted / total_questions) * 100
+                if percent_attempted < 10:
+                    message = """You did not take the test seriously. From next
+                    time please at-least try attempting the questions. You
+                    attepted {} /
+                    {}""".format(str(total_attempted),str(total_questions))
+                elif 10 < percent_attempted < 30:
+                    message = """You should attempt more questions.You only
+                    attempted {}/{}""".format(str(total_attempted),str(total_questions))
+                elif 30 < percent_attempted < 50:
+                     message = """Attempt more questions.You only
+                    attempted {}/{}""".format(str(total_attempted),str(total_questions))
+                elif 50 < percent_attempted < 70:
+                     message = """{}/{} attempted. Try to attempt more
+                     questions.""".format(str(total_attempted),str(total_questions))
+                elif 70 < percent_attempted < 99:
+                     message = """{}/{} attempted. Good Attempt percent !.""".format(str(total_attempted),str(total_questions))
+                elif percent_attempted == 100:
+                     message = """{}/{} attempted.All questions attempted, you
+                     should skip the questions that you don't know.""".format(str(total_attempted),str(total_questions))
+                context_list.append(context)
+
+            elif context == 'test_result_score':
+                score_percent = (right_answers/ total_questions) * 100
+                if score_percent < 10:
+                     message = """{}/{} .You need a lot of work. Dont worry I
+                     will guide you to your aim. Just follow my
+                     lead.""".format(str(right_answers),str(total_questions))
+                elif 10 < score_percent < 40:
+                     message = """{}/{} .This will not get you selected in the
+                     exam. But dont worry we will improve your score together.""".format(str(right_answers),str(total_questions))
+ 
+
+
+
+
+
+

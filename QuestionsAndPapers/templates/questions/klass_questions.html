@@ -1,0 +1,90 @@
+{% load staticfiles %}
+
+
+<script>
+    $(document).ready(function() {
+            $('#loadingCreateTest3').hide();
+        var removedquests = 'ids';
+        var clicked_id = 0
+        $(".addbutton").click(function() {
+            var now = this.id
+            which_klass = $('#tells_klass').text()
+            $(eval("'#'+now")).removeClass("btn btn-primary").addClass("btn btn-success");
+            $(eval("'#'+now")).addClass('hidden');
+            $(eval("'#r'+now")).removeClass("hidden");
+            $('#addedQuestions').removeClass("hidden");
+            $('#addedQuestions').html('').load('{% url 'QuestionsAndPapers:addQuestions' %}?question_id='+encodeURIComponent(now)+','+which_klass);
+            $(eval("'#r'+now")).click(function() {
+                rem_id = $(this).attr('id')
+                rem_id = rem_id.replace('r', '')
+                console.log(rem_id)
+
+                $(this).addClass('hidden');
+                $(eval("'#'+rem_id")).removeClass('hidden');
+                $('#addedQuestions').removeClass("hidden");
+                which_klass = $('#tells_klass').text()
+
+                $('#addedQuestions').html('').load('{% url 'QuestionsAndPapers:addQuestions' %}?remove_id='+encodeURIComponent(rem_id)+','+which_klass);
+            });
+
+
+        });
+
+    });
+
+</script>
+<div class="c-toolbar hidden" id="addedQuestions">
+</div>
+<span class="c-divider u-mv-medium"></span>
+<h1 align='center' style="padding:20px;"> Questions </h1>
+
+<form action="{%url 'QuestionsAndPapers:addQuestions'%}" method='post'>{%csrf_token%} 
+	{%for i in que %}
+    <div class='well col-md-offset-1 col-md-10' style="background:#FAFAFC; padding:5px; margin-top: 140px;" id='questBox'>
+        {%if i.comprehension %}
+
+        <img src='{{i.comprehension.picture}}' class="img-responsive"> {%endif%} {%if i.text %}
+        <p id='questP'>{{i.text|linebreaks}} </p>
+        {%endif%} 
+	{% if i.picture %}
+        <img src='{{i.picture}}' class="img-responsive" id='question_image'> 	
+	{%endif%}
+
+        <div class='hidden' id='tells_klass'>{{which_class}}</div>
+	<br>
+        <div class="col-md-offset-10">
+            <p>Maximum-Marks: {{i.max_marks}}</p>
+            {% for tused in i.timesused_set.all %} {% if tused.teacher == user.teacher %}
+            <p>Times Used for <strong>{{tused.batch}}: {{tused.numUsed}}</strong></p>
+            {%endif%} {%endfor%}
+	    <p>{{i.id}}</p>
+
+        </div>
+        {% if i.pk in idlist %}
+        <button type="button" id="r{{i.pk}}" class="" btn btn-default>Remove Question</button>
+        <button type="button" id="{{i.pk}}" class="btn btn-success hidden ">Add to question paper</button> {%else%}
+        <button type="button" id="{{i.pk}}" class="c-btn c-btn--success addbutton">Add to question paper</button>
+        <button type="button" id="r{{i.pk}}" class="btn btn-warning hidden">Remove Question</button> {%endif%} {% for j in i.choices_set.all %}
+        <div class="radio col-md-offset-1">
+            <label><input type="radio" name="optradio" value="{{j.predicament}}">{% if j.text %} {{j.text}}{%endif%}
+				 {%if j.picture %}
+		<img src='{{j.picture}}' class="img-responsive" >
+		{%endif%}
+				 {%if j.predicament == 'Correct' %}
+				 <span class="label label-success">Correct Answer</span> </label> {%endif%}
+        </div>
+
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+    <br>
+    <span class="c-divider u-mv-medium"></span>
+    <div class='col-md-offset-1 col-md-10'>
+        <div class="alert alert-info" role="alert">You can either create the test paper by clicking the button below or add more questions from different chapters by clicking on chapter numbers above this page.</div>
+        <input type='text' name='which_klass' value='{{which_class}}' class='hidden'>
+        <input type="submit" class="btn btn-primary" value="Create Question paper">
+        <br>
+        <br>
+    </div>
+</form>

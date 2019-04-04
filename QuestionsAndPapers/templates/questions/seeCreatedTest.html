@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title> Test </title>
+	</head>
+	<body>
+		{% for test in tests %}
+		<h2 align='center'> {{test.name}}</h2>
+		<h3> For class : {{test.klas}}</h3>
+		{% for quest in test.questions_set.all %}
+		<h3>Q{{forloop.counter}}- {{quest.text}}</h3>
+			<form>
+			{% for j in quest.choices_set.all %}
+			<input type='radio' name='answer' value= '{{j.predicament}}'>{{j.text}}<br>
+			{% endfor %}
+			</form>
+			{% endfor %}
+			
+	<p>Total Marks: {{test.max_marks}}</p>
+		{%endfor%}	
+
+
+	</body>
+</html>

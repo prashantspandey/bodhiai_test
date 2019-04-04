@@ -1,0 +1,67 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+<div  class="col-md-4  col-xs-12">
+    <script>
+$(document).ready(function () {
+    var ctx = document.getElementById("myChartTest1");
+    var myChart1 = new Chart(ctx, {
+            type: 'polarArea',
+            data: {
+                labels: ["A","B","C","D","E","F","S"],
+                datasets: [{
+                    label: 'Predictions for half yearly exams',
+
+                    data: [parseInt({{t1_fg_a}}),parseInt({{t1_fg_b}}),parseInt({{t1_fg_c}}),parseInt({{t1_fg_d}}),
+                    parseInt({{t1_fg_e}}),parseInt({{t1_fg_f}}),parseInt({{t1_fg_s}}),],
+
+
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(25, 206, 86, 0.2)',
+                        'rgba(0, 0, 0, 0.9)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 255, 255, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 3
+                }]
+            },
+            options: {   responsive: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            max: 100
+                        }
+                    }]
+                }
+            }
+        });
+    });
+</script>
+
+
+<div class="  col-xs-12">
+    <h2>Predicted grades for Half Yearly exams</h2>
+    <canvas  id="myChartTest1" style="display: block; height: 300px; width: 400px; padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;" width="400" height="370">
+</canvas>
+</div>
+
+</div>

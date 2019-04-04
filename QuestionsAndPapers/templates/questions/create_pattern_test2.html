@@ -1,0 +1,62 @@
+{%load staticfiles %}
+<html>
+<body>
+<head>
+<script>
+	
+ $(document).ready(function () {
+	 $('#loadingPatternTest1').hide();
+
+   var pr
+		 	for(i=1 ; i<=10; i++){
+		 	$(eval("'#subButt'+i")).click(function(){
+          subject = $(this).text();
+          which_klass = $('#which_batch').text()
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loadingPatternTest2').show();
+ 		  $('#allPatternTests').removeClass("hidden");
+         $('#allPatternTests').html('').load('{% url 'QuestionsAndPapers:patternTest2' %}?batchandsub='+encodeURIComponent(subject+','+which_klass));
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+        $('#analysisType').removeClass('hidden');
+
+
+
+    pr = $(this).attr('id');
+         
+       
+		 });
+
+		 };
+});
+
+
+</script>
+
+
+</head>
+
+<div class="panel-heading" style="text-align:center;">Choose A Subject	</div>
+
+<div class="btn-group" role="group" aria-label="...">
+    <div class="panel-body" >
+  {% for i in mySubs %}
+  <button type="button" class="btn btn-default text-center" id="subButt{{forloop.counter}}">{{i}}</button>
+  {%endfor%}
+  </div>
+  <div class="hidden" id="which_batch">{{batch}}</div>
+</div>
+<div id = 'loadingPatternTest2' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+<div class="hidden panel panel-default" id="allPatternTests" >
+  <div class="panel-heading text-center">Categories</div>
+  <div class="panel-body" >
+{%include 'questions/create_pattern_test3.html' %}
+</div>
+</div>
+  
+</body>
+</html>

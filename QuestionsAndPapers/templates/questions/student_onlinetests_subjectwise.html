@@ -1,0 +1,51 @@
+{%load staticfiles%}
+<html>
+	<head>
+    <script>
+
+         $(document).ready(function () {
+		 $('#loadingstudentmytests').hide();
+    var pr
+	    $('.studentAvailableTest').click(function(){
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+          which_test = $(this).attr('value');
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loadingstudentonlinetestssubjectwise').show();
+         $('#homeTest').removeClass("hidden");
+         $('#homeTest').html('').load('{% url 'QuestionsAndPapers:conductTest' %}?onlineTestid='+which_test);
+
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+    pr = $(this).attr('id');
+});
+});
+    </script>
+
+
+
+	</head>
+	<body>
+
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Test (ordered by publish date)</div>
+  <div class="panel-body">
+			{% for test in tests %}
+
+<button type="button" class="btn btn-default studentAvailableTest" value='{{test.id}}' id="whichTest{{forloop.counter}}">{{test.published}}</button>
+	{%endfor%}
+	</div>
+	</div>
+<div id = 'loadingstudentonlinetestssubjectwise' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+
+<div class='hidden' id='homeTest'> 
+  {%  include 'questions/student_OnlineTest.html' %}
+  {% include 'questions/student_evaluated_test.html' %}
+     </div>
+	</body>
+</html>

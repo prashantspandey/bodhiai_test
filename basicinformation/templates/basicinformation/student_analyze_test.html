@@ -1,0 +1,369 @@
+{%load staticfiles %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>	  $('#loadingStudentAnalysis3').hide(); </script>
+
+<style type='text/css' >
+.quests{
+	border-style:dotted;
+	padding:30px; border-color:#1526d242;
+}
+.well {
+	background-color:#337ab712;
+}
+
+.container {
+	background-color:#337ab712;
+
+}
+.tables{
+	padding:10px;
+	overflow-x:auto;
+}
+.tables th{
+	padding:10px;
+	color:black;
+}
+.graphs{
+	padding:20px;
+	border-style:none;
+}
+</style>
+<div class='container'>
+	<div class="jumbotron" style="background:transparent !important" >
+	<h2 style='text-align:center;font-weight:bold;'> Your score: {{test.marks|floatformat:2}}/{{test.test.max_marks}} </h2>
+	<h3 style='text-align:center;font-weight:bold;'> Your timing: {{tt}} </h3>
+
+
+<h3 style='text-align:center;font-weight:bold;'> Average of Test: {{average|floatformat:2}}/{{test.test.max_marks}} or {{percentAverage|floatformat:2}} %</h3>
+</div>  
+<div class='tables ' >
+	<table class='table table-striped table-bordered table-hover'>
+		<caption>Test Details: </caption>
+			<tr>
+				<th class='primary'> Right Answers</th>
+				<th> Wrong Answers</th>
+				<th> Not Attempted</th>
+				<th> Accuracy</th>
+			</tr>
+			<tr>
+				<th>{{numberRight}}</th>
+				<th> {{numberWrong}} </th>
+				<th>{{numberSkipped}}</th>
+				<th>{{accuracy|floatformat:2}}%</th>
+			</tr>
+		</table>
+	<table class='table table-striped table-bordered table-hover'>
+		<caption> Subjectwise Accuracy </caption>
+		<tr>
+			{%for s,acc in subjectwise_accuracy.items %}
+			<th>{{s}}</th>
+			{%endfor%}
+		</tr>
+		<tr>
+			{%for s,acc in subjectwise_accuracy.items %}
+			<th> {{acc|floatformat:2}}% </th>
+			{%endfor%}
+		</tr>
+	</table>
+</div>
+</div>
+
+
+
+<!-- comaprison with average of test here -->
+ <script> $(document).ready(function () {
+	    var ctx = document.getElementById("analysis"); var myChart1 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Test Average","Your Score"],
+                datasets: [{
+			label: 'Your performace vs Average Performance',
+			data: [{{percentAverage}},{{my_percent}}],
+			 backgroundColor: [
+                        '#BA68C8',
+                        '#64B5F6',
+                                      ],
+                    borderColor: [ '#BA68C8', '#64B5F6',
+                                            ],
+                    borderWidth: 3
+                }]
+            },
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            max: 100
+                        }
+                    }]
+                }
+            }
+        });
+    });
+	</script>
+
+
+<!-- percentile here -->
+	
+
+<script>
+	$(document).ready(function () {
+var pointBackgroundColors = [];
+	    var ctxper = document.getElementById("analysisPercentile");
+		var myChartper = new Chart(ctxper, {
+            type: 'line',
+            data: {
+		    labels: [{%for ma in allMarks%}{%if my_percent == ma %}"Equal",{%elif my_percent < ma %}"Higher",{%elif my_percent > ma %}"Lower",{%endif%} {%endfor%}],
+
+                datasets: [{
+			label: 'Number of students that scored higher,lower or equal to your score.',
+			data: [{%for ma in allMarks%} {{ma}},{%endfor%}],
+			pointBackgroundColor: pointBackgroundColors,
+			showLine: false, pointRadius: 8, borderWidth: 3
+                }]
+            },
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:false,
+                            max: 100
+                        }
+                    }]
+                }
+            }
+        });
+		{%for ma in allMarks %}
+		{% if ma == my_percent %}
+		pointBackgroundColors.push("#2962FF");					        
+		{%elif ma < my_percent %}
+		pointBackgroundColors.push("#E65100");					        
+		{%elif ma > my_percent %}
+		pointBackgroundColors.push("#64DD17");					        
+		{%endif%}
+		{%endfor%}
+
+		
+
+		myChartper.update();
+    });
+
+
+</script>
+<!--  weak areas here -->
+
+<script> 
+$(document).ready(function () {
+	    var ctxtopic = document.getElementById("topicAreasAnalysis");
+		var myChartt = new Chart(ctxtopic, {
+            type: 'horizontalBar',
+            data: {
+		    labels: [{%for n,w in topicWeakness %} '{{n}}',{%endfor%}],
+                datasets: [{
+			label: 'Number of wrong/skipped questions in each topic',
+			data: [{%for n,w in topicWeakness %} {{w}},{%endfor%}],
+			 backgroundColor: [
+                        'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',			 ],
+                    borderColor: [  'rgba(255,99,132,1)',
+		                    'rgba(54, 162, 235, 1)',
+				    'rgba(255, 206, 86, 1)',
+				    'rgba(75, 192, 192, 1)',
+		  		   'rgba(153, 102, 255, 1)',
+				'rgba(255, 159, 64, 1)',
+                                            ],
+                    borderWidth: 1
+                }]
+            },
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+		xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+			     fixedStepSize: 1,
+                        }
+                    }],
+
+                    yAxes: [{
+                        ticks: {
+                        }
+                    }]
+                }
+            }
+        });
+    });
+	</script>
+
+<!-- topic wise timing here here -->
+
+</script>
+
+<script> 
+$(document).ready(function () {
+	    var ctxtiming = document.getElementById("topicAreasTiming");
+		var myCharttiming = new Chart(ctxtiming, {
+            type: 'horizontalBar',
+            data: {
+		    labels: [{%for n,t in topicTiming %} '{{n}}',{%endfor%}],
+                datasets: [{
+			label: 'Time (seconds) taken to solve one question per topic (average)',
+			data: [{%for n,t in topicTiming %} {{t}},{%endfor%}],
+			 backgroundColor: [
+                          'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',			 ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		                    'rgba(54, 162, 235, 1)',
+				    'rgba(255, 206, 86, 1)',
+				   'rgba(75, 192, 192, 1)',
+ 				   'rgba(153, 102, 255, 1)',
+				   'rgba(255, 159, 64, 1)',
+                                            ],
+                    borderWidth: 1
+                }]
+            },
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                        }
+                    }]
+                }
+            }
+        });
+    });
+	</script>
+
+
+
+<!-- question wise result here -->
+
+
+<div class='graphs col-md-offset-1 col-md-5  col-xs-12'>
+	<h3 style='text-align:center;font-weight:bold;'>Your performace vs Average Performace</h2>
+	<div>
+	<canvas  id="analysis" height='400'>
+</canvas>
+	</div>
+</div>
+	    <div class='graphs col-md-5  col-xs-12'>
+	<h3 style="text-align:center;font-weight:bold;"> Your percentile: {{percentile|floatformat:2}}% </h2>
+	<div>
+	<canvas  id="analysisPercentile" height='400'>
+</canvas> 
+	</div>
+	</div>
+
+<div class='graphs col-md-offset-1 col-md-5  col-xs-12'>
+	<h3 style='text-align:center;font-weight:bold;'>Topic wise mistakes/not-attempted questions</h2>
+	<div>
+	<canvas  id="topicAreasAnalysis" height='500'>
+</canvas>
+	</div>
+</div>
+<div class=' col-md-5  col-xs-12'>
+	<h3 style='text-align:center;font-weight:bold;'>Timing - per topic</h2>
+	<div>
+	<canvas  id="topicAreasTiming" height='500'>
+</canvas>
+	</div>
+</div>
+
+
+
+{%if student_type == 'School' %}
+	<div class='col-md-offset-1 col-md-10  col-xs-12'>
+		{% for te in test.test.questions_set.all %}
+		<div class='well  col-xs-12'>
+			<h3> {{te.text}}{% if te.id in test.skippedAnswers %}<span class="label label-warning" >You skipped this question</span>{%endif%}</h3>
+			{% for ch in te.choices_set.all %}
+			
+			<p > <span class='badge'>{{forloop.counter}}</span>---{{ch.text}} {%if ch.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+			{%if ch.id in test.rightAnswers %}<span class="label label-success">Your Answer</span>{%endif%}
+			{% if ch.id in test.wrongAnswers %}<span class="label label-danger">Your Answer</span>{%endif%}</p>
+			{% for x,y in freq %}
+			{% if ch.id == x%}
+			<p >	<span class="badge">{{y}} people answered this choice </span></p>
+			{%endif%}
+			{%endfor%}
+
+			{%endfor%}
+				
+		</div>
+		
+		{%endfor%}
+	</div>
+
+	{%elif student_type == 'SSC' %}
+
+
+<div class=' col-md-offset-1 col-md-10  col-xs-12'>
+		{% for te in test.test.sscquestions_set.all %}
+		<div class='quests well  col-xs-12'>
+			{% if te.comprehension %}
+				<img src='{{te.comprehension.picture}}' class='img-responsive'>
+				{%endif%}
+
+			<h5 style='font-weight:bold;'>{%if te.text %}{{te.text}} {%endif%}
+				{%if te.picture %}
+				<img src='{{te.picture}}' class='img-responsive'>
+				{%endif%}
+				{% if te.id in test.skippedAnswers %}<span class="label label-warning" >You skipped this question</span></h5>{%endif%}
+			{% for time in test.sscansweredquestion_set.all %}
+			{%if time.quest.id == te.id and time.time != -1 %}	
+			
+			<span class="label label-info" style='background-Color:#AA00FF;'>{{time.time}} seconds </span></h5>
+			{%endif%}
+			{%endfor%}
+
+			{% for ch in te.choices_set.all %}
+			
+			<p > <span class='badge'>{{forloop.counter}}</span>---{%if ch.text %}{{ch.text}}{%endif%}
+			{%if ch.picture %}
+				<img src='{{ch.picture}}' class='img-responsive'>
+				{%endif%}
+       
+		
+			{%if ch.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+			{%if ch.id in test.rightAnswers %}<span class="label label-success">Your Answer</span>{%endif%}
+			{% if ch.id in test.wrongAnswers %}<span class="label label-danger">Your Answer</span>{%endif%}</p>
+			{% for x,y in freq %}
+			{% if ch.id == x %}
+			<p >	<span class="badge">{{y}} people answered this choice </span></p>
+			{%endif%}
+			{%endfor%}
+			
+			{%endfor%}
+							
+				
+		</div>
+		{% for ch in te.choices_set.all %}
+		{% if ch.predicament == 'Correct'%}
+		<div class='container well'>
+		{%if ch.explanation %}
+		<p>Explanation: {{ch.explanation|linebreaks}} </p>
+		{%endif%}
+		{%if ch.explanationpicture %}
+		<img src='{{ch.explanationpicture}}' class='img-responsive' >
+		{%endif%}
+		</div>
+		{%endif%}
+		{%endfor%}
+		{%endfor%}
+	</div>
+	{%endif%}
+
+
+

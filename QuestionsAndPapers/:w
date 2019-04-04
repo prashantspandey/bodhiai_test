@@ -1,0 +1,81 @@
+from django.shortcuts import render
+from .models import Questions,Choices
+from basicinformation.models import klass
+from basicinformation.marksprediction import *
+from django.utils import timezone
+from django.http import Http404, HttpResponse
+from django.contrib.auth.models import User,Group
+import re
+import urllib.request
+from more_itertools import unique_everseen
+# Create your views here.
+
+def home(request):
+    question = Questions.objects.all()
+    context = {'question':question}
+    return render(request,'questions/home.html',context)
+
+def create_test(request):
+    user = request.user
+
+    if user.is_authenticated:
+        if user.groups.filter(name= 'Teachers').exists():
+            questions = Questions.objects.all()
+            _,all_klasses = teacher_get_students_classwise(request)
+            all_klasses = list(all_klasses)
+            klass_reg = re.compile(r'^(.*?)th')
+            try:
+                if request.GET['klass_test']:
+                    ttt = request.GET['klass_test']
+                    kk = klass_reg.findall(ttt)
+                    quest = Questions.objects.filter(klass = str(kk[0]))
+                    unique_chapters = []
+                    for i in quest:
+                        for j in i.category:
+                            unique_chapters.append(j)
+                    unique_chapters = list(unique_everseen(unique_chapters))
+                    return render(request, 'questions/klass_available.html', {'fin': unique_chapters,'which_klass':str(kk[0])})
+            except:
+                pass
+
+            context = {'questions':questions,'klasses':all_klasses}
+            return render(request,'questions/createTest.html',context)
+        else:
+            raise Http404("You don't have necessary permissions.")
+def chapter_test(request):
+    if request.GET['chapter_test']:
+        which_chap = request.GET['chapter_test']
+        chap = str(which_chap)
+        splitChap = chap.split(",",1)[0]
+        splitClass = chap.split(",",1)[1]
+        klass_question = Questions.objects.filter(klass=splitClass,category=splitChap)
+        return render(request,'questions/klass_questions.html',{'que':klass_question})
+def add_questions(request):
+    questions_list = []
+    ultimate_list = []
+    if request.POST:
+        question_id = request.POST.getlist('quest_paper')
+        print(question_id)
+        #ids = question_id.split(',',1)[1]
+        #try:
+        #    qs = ids.split(',')
+        #    qs = list(unique_everseen(qs))
+        #    quests = []
+        #    for q in qs:
+        #        question = Questions.objects.filter(pk=q)
+        #        questions_list.append(question)
+        #except:
+        #    pass
+        #tot_marks = []
+        #for y in questions_list:
+        #    for k in y:
+        #        tot_marks.append(k.max_marks)
+        #su = 0
+        #for z in tot_marks:
+        #    su = su + z
+        #num_questions = len(tot_marks)
+        #context = {'questions':questions_list,'total_marks':su,'num_questions':num_questions}
+        #return render(request,'questions/addedQuestions.html',context)
+    #else:
+        context = {'yy':'ttt'}
+        return HttpResponse('hello')

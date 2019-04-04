@@ -1,0 +1,70 @@
+{%load staticfiles %}
+
+<script>
+
+         $(document).ready(function () {
+
+	  $('#loadingStudentAnalysis2').hide();
+var pr
+	$('select[name="studentTestid"]').change(function(){
+		var testid = $(this).val();
+	  which_subject = $('#which_subject').attr('value')
+	  $('#loadingStudentAnalysis3').show();
+         $('#studentAnalyzeTest').removeClass("hidden");
+         $('#studentAnalyzeTest').html('').load('{% url "basic:studentSubjectAnalysis" %}?studentTestid='+testid+','+which_subject);
+	});
+
+
+         $(".analysisStudentid").click(function(){
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+          which_test = $(this).attr('value');
+	  which_subject = $('#which_subject').attr('value')
+        $(this).removeClass("btn btn-default").addClass("btn btn-success");
+         $('#studentAnalyzeTest').removeClass("hidden");
+         $('#studentAnalyzeTest').html('').load('{% url "basic:studentSubjectAnalysis" %}?studentTestid='+which_test+','+which_subject);
+    pr = $(this).attr('id');
+
+
+
+
+	 });
+});
+    </script>
+
+
+    {% if not tests %}
+    <div class='container'>
+    <div class="alert alert-info" role="alert"><h3 class='text-center'>No test taken yet.</h3></div>
+    </div>
+    {%else%}
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a Test:</div>
+  <div class="panel-body ">
+	  <!--
+	  {% for test in tests%}
+	  <button type="button" class="btn btn-default analysisStudentid" value='{{test.test.id}}'  id="studentTestids{{test.test.id}}">{{test.test.published}}</button>
+
+	{%endfor%}
+	  -->
+	  <button type="button" class="hidden " value='{{subject}}'  id="which_subject">{{subject}}</button>
+	 <select class="form-control"  name="studentTestid" value="{{test.id}}">
+	 <option disabled selected value> -- Choose a Test -- </option>
+	 {% for test in tests %}
+	 <option value="{{test.test.id}}">{{test.test.published}} </option>
+
+	 {%endfor%}
+	 </select>
+
+  </div>
+</div>
+<div id = 'loadingStudentAnalysis3' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+
+<div class='hidden ' id = 'studentAnalyzeTest'>
+	{% include 'basicinformation/student_analyze_test.html' %}
+</div>
+{%endif%}

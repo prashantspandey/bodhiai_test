@@ -1,0 +1,62 @@
+{%load staticfiles %}
+<html>
+<body>
+<head>
+<script>
+	
+ $(document).ready(function () {
+	 $('#loadingCreateTest2').hide();
+    $('select[name="questionCategoriesChoice"]').change(function(){
+       var categoryChoice = $(this).val();
+          which_klass = $('#which_klass').text()
+          which_section = $('#which_section').text()
+	 $('#loadingCreateTest3').show();
+ 		  $('#allQuestions').removeClass("hidden");
+        $('#allQuestions').html('').load('{% url 'QuestionsAndPapers:createTest' %}?chapter_test='+encodeURIComponent(categoryChoice+','+which_klass+','+which_section));
+
+    });
+});
+
+
+</script>
+
+
+</head>
+
+<div class="panel-heading" style="text-align:center;">Chapters/Topics:	
+
+<div class="btn-group" role="group" aria-label="...">
+	  {% if noTest %}
+  <h3 style='font-weight:bold;text-align:center;'> No Questions available </h3>
+  {%else%}
+    <div class="panel-body" >
+        <!--
+  {% for i,k in categories %}
+  <button type="button" class="btn btn-default text-center teacherCategory"  value = '{{k}}' id="categoryButton{{forloop.counter}}">{{i}}</button>
+  {%endfor%}
+        -->
+        <select class="form-control" name="questionCategoriesChoice">
+            <option disabled selected value> -- Choose a chapter/topic --  </option>
+            {% for i,j in categories %}
+            <option value="{{j}}"> {{i}} </option>
+            {%endfor%}
+        </select>
+  </div>
+  {%endif%}
+  <div class="hidden" id="which_klass">{{which_klass}}</div>
+  <div class="hidden" id="which_section">{{section_category}}</div>
+</div>
+    <div id='loadingCreateTest3' style='text-align:center;display:none;'>
+        <img src="{%static 'basicinformation/loaders/segment.gif' %}" >
+ </div>
+
+
+</div>
+
+<div class="hidden panel panel-default" id="allQuestions" >
+
+{%include 'questions/klass_questions.html' %}
+</div>
+  
+</body>
+</html>

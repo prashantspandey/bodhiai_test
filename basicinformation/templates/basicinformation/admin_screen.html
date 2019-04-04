@@ -1,0 +1,32 @@
+{% extends 'basicinformation/base.html' %}
+{% load staticfiles %}
+<html>
+	<head>
+
+    <title>
+	    {%block title %}
+	    Management Information
+	    {%endblock%}
+    </title>
+    </head>
+    <body>
+        {% block content %}
+
+	"<form action = {% url 'basic:addQuestionsAdmin' %} method='get'>"+
+        <div class="btn-group " role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center" value ="Add  Questions" id="add_questions_button">Add Questions</button>
+</div>
+	</form>
+
+        <div class="btn-group " role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center" value ="Delete Questions" id="delete_questions_button">Delete Questions</button>
+</div>
+
+
+
+
+        {%endblock %}
+
+
+    </body>
+</html>

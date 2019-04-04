@@ -1,0 +1,63 @@
+{% extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    {% block title %}
+    Smart Test
+    {%endblock %}
+	{%block scripts %}
+	<script>
+	$(document).ready(function(){
+	var pr;
+	$('.smartSubjects').click(function(){
+         	$(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+		sub_name = $(this).attr('value');
+		console.log(sub_name);
+		$(this).removeClass("btn btn-default").addClass("btn btn-success");
+		$('.showNumberQuestions').removeClass("hidden");
+		$('.showNumberQuestions').html('').load('{% url "QuestionsAndPapers:TopicTest" %}?which_sub='+encodeURIComponent(sub_name));
+		pr = $(this).attr('id');
+
+	});	
+
+	});
+	</script>
+{%endblock%}
+</head>
+
+<body>
+{%block content %}
+
+<div class='col-md-offset-1 col-md-10 col-sm-12' >
+	<h2 style='text-align:center;font-weight:bold;'>Smart Test</h2>
+	<div class="panel panel-default" id='numQuests'>
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Choose subject: </div>
+  <div class="panel-body">
+{% for subject in subjects %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default smartSubjects" id='{{subject}}' value={{subject}}>{{subject}}</button>
+</div>
+
+{%endfor%}
+
+
+        </div>
+
+		</div>
+<div id = 'loaderSmartTest1' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+
+	<div class="hidden panel panel-default showNumberQuestions" >
+	<div class="panel-heading text-center " style ='text-align:center;font-weight:bold;'  >Choose Number of Questions</div>
+  <div class="panel-body " >
+	 {% include 'questions/student_smart_test2.html' %} </div>
+</div>
+
+{%endblock%}
+</body>
+</html>

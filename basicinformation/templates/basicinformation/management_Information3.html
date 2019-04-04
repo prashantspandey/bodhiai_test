@@ -1,0 +1,44 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+	  $('#loadinganalysis2').hide();
+    var pr
+
+	$(".managementTeachButton").click(function(){
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+	which_teachid = $(this).attr('value');
+	  $('#loadingmanagementinfo2').show();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+
+         $('#managementTeacherBox').removeClass("hidden");
+         $('#managementTeacherBox').html('').load('{% url 'basic:managementInformation' %}?managementTeacherid='+which_teachid);
+
+
+    pr = $(this).attr('id');
+
+
+	});
+
+});
+    </script>
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a Teacher</div>
+  <div class="panel-body">
+{% for teach in teachers %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default managementTeachButton" value ="{{teach.id}}" >{{teach}}{%if teach.subBatch%}{{teach.subBatch}}{%endif%}</button>
+</div>
+{%endfor%}
+        </div>
+
+<div id = 'loadingManagement3' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+<div class='hidden' id = 'managementTeacherBox'>
+{%include 'basicinformation/management_Information4.html' %}
+</div>

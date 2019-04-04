@@ -1,0 +1,13 @@
+#questionContainer {
+	background:#24e47508;
+}
+#infoContainer {
+	background:#3b599808;
+	width:100%;
+	bottom:0;
+	clear:both;
+}
+#mainContainer {
+	position:relative;
+}
+

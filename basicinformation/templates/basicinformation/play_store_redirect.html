@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <title>Boadhi AI</title>
+    <!-- axios cdn -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+<div class="boxes">
+        <div class="container">
+          <h1> Please Wait Redirecting You To BodhiAI App...</h1>
+      <!-- <button onclick="performGetRequest1()">click me</button>
+      <button onclick="sendpostreq()">send post</button> -->
+          </div>
+</div>
+ <script>
+     let ips ;
+   function performGetRequest1(callback){
+  console.log("this is here dd")
+  axios.get('https://ipinfo.io/json')
+    .then(function (response) {
+      console.log("this is send before ip send ")
+      ips = response.data
+      , callback(ips)
+    }) 
+    .catch(function (error) {
+      console.log("ip url is not working")
+    });   
+}
+ function sendpostreq(ipss){
+  
+  //  console.log("this is send after ip get " , ipss)
+  axios.post("http://13.234.62.233/api/basicinformation/user_data_before_download/"  , {user_data: ipss} /*{headers : { 'Authorization': AuthString  } }*/)
+          .then(response => {
+              console.log(response)
+              window.location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.bodhi.bodhiai&hl=en";
+          })
+          .catch(error => {
+            console.log(error.message);
+          })
+ }
+ performGetRequest1(sendpostreq)
+ </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script> -->
+  
+  </body>
+</html>

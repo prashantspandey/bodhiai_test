@@ -1,0 +1,52 @@
+{% extends 'basicinformation/base.html' %}
+{%load staticfiles %}
+{%load crispy_forms_tags%}
+<html>
+	<head>
+    <title> {%block title %} Register at BodhiAI {%endblock%} </title>
+    {%block scripts %}
+<link rel='stylesheet' href="{%static 'basicinformation/css/animate.css'%}">
+	<script>
+function registerClick(){
+	$('#loadingRegister').removeClass("hidden");
+	$('#wholeContainer').addClass("hidden");
+};
+
+	</script>
+	<style type="text/css">
+	.container{
+		padding:50px;
+	}
+	</style>
+    {%endblock%}
+	</head>
+{% block content %}
+	<div class='hidden' id = 'loadingRegister' style='text-align:center;'>
+         <img src="{%static 'basicinformation/loaders/segment.gif' %}" >
+  </div> 
+	
+	<br>
+	<br>
+	<br>
+
+<div class='container' id="wholeContainer">
+<form  class='animated fadeInDown'action="" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form|crispy}}
+  <div style='text-align:center;'>
+	  <div class="form-group">
+		    <label for="usr">Code:</label>
+		      <input type="text" class="form-control" id="course" name='course'>
+	  </div>
+  <button type="submit" class="btn btn-primary btn-lg" onclick="registerClick()">Register</button>
+  </div>
+
+
+
+
+
+
+  </form>
+</div>
+{%endblock%}
+</html>

@@ -1,0 +1,59 @@
+{%load staticfiles %}
+<html>
+
+<body>
+
+    <head>
+        <script>
+            $(document).ready(function() {
+                $('#loadingCreateTest1').hide();
+
+                var pr
+                $('.chapterButton').click(function() {
+                    chap = $(this).text();
+                    which_klass = $('#which_klass').text()
+                    $(this).removeClass("btn btn-default").addClass("btn btn-success");
+                    $('#loadingCreateTest2').show();
+                    $('#allCategories').removeClass("hidden");
+                    $('#allCategories').html('').load('{% url 'QuestionsAndPapers:createTest' %}?category_test=' +encodeURIComponent(chap + ',' + which_klass));
+                    $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+                    $('#analysisType').removeClass('hidden');
+
+
+
+                    pr = $(this).attr('id');
+
+
+                });
+
+            });
+        </script>
+
+
+    </head>
+
+    <div class="panel-heading" style="text-align:center;">{%if test_type == 'School' %}Chapters Available: {%elif test_type == 'SSC' %} Subject/Section type:{%endif%} </div>
+
+    <div class="btn-group" role="group" aria-label="...">
+        {% if noTest %}
+        <h3 style='font-weight:bold;text-align:center;'> No Questions available </h3>
+        {%else%}
+        <div class="panel-body">
+            {% for i in fin %}
+            <button type="button" class="c-btn c-btn--secondary text-center chapterButton" id="chapterButton{{forloop.counter}}">{{i}}</button> {%endfor%}
+        </div>
+        {%endif%}
+        <div class="hidden" id="which_klass">{{which_klass}}</div>
+    </div>
+    <div id='loadingCreateTest2' style='text-align:center;display:none;'>
+        <img src="{%static 'basicinformation/loaders/segment.gif' %}" >
+    </div>
+
+    <div class="hidden panel panel-default" id="allCategories">
+        {%include 'questions/klass_categories.html' %}
+    </div>
+
+</body>
+
+</html>

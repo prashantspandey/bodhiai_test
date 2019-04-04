@@ -1,0 +1,66 @@
+{% extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+<html>
+	<head>
+
+{%block title %}
+		Create Test
+		{%endblock%}
+		{%block scripts %}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script>
+		 $(document).ready(function () {
+	var pr
+		 	for(i=1 ; i<=10; i++){
+		 	$(eval("'#classButton'+i")).click(function(){
+			ajKl = $(this).text();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loadingPatternTest1').show();
+         $('#fullTests').removeClass("hidden");
+         $('#fullTests').html('').load('{% url 'QuestionsAndPapers:patternTest2' %}?batch_test='+encodeURIComponent(ajKl));
+
+       $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+        $('#analysisType').removeClass('hidden');
+
+
+
+    pr = $(this).attr('id');
+         });
+		 }
+		    });
+	</script>
+				{%endblock%}   
+	</head>
+	<body>
+		{% block content %}
+		<h2 style='text-align:center;font-weight:bold;'>Create Pattern  Test</h2>
+	<div class="panel panel-default" id='kclass'>
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Batch you want to create the test for: </div>
+  <div class="panel-body">
+{% for i in batches %}
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default text-center" id="classButton{{forloop.counter}}">{{i}}</button>
+</div>
+
+{%endfor%}
+        </div>
+</div>
+<div id = 'loadingPatternTest1' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+<div class="hidden panel panel-default" id="fullTests" >
+	<div class="panel-heading text-center" style ='text-align:center;font-weight:bold;'>Tests</div>
+  <div class="panel-body" >
+{%include 'questions/create_pattern_test2.html' %}
+</div>
+</div>
+	
+		{%endblock%}
+	</body>
+</html>	
+		

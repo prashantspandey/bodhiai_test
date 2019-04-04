@@ -1,0 +1,359 @@
+from rest_framework import generics
+from django.utils import timezone
+from celery.result import AsyncResult 
+from rest_framework.decorators import api_view
+from rest_framework.views import APIView
+from basicinformation.models import *
+from django.http import Http404, HttpResponse 
+from .serializers import *
+from QuestionsAndPapers.api.views import *
+from chatbox.models import *
+from basicinformation.marksprediction import *
+from QuestionsAndPapers.models import *
+from basicinformation.models import * 
+from basicinformation.marksprediction import * 
+from membership.api.views import add_subjects
+import json
+import random
+from basicinformation.nameconversions import *
+from membership.api.serializers import *
+from rest_framework.response import Response
+from rest_framework.permissions import (
+    IsAuthenticated
+)
+from basicinformation.tasks import *
+import datetime
+from decimal import Decimal
+
+
+
+class ChatBoxAPIView(APIView):
+    def post(self,request,*args,**kwargs):
+        me = Studs(self.request.user)
+        data = request.data
+        user_reply = data['user_reply']
+        try:
+            chatHistory = ChatHistory.objects.get(student= me.profile)
+            lastMessage = chatHistory.messages[-1]
+            lastContext = chatHistory.contexts[-1]
+            lastDate = chatHistory.dates[-1]
+            context_obj = PossibleContext.objects.get(context=lastContext)
+            next_context = context_obj.next_context
+            if next_context != None:
+                nextContextObj =\
+                PossibleContext.objects.get(context=next_context)
+                print('next family {},next context {}'.format(nextContextObj.family,nextContextObj.context))
+                response_context =\
+                self.nextMessage(me.profile.id,nextContextObj.family,nextContextObj.context,user_reply)
+                print('response context {}'.format(response_context))
+                # saving to chat history
+                allMessages = chatHistory.messages
+                allContexts = chatHistory.contexts
+                allDates = chatHistory.dates
+                allTypes = chatHistory.types
+                print('getting response context')
+                try:
+                    saveMessage = response_context['message']
+                except:
+                    saveMessage = 'error message'
+                try:
+                    saveContext = response_context['context']
+                except:
+                    saveContext = 'error context'
+                try:
+                    allMessages.append(saveMessage)
+                    allContexts.append(saveContext)
+                    allDates.append(timezone.now())
+                    allTypes.append('sent')
+                except:
+                    allMessages.append('None')
+                    allContexts.append('None')
+                    allDates.append(timezone.now())
+                    allTypes.append('sent')
+                    print('in except of response context getting')
+ 
+                chatHistory.save()
+                
+                return Response(response_context)
+            else:
+                allPossibleContext = PossibleContext.objects.all()
+                context_list = []
+                for i in allPossibleContext:
+                    if i.context not in chatHistory.context:
+                        context_list.append(i.context)
+
+                next_context = random.choice(context_list)
+                nextContextObj =\
+                PossibleContext.objects.get(context=next_context)
+                print('family {}, nextContext\
+                      {}'.format(nextContextObj.family,nextContextObj.context)
+                      )
+                response_context =\
+                self.nextMessage(me.profile.id,nextContextObj.family,nextContextObj.context,user_reply)
+                # saving to chat history
+                allMessages = chatHistory.messages
+                allContexts = chatHistory.contexts
+                allDates = chatHistory.dates
+                allTypes = chatHistory.types
+                allMessages.append(response_context['message'])
+                allContexts.append(response_context['context'])
+                allDates.append(timezone.now())
+                allTypes.append('sent')
+                chatHistory.save()
+ 
+                return Response(response_context)
+ 
+
+
+           
+            
+        except ChatHistory.DoesNotExist:
+            chatHistory = ChatHistory()
+            first_context = PossibleContext.objects.get(context =
+                                                        'welcome_first')
+            detail_context = ContextDetail.objects.filter(context__context=
+                                                          'welcome_first')
+
+            dc_list = []
+            for dc in detail_context:
+                dc_list.append(dc)
+            to_send_dc = random.choice(dc_list)
+            newMessage = to_send_dc.message.replace('{}',me.profile.name)
+            context =\
+                    {'context':first_context.context,'message':newMessage,'data':None}
+            chatHistory.context = [first_context.context]
+            chatHistory.dates = [timezone.now()]
+            chatHistory.student = me.profile
+            chatHistory.types =['sent']
+            chatHistory.messages = [to_send_dc.message]
+            chatHistory.contexts= [first_context.context]
+            chatHistory.save()
+            return Response(context)
+
+
+
+    def nextMessage(self,student,family,specific_context,user_data = None):
+        print('next message family {}, specific_context {}'.format(family,specific_context))
+        student = Student.objects.get(id = student)
+        if family == 'welcome':
+            if specific_context == 'welcome_choose_aim':
+                student_aims = StudentSubjectAim.objects.filter(student =
+                                                                student)
+                if len(student_aims) == 0:
+                    father_context = PossibleContext.objects.get(context =
+                                                                  specific_context)
+                    context_detail = ContextDetail.objects.filter(context =
+                                                               father_context)
+                    dc_list = [] 
+                    for i in context_detail: dc_list.append(i)
+                    to_be_sent = random.choice(dc_list)
+                    subjects = Subject.objects.filter(student=student)
+                    sub_final = []
+                    for i in subjects:
+                        logos = SubjectLogo.objects.get(name=i.name)
+                        sub = {'name':i.name ,'logo':logos.logo2,'marks':None}
+                        sub_final.append(sub)
+
+                    response_context =\
+                    {'context':specific_context,'message':to_be_sent.message,'data':sub_final}
+                return response_context
+            elif specific_context == 'welcome_after_choose_aim':
+                #list_data = user_data.split(',')
+                #response_context =\
+                #{'test_data':str(user_data),'type':type(user_data)}
+                #return response_context
+                subs_data = []
+                aims_data = []
+                #for index, val in enumerate(list_data):
+                #    if (index) %2 == 0:
+                #        final_val  = val.replace('[','')
+                #        final_val = final_val.replace(']','')
+                #        final_val = final_val.replace('\"','')
+                #        if len(final_val) > 3:
+                #            subs_data.append(final_val)
+                #    elif (index) % 2 == 1:
+                #        final_val  = val.replace('[','')
+                #        final_val = final_val.replace(']','')
+                #        final_val = final_val.replace('\"','')
+                #        aims_data.append(final_val)
+
+                for i in user_data:
+                    print('i this is outer list {}'.format(i))
+                    for j in i:
+                        try:
+                            marks = int(j)
+                            aims_data.append(j)
+                        except:
+                            subs_data.append(j)
+
+                combined = list(zip(subs_data,aims_data))
+
+                for sub,aim in combined:
+                    subjectAims = StudentSubjectAim()
+                    subjectAims.student = student
+                    subjectAims.subject = sub
+                    subjectAims.aim = aim
+                    subjectAims.save()
+
+                student_aims = StudentSubjectAim.objects.filter(student
+                                                                =student)
+                aims = []
+                for si in student_aims:
+                    si_dict = {'subject':si.subject,'aim':si.aim}
+                    aims.append(si_dict)
+
+
+                father_context = PossibleContext.objects.get(context =
+                                                                specific_context)
+
+                context_detail = ContextDetail.objects.filter(context =
+                                                            father_context)
+ 
+                dc_list = []
+                for i in context_detail:
+                    dc_list.append(i)
+                to_be_sent = random.choice(dc_list)
+                message = to_be_sent.message
+                to_be_sent = message.replace('{}',str(aims))
+                response_context =\
+                {'context':specific_context,'message':to_be_sent,'data':None}
+                return response_context
+            elif specific_context == 'welcome_first_test':
+                prev_tests = SSCOnlineMarks.objects.filter(student =
+                                                           student)
+                if len(prev_tests) == 0:
+                    test_id = "special id"
+                    response_context =\
+                    {'context':nextContextObj.context,'message':to_be_sent.message,'data':test_id}
+
+                    return response_context
+
+ 
+        elif family == 'analysis':
+            if specific_context == 'anlysis_specific_test':
+                test_id = data['test_id']
+                my_marks = SSCOnlineMarks.objects.get(student = student,test_id = test_id)
+                rightAnswers = len(rightAnswers)
+                wrongAnswers = len(wrongAnswers)
+                attempted = len(rightAnswers) + len(wrongAnswers)
+                percent_attempted = (attempted / len(allAnswers) ) * 100
+                return_data = {'attempted':percent_attempted}
+                message = 'You attempted' 
+                response_context =\
+                {'context':specific_context,'message':message,'data':return_data}
+                return response_context
+
+
+
+        elif family == 'recommendation':
+            pass
+           
+class saveBodhiChatAPIView(APIView):
+    def post(self,request,*args,**kwargs):
+        aws_keys = AWSKey.objects.all()
+        me = Studs(self.request.user)
+        data = request.data
+        chat_data = data['chatData']
+        aws_key = aws_keys[0]
+        print('this is the key {}'.format(aws_key.accessKey))
+        ACCESS_KEY_ID = aws_key.accessKey
+        ACCESS_SECRET_KEY = aws_key.secretKey
+        client = boto3.resource(
+        'dynamodb',
+        aws_access_key_id = ACCESS_KEY_ID,
+        aws_secret_access_key = ACCESS_SECRET_KEY,
+        region_name = 'ap-south-1'
+        )
+        table = client.Table('bodhichat')
+        try:
+            res = table.update_item(
+                Key = { 
+                        'student_id':str(me.profile.id)
+                    },  
+            UpdateExpression = """SET  chatData = list_append(chatData,:cd)""",
+            ExpressionAttributeValues={
+                        ':cd': [chat_data],
+
+                    },  
+            ReturnValues="UPDATED_NEW"
+
+            )
+            print('db updated')
+        except Exception as e:
+            print('amazon db error {}'.format(str(e)))
+            table.put_item(
+            Item={
+
+                        'student_id':str(me.profile.id),
+                        ':chatData': [chat_data],
+
+                }
+            )
+            print('db created')
+        context = {'chat_data':chat_data}
+        return Response(context)
+
+    
+        #try:
+        #    res = table.update_item(
+        #        Key = { 
+        #                'student_id':str(me.profile.id)
+        #            },  
+        #    UpdateExpression = """SET  sentByMe = list_append(sentByMe,:sbm),text
+        #        =list_append(text,:te),loading: list_append(loading,:lod),viewType:
+        #        list_append(viewType,:vt),clickable:list_append(clickable,:ck),data:
+        #        list_append(data,:da),when:list_append(when,:wh)""",
+        #    ExpressionAttributeValues={
+        #                ':sbm': [bool(sentByMe)],
+        #                ':te': [str(messageText)],
+        #                ':lod': [bool(loading)],
+        #                ':vt': [str(viewType)],
+        #                ':ck': [bool(clickable)],
+        #                ':da': [str(data_front_end)],
+        #                ':wh': [str(timezone.now())],
+
+        #            },  
+        #    ReturnValues="UPDATED_NEW"
+
+        #    )
+        #    print('db updated')
+        #except Exception as e:
+        #    print('amazon db error {}'.format(str(e)))
+        #    table.put_item(
+        #    Item={
+
+        #                'student_id':str(me.profile.id),
+        #                'sentByMe': [bool(sentByMe)],
+        #                'text': [str(messageText)],
+        #                'loading': [bool(loading)],
+        #                'viewType': [str(viewType)],
+        #                'clickable': [bool(clickable)],
+        #                'data': [str(data)],
+        #                'when': [str(timezone.now())],
+
+
+        #        }
+        #    )
+        #    print('db created')
+
+
+class getBodhiChatAPIView(APIView):
+    def get(self,request):
+        aws_keys = AWSKey.objects.all()
+        me = Studs(self.request.user)
+        aws_key = aws_keys[0]
+        print('this is the key {}'.format(aws_key.accessKey))
+        ACCESS_KEY_ID = aws_key.accessKey
+        ACCESS_SECRET_KEY = aws_key.secretKey
+        client = boto3.resource(
+        'dynamodb',
+        aws_access_key_id = ACCESS_KEY_ID,
+        aws_secret_access_key = ACCESS_SECRET_KEY,
+        region_name = 'ap-south-1'
+        )
+        table = client.Table('bodhichat')
+        student_id = me.profile.id 
+        response = table.query(KeyConditionExpression=Key('student_id').eq(student_id))
+        context = {'chatHistory':str(response)}
+        return Response(context)
+

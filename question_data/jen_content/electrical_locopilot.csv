@@ -1,0 +1,793 @@
+,sl.no.,correct,Question_link,direction,explanation,section_type,optA,optB,optC,optD,optE,category,usedFor,lang,sources,name
+0,1,a,https://i.imgur.com/PsqABuI.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+1,2,a,https://i.imgur.com/hslrjkJ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+2,3,d,https://i.imgur.com/X4S1rZ3.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+3,4,a,https://i.imgur.com/EU82zHB.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+4,5,d,https://i.imgur.com/qAS6rMG.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+5,6,a,https://i.imgur.com/dfQjfsp.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+6,7,a,https://i.imgur.com/eg6DhES.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+7,9,c,https://i.imgur.com/0elleGV.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+8,10,d,https://i.imgur.com/jFkTJwJ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+9,11,a,https://i.imgur.com/fc3ZhdD.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+10,12,a,https://i.imgur.com/UcWzZer.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+11,13,b,https://i.imgur.com/EIUp6iP.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+12,14,a,https://i.imgur.com/XnKK0Ms.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+13,15,c,https://i.imgur.com/eK58G91.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+14,16,a,https://i.imgur.com/trVeiU8.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+15,17,a,https://i.imgur.com/SSQH0vd.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+16,18,b,https://i.imgur.com/rR84l2e.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+17,19,d,https://i.imgur.com/yG2F33I.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+18,20,d,https://i.imgur.com/6VJLAeX.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+19,21,a,https://i.imgur.com/a1SYf3g.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+20,22,d,https://i.imgur.com/Azj3c61.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+21,23,b,https://i.imgur.com/YWOpy9l.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+22,24,b,https://i.imgur.com/VwA38qB.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+23,25,a,https://i.imgur.com/6w2Knff.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+24,26,b,https://i.imgur.com/tF3IsNx.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+25,27,a,https://i.imgur.com/Ttk7p45.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+26,28,c,https://i.imgur.com/7O4rssK.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+27,29,a,https://i.imgur.com/VUvKUZ2.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+28,30,b,https://i.imgur.com/gcxeDuF.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+29,31,a,https://i.imgur.com/hiIersi.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+30,32,a,https://i.imgur.com/Ob5Wbu6.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+31,33,d,https://i.imgur.com/w0JqyMM.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+32,34,d,https://i.imgur.com/9mmnF7N.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+33,36,b,https://i.imgur.com/Eaacqxd.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+34,37,d,https://i.imgur.com/PldmVvd.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+35,38,b,https://i.imgur.com/BLP2wVo.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+36,39,a,https://i.imgur.com/4O9i3Gi.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+37,40,b,https://i.imgur.com/er4wwRW.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+38,41,a,https://i.imgur.com/iMde5gL.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+39,42,a,https://i.imgur.com/vGFJuB2.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+40,43,d,https://i.imgur.com/oP19vbl.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+41,44,c,https://i.imgur.com/fxfBZWP.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+42,45,a,https://i.imgur.com/tawaWLB.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+43,46,d,https://i.imgur.com/ro1Sne8.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+44,47,a,https://i.imgur.com/ucHEQdh.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+45,48,d,https://i.imgur.com/cw6Ims9.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+46,50,c,https://i.imgur.com/6sBW2yv.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+47,51,d,https://i.imgur.com/M6Gf9pb.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+48,52,d,https://i.imgur.com/7mYWsk9.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+49,53,b,https://i.imgur.com/Hidomld.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+50,54,c,https://i.imgur.com/BcpD6JV.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+51,55,b,https://i.imgur.com/chb29Lk.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+52,56,b,https://i.imgur.com/vxF68Kr.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+53,57,d,https://i.imgur.com/ROIvBjX.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+54,58,b,https://i.imgur.com/6p2X1X7.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+55,59,d,https://i.imgur.com/4fiEVMD.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+56,60,b,https://i.imgur.com/GzW75iU.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+57,61,a,https://i.imgur.com/CH9i5ae.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+58,62,c,https://i.imgur.com/iPlcps7.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+59,64,d,https://i.imgur.com/h6ZjaOJ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+60,65,b,https://i.imgur.com/yEZZFLD.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+61,66,a,https://i.imgur.com/wG1Qsan.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+62,67,a,https://i.imgur.com/GxgjzU4.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+63,68,b,https://i.imgur.com/nKcti0b.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+64,69,d,https://i.imgur.com/HWWkjJN.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+65,70,d,https://i.imgur.com/gGNMPdw.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+66,71,d,https://i.imgur.com/OkwtFez.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+67,72,b,https://i.imgur.com/KtDws7I.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+68,73,d,https://i.imgur.com/H4d2FfG.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+69,74,d,https://i.imgur.com/T7sfAbs.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+70,75,a,https://i.imgur.com/3phXuS6.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+71,76,a,https://i.imgur.com/F0So0CZ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+72,77,a,https://i.imgur.com/EgM5uEY.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+73,78,a,https://i.imgur.com/hRMerD2.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+74,79,c,https://i.imgur.com/OMRN2Q6.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+75,80,d,https://i.imgur.com/321XiR8.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+76,81,d,https://i.imgur.com/GV8qhI1.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+77,82,b,https://i.imgur.com/28Sxs0f.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+78,83,c,https://i.imgur.com/D7GmlYk.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+79,84,d,https://i.imgur.com/PFQRAFX.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+80,85,d,https://i.imgur.com/YJQlUlO.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+81,86,a,https://i.imgur.com/f8k7UvF.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+82,88,a,https://i.imgur.com/BtH8Yo5.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+83,89,b,https://i.imgur.com/Qg7zeai.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+84,90,d,https://i.imgur.com/bG70sRx.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+85,91,d,https://i.imgur.com/k73WxD6.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+86,92,d,https://i.imgur.com/odvvFVc.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+87,93,d,https://i.imgur.com/NMQa8j4.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+88,94,d,https://i.imgur.com/jXCJDmY.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+89,95,b,https://i.imgur.com/UKiiR1B.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+90,96,d,https://i.imgur.com/MsECsdb.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+91,97,b,https://i.imgur.com/DochNrs.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+92,99,b,https://i.imgur.com/EWO9a8C.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+93,100,b,https://i.imgur.com/3f1c7pY.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+94,101,a,https://i.imgur.com/ZzOLbgA.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+95,102,b,https://i.imgur.com/RbM9dqF.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+96,103,c,https://i.imgur.com/pyRLjPe.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+97,104,b,https://i.imgur.com/vNbDrh7.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+98,105,c,https://i.imgur.com/00SE8U3.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+99,106,a,https://i.imgur.com/0iWMb1F.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+100,107,b,https://i.imgur.com/Yks6eBe.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+101,108,b,https://i.imgur.com/VMX8n5G.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+102,109,c,https://i.imgur.com/XGzIxE8.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+103,110,e,https://i.imgur.com/hs49n9f.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+104,111,a,https://i.imgur.com/1QNjT6j.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+105,112,b,https://i.imgur.com/WmyebvB.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+106,113,d,https://i.imgur.com/H1HFrI2.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+107,114,c,https://i.imgur.com/75kuk3U.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+108,115,a,https://i.imgur.com/FdX09du.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+109,116,a,https://i.imgur.com/RlgN4Kr.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+110,117,c,https://i.imgur.com/anKPP81.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+111,118,a,https://i.imgur.com/E5vQe9m.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+112,119,a,https://i.imgur.com/eD99SpC.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+113,121,d,https://i.imgur.com/2lt39y7.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+114,122,a,https://i.imgur.com/PlaC2Yz.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+115,123,c,https://i.imgur.com/vkZHGDy.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+116,124,a,https://i.imgur.com/MtcI0bE.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+117,125,c,https://i.imgur.com/TdfnS8x.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+118,126,d,https://i.imgur.com/B0vpmHG.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+119,128,b,https://i.imgur.com/ILCdLEm.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+120,129,d,https://i.imgur.com/eSNrDfH.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+121,130,c,https://i.imgur.com/sRgGzIo.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+122,131,b,https://i.imgur.com/8xbp9bQ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+123,132,a,https://i.imgur.com/uMyM5ST.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+124,133,a,https://i.imgur.com/YTgJcSm.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+125,134,d,https://i.imgur.com/vWOFTqC.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+126,135,c,https://i.imgur.com/HIa6k3K.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+127,137,d,https://i.imgur.com/h2gjWcn.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+128,138,b,https://i.imgur.com/FTM3SFe.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+129,139,c,https://i.imgur.com/0YGBjVz.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+130,140,e,https://i.imgur.com/T8eJfJl.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+131,141,d,https://i.imgur.com/nKTTsyI.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+132,142,c,https://i.imgur.com/zXyqMZB.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+133,143,a,https://i.imgur.com/CLXmhPE.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+134,144,b,https://i.imgur.com/ZRujaVi.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+135,145,a,https://i.imgur.com/8xY0N1M.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+136,146,b,https://i.imgur.com/vHyKGyD.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+137,147,c,https://i.imgur.com/EQbROAc.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+138,148,b,https://i.imgur.com/vrCLEDI.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+139,149,b,https://i.imgur.com/kGEAZyv.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+140,150,b,https://i.imgur.com/qPgsDiV.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+141,151,a,https://i.imgur.com/0YenjmE.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+142,153,d,https://i.imgur.com/neiaDiZ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+143,154,c,https://i.imgur.com/x6UQFKP.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+144,155,d,https://i.imgur.com/nCjhP8n.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+145,156,d,https://i.imgur.com/b4hn6qt.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+146,157,c,https://i.imgur.com/AAuKzGM.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+147,158,a,https://i.imgur.com/Z5bTT5l.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+148,159,c,https://i.imgur.com/5Tn0wdq.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+149,160,c,https://i.imgur.com/IJVAYG3.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+150,161,b,https://i.imgur.com/nbOV7ri.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+151,162,a,https://i.imgur.com/EtE0dsh.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+152,163,d,https://i.imgur.com/8Q8fy3y.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+153,164,b,https://i.imgur.com/YPAFwf1.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+154,165,a,https://i.imgur.com/ZPdGr8A.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+155,166,a,https://i.imgur.com/j4aMbOG.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+156,167,b,https://i.imgur.com/5bX3cDJ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+157,168,d,https://i.imgur.com/NRzmoht.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+158,169,d,https://i.imgur.com/iAQpZMS.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+159,170,d,https://i.imgur.com/Hsqna6z.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+160,171,a,https://i.imgur.com/KVbnyLh.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+161,173,c,https://i.imgur.com/teGSIdN.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+162,174,b,https://i.imgur.com/kgW3uQw.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+163,175,c,https://i.imgur.com/6XJXByA.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+164,176,b,https://i.imgur.com/WZYp7yk.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+165,177,d,https://i.imgur.com/5cNthyr.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+166,178,b,https://i.imgur.com/lHvy8RU.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+167,180,c,https://i.imgur.com/GGa8oui.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+168,181,d,https://i.imgur.com/K9xSNBV.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+169,182,d,https://i.imgur.com/Ody4JQx.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+170,183,a,https://i.imgur.com/7TvvCvP.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+171,184,b,https://i.imgur.com/gfkRLoy.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+172,185,c,https://i.imgur.com/8NI1GWS.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+173,186,c,https://i.imgur.com/YaNkm19.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+174,187,c,https://i.imgur.com/ku76mTr.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+175,188,d,https://i.imgur.com/ltyY4Ex.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+176,189,a,https://i.imgur.com/rsNoqqZ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+177,190,a,https://i.imgur.com/nWcmjCX.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+178,191,d,https://i.imgur.com/iUqbBtI.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+179,192,d,https://i.imgur.com/nHEirAl.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+180,193,b,https://i.imgur.com/DqCuAWx.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+181,194,b,https://i.imgur.com/wW46BjQ.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+182,195,a,https://i.imgur.com/AfckgnU.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+183,196,d,https://i.imgur.com/yYa5Kgz.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+184,197,b,https://i.imgur.com/sj8BGy9.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+185,198,d,https://i.imgur.com/7Eo5ChI.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+186,199,c,https://i.imgur.com/4omN3bF.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+187,200,b,https://i.imgur.com/ebXm7Y1.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+188,201,c,https://i.imgur.com/Y6FZYPc.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+189,202,a,https://i.imgur.com/RFI9WD3.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+190,203,d,https://i.imgur.com/RRZ8IHm.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+191,204,b,https://i.imgur.com/5HcsRvp.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+192,205,c,https://i.imgur.com/ieuccSx.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+193,206,a,https://i.imgur.com/zhFS99N.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+194,207,d,https://i.imgur.com/ocia8Wq.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+195,208,d,https://i.imgur.com/lagh01q.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+196,209,b,https://i.imgur.com/7HMvhlV.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+197,210,b,https://i.imgur.com/0orfD9z.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+198,211,b,https://i.imgur.com/l0dF1Ck.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+199,212,b,https://i.imgur.com/sv2RGy8.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+200,213,b,https://i.imgur.com/fSBfAOm.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+201,214,b,https://i.imgur.com/ZjJBZk3.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+202,215,b,https://i.imgur.com/2nhD5lP.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+203,216,a,https://i.imgur.com/EqMbc1g.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+204,217,a,https://i.imgur.com/MiAb9p7.png,,,locopilot_electrical,A,B,C,D,E,8.1,ALP,Hindi,RBD,AC Theory 
+205,1,b,https://i.imgur.com/b0zw9b8.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+206,2,c,https://i.imgur.com/NLZw0xn.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+207,3,d,https://i.imgur.com/uC4xI4H.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+208,4,c,https://i.imgur.com/bZR29M7.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+209,5,a,https://i.imgur.com/2hQ42hr.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+210,6,c,https://i.imgur.com/oD6IHw8.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+211,7,a,https://i.imgur.com/SSdDHxV.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+212,8,b,https://i.imgur.com/jeojrd3.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+213,9,d,https://i.imgur.com/Bhd5RTe.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+214,10,d,https://i.imgur.com/BS0583B.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+215,11,c,https://i.imgur.com/t8tFrtj.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+216,12,a,https://i.imgur.com/95cKDai.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+217,13,b,https://i.imgur.com/JAOZUYT.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+218,14,c,https://i.imgur.com/2xXJ9kS.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+219,15,d,https://i.imgur.com/gNAZAk3.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+220,16,c,https://i.imgur.com/K11YJfQ.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+221,17,d,https://i.imgur.com/eXXypeq.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+222,18,c,https://i.imgur.com/LEt0U1t.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+223,19,c,https://i.imgur.com/0pjvN8C.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+224,20,c,https://i.imgur.com/nRWMffT.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+225,21,d,https://i.imgur.com/IMpvr8E.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+226,22,d,https://i.imgur.com/1LmLodp.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+227,23,c,https://i.imgur.com/rD8r2so.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+228,24,d,https://i.imgur.com/nzW1RFE.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+229,25,a,https://i.imgur.com/qc1Z7OL.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+230,26,b,https://i.imgur.com/g1mKl74.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+231,27,b,https://i.imgur.com/sf8fbwt.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+232,28,d,https://i.imgur.com/eh8rplO.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+233,29,b,https://i.imgur.com/mYKszeH.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+234,30,a,https://i.imgur.com/beWdwYU.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+235,31,d,https://i.imgur.com/wzbFZvx.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+236,32,a,https://i.imgur.com/Ejd5rrZ.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+237,33,c,https://i.imgur.com/acw4aiL.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+238,34,b,https://i.imgur.com/o1eSDJH.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+239,35,a,https://i.imgur.com/45uFfJp.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+240,36,c,https://i.imgur.com/YrfXXgz.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+241,37,c,https://i.imgur.com/tN5oaCi.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+242,38,a,https://i.imgur.com/nDwuenJ.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+243,39,a,https://i.imgur.com/j5REU1Q.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+244,40,b,https://i.imgur.com/pqFyd7b.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+245,41,a,https://i.imgur.com/vavc1jW.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+246,42,d,https://i.imgur.com/fiDMQRx.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+247,43,a,https://i.imgur.com/0Mj0GQT.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+248,44,b,https://i.imgur.com/hZzMlm2.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+249,45,c,https://i.imgur.com/GaFsMUg.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+250,46,c,https://i.imgur.com/2Chd3Zd.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+251,47,b,https://i.imgur.com/6y0J1wR.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+252,48,d,https://i.imgur.com/BLue2u4.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+253,49,a,https://i.imgur.com/Hv6K11u.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+254,50,b,https://i.imgur.com/uOAElzb.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+255,51,d,https://i.imgur.com/daAfkCE.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+256,52,a,https://i.imgur.com/GsujA81.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+257,53,c,https://i.imgur.com/xAISJdD.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+258,54,a,https://i.imgur.com/qA6SPsI.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+259,55,d,https://i.imgur.com/11EfA1F.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+260,56,d,https://i.imgur.com/RA79UY7.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+261,57,b,https://i.imgur.com/1s4bc7p.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+262,58,b,https://i.imgur.com/VKp93pe.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+263,59,c,https://i.imgur.com/eKPXD5S.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+264,60,b,https://i.imgur.com/PK54xLQ.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+265,61,d,https://i.imgur.com/Jg1cvUQ.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+266,63,a,https://i.imgur.com/gaKyuc9.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+267,64,d,https://i.imgur.com/GDU5xNf.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+268,65,d,https://i.imgur.com/5cFzl8W.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+269,66,b,https://i.imgur.com/wQe34Tj.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+270,67,b,https://i.imgur.com/SVR6Fjn.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+271,68,d,https://i.imgur.com/ii6ASrp.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+272,69,d,https://i.imgur.com/A5M5J17.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+273,70,a,https://i.imgur.com/kCIL8LL.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+274,71,b,https://i.imgur.com/iqfXdv9.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+275,72,d,https://i.imgur.com/pKrDpr3.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+276,73,a,https://i.imgur.com/C91s7Xc.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+277,74,d,https://i.imgur.com/sU3X4cy.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+278,75,b,https://i.imgur.com/mlWGug9.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+279,76,c,https://i.imgur.com/YikpiI0.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+280,77,b,https://i.imgur.com/uIEVUwS.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+281,78,c,https://i.imgur.com/3oNqM3U.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+282,79,a,https://i.imgur.com/YZ2dsKb.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+283,80,b,https://i.imgur.com/a4uzes8.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+284,81,c,https://i.imgur.com/y613Ko8.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+285,82,b,https://i.imgur.com/oJWk6Eu.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+286,83,b,https://i.imgur.com/P9EXzIN.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+287,84,a,https://i.imgur.com/USlOk6i.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+288,85,b,https://i.imgur.com/lrjHZZO.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+289,86,c,https://i.imgur.com/a4jb41v.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+290,87,c,https://i.imgur.com/ljVRtKn.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+291,88,d,https://i.imgur.com/rAi4mqN.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+292,89,a,https://i.imgur.com/X971Znd.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+293,91,a,https://i.imgur.com/Kohbipd.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+294,92,c,https://i.imgur.com/7FihCbK.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+295,93,d,https://i.imgur.com/JVitOZs.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+296,94,b,https://i.imgur.com/W9Exetb.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+297,95,d,https://i.imgur.com/1zs0h9K.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+298,97,b,https://i.imgur.com/s9zv0j1.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+299,98,d,https://i.imgur.com/QgdNQ45.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+300,99,b,https://i.imgur.com/uAd9AjI.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+301,100,a,https://i.imgur.com/vTSFQ4C.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+302,101,b,https://i.imgur.com/pGSb1DT.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+303,102,a,https://i.imgur.com/8kZzrJs.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+304,103,c,https://i.imgur.com/AajO9nW.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+305,104,d,https://i.imgur.com/KAyTYyR.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+306,105,b,https://i.imgur.com/o8LGD1O.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+307,106,c,https://i.imgur.com/7G79kBW.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+308,107,d,https://i.imgur.com/KzF4BC2.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+309,108,d,https://i.imgur.com/4jWV5dK.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+310,109,d,https://i.imgur.com/0jEqJ7r.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+311,110,a,https://i.imgur.com/0ruf8wo.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+312,112,b,https://i.imgur.com/NnF6Dmb.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+313,113,d,https://i.imgur.com/fBEAqjp.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+314,114,b,https://i.imgur.com/ddQZhv4.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+315,115,b,https://i.imgur.com/LZXfZDW.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+316,116,c,https://i.imgur.com/OrxJCpI.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+317,117,c,https://i.imgur.com/lj0arFO.png,,,locopilot_electrical,A,B,C,D,E,6.1,ALP,Hindi,RBD,DC Generator
+318,1,c,https://i.imgur.com/piBObMY.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+319,2,d,https://i.imgur.com/5u46HR2.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+320,3,d,https://i.imgur.com/t7TZ4y1.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+321,4,b,https://i.imgur.com/vrwtXHh.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+322,5,a,https://i.imgur.com/JJ0AmMK.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+323,6,b,https://i.imgur.com/sEUuB9B.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+324,7,a,https://i.imgur.com/uhTH2jL.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+325,8,c,https://i.imgur.com/3BIxNLk.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+326,9,a,https://i.imgur.com/WrVTBiI.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+327,10,c,https://i.imgur.com/i1wWvtu.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+328,11,a,https://i.imgur.com/KYYSLEv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+329,12,c,https://i.imgur.com/AqZsfEI.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+330,13,a,https://i.imgur.com/jddR6IG.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+331,14,b,https://i.imgur.com/syQbYNL.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+332,15,a,https://i.imgur.com/uTdg7gS.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+333,17,d,https://i.imgur.com/a894eEw.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+334,18,a,https://i.imgur.com/LGozad2.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+335,19,c,https://i.imgur.com/clDCvGG.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+336,20,a,https://i.imgur.com/mx4qoUD.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+337,21,a,https://i.imgur.com/4hkKOVG.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+338,22,c,https://i.imgur.com/JRg8XuN.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+339,23,d,https://i.imgur.com/7XkmY0x.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+340,24,b,https://i.imgur.com/Ywq8rGh.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+341,25,a,https://i.imgur.com/bV5ejDc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+342,26,b,https://i.imgur.com/s6mLUzw.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+343,27,b,https://i.imgur.com/mYXbXC7.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+344,28,d,https://i.imgur.com/V2fIhX7.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+345,29,a,https://i.imgur.com/kAVHdxq.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+346,30,d,https://i.imgur.com/DOoE9nW.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+347,31,c,https://i.imgur.com/Nz2heM4.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+348,32,d,https://i.imgur.com/cnTYwaQ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+349,33,b,https://i.imgur.com/IUU1lAf.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+350,34,a,https://i.imgur.com/hP5h16t.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+351,35,b,https://i.imgur.com/YMofAlv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+352,36,d,https://i.imgur.com/2cWKWTv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+353,37,d,https://i.imgur.com/P7SfhX7.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+354,38,b,https://i.imgur.com/6UOuh8B.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+355,39,d,https://i.imgur.com/Cyn2TH6.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+356,40,c,https://i.imgur.com/I2H8ET1.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+357,41,c,https://i.imgur.com/uD8oCrr.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+358,42,c,https://i.imgur.com/gCIFxAQ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+359,43,c,https://i.imgur.com/PLg6yO6.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+360,44,b,https://i.imgur.com/sosFa2P.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+361,45,c,https://i.imgur.com/uNi6rNV.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+362,46,a,https://i.imgur.com/xVV3jSy.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+363,47,c,https://i.imgur.com/gf5RYTh.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+364,48,c,https://i.imgur.com/ejMm3iU.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+365,49,b,https://i.imgur.com/lsx6Fha.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+366,50,b,https://i.imgur.com/AaDnZTF.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+367,51,d,https://i.imgur.com/Tgff1FH.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+368,52,c,https://i.imgur.com/NlMk6MS.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+369,53,c,https://i.imgur.com/DNocgvY.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+370,54,b,https://i.imgur.com/Nt8Co71.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+371,55,d,https://i.imgur.com/bbbqIZD.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+372,56,d,https://i.imgur.com/mPJcqCc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+373,57,d,https://i.imgur.com/SvbwsIv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+374,58,a,https://i.imgur.com/8JCFcLX.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+375,59,b,https://i.imgur.com/eHPT3g3.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+376,60,c,https://i.imgur.com/uOShoIp.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+377,61,d,https://i.imgur.com/MtseUTR.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+378,62,b,https://i.imgur.com/2205IVY.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+379,63,b,https://i.imgur.com/YpaN3EX.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+380,64,c,https://i.imgur.com/5JvdbdI.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+381,65,c,https://i.imgur.com/LFyO8Z9.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+382,66,d,https://i.imgur.com/7s92KAO.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+383,67,b,https://i.imgur.com/P8QgLwf.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+384,68,d,https://i.imgur.com/wJdHxVc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+385,69,a,https://i.imgur.com/NhhRzpx.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+386,70,a,https://i.imgur.com/cmD8Jwy.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+387,71,a,https://i.imgur.com/JFyEldp.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+388,72,d,https://i.imgur.com/AZaOxNy.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+389,73,b,https://i.imgur.com/Md74P9h.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+390,74,d,https://i.imgur.com/qJa3JPL.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+391,75,c,https://i.imgur.com/OOoWfoX.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+392,77,b,https://i.imgur.com/jqERqtX.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+393,78,b,https://i.imgur.com/K489rsQ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+394,79,d,https://i.imgur.com/IJI87Ky.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+395,80,c,https://i.imgur.com/HsFbxha.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+396,81,d,https://i.imgur.com/7s4pVB9.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+397,82,d,https://i.imgur.com/CqYbzdV.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+398,83,a,https://i.imgur.com/MXnCVcm.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+399,85,d,https://i.imgur.com/k3XmZHB.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+400,86,c,https://i.imgur.com/X5wCRn3.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+401,87,a,https://i.imgur.com/xw7Ncv8.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+402,88,a,https://i.imgur.com/l5ljda5.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+403,89,a,https://i.imgur.com/PGYJmPq.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+404,90,b,https://i.imgur.com/6bMgBry.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+405,92,a,https://i.imgur.com/knrnkPD.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+406,93,d,https://i.imgur.com/oBS2BJC.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+407,94,c,https://i.imgur.com/Wy9ZoTW.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+408,95,a,https://i.imgur.com/yOxgfyW.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+409,96,c,https://i.imgur.com/UUlBc9G.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+410,97,b,https://i.imgur.com/ubMB5lc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+411,98,b,https://i.imgur.com/2UN47dc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+412,99,b,https://i.imgur.com/AFK7d3f.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+413,100,c,https://i.imgur.com/XFZyMbr.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+414,101,d,https://i.imgur.com/V8JP85s.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+415,102,c,https://i.imgur.com/47DU05x.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+416,103,a,https://i.imgur.com/aLHvZPA.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+417,104,a,https://i.imgur.com/AU1jogp.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+418,105,a,https://i.imgur.com/C3mm2Kz.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+419,106,d,https://i.imgur.com/uu1ODPV.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+420,107,a,https://i.imgur.com/y0RUb9f.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+421,108,c,https://i.imgur.com/wou9TJI.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+422,109,c,https://i.imgur.com/8LMCnwJ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+423,110,d,https://i.imgur.com/Y98slxA.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+424,111,a,https://i.imgur.com/7EMpWJc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+425,112,d,https://i.imgur.com/HyQVYLv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+426,113,d,https://i.imgur.com/qLZTzvZ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+427,114,b,https://i.imgur.com/XnqXXxc.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+428,115,d,https://i.imgur.com/RxOYYLk.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+429,116,c,https://i.imgur.com/ZWdm0Ye.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+430,117,d,https://i.imgur.com/gLMHE5R.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+431,118,c,https://i.imgur.com/voLdgIt.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+432,119,b,https://i.imgur.com/MqaBtjz.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+433,120,c,https://i.imgur.com/JKzIff9.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+434,122,d,https://i.imgur.com/BhdSFyv.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+435,123,a,https://i.imgur.com/cvomope.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+436,124,b,https://i.imgur.com/tY2khrs.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+437,125,c,https://i.imgur.com/zYgkMZF.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+438,126,d,https://i.imgur.com/k62EYaK.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+439,127,a,https://i.imgur.com/Ssd8lRd.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+440,128,d,https://i.imgur.com/ahcs8L8.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+441,129,c,https://i.imgur.com/hII2sSJ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+442,130,c,https://i.imgur.com/fihHmMT.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+443,131,b,https://i.imgur.com/tYbiP6D.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+444,132,d,https://i.imgur.com/7siK9Uy.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+445,133,a,https://i.imgur.com/Y0EDPmX.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+446,134,c,https://i.imgur.com/IgLpcXd.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+447,135,b,https://i.imgur.com/YgMs7ru.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+448,137,c,https://i.imgur.com/JIc9Tsa.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+449,138,b,https://i.imgur.com/7i2QWVY.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+450,139,c,https://i.imgur.com/FWA3UjM.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+451,140,c,https://i.imgur.com/BaMAT3e.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+452,141,b,https://i.imgur.com/yXCuJWP.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+453,142,a,https://i.imgur.com/m9Ox89n.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+454,143,d,https://i.imgur.com/v47YJoU.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+455,145,d,https://i.imgur.com/Q0szIHZ.png,,,locopilot_electrical,A,B,C,D,E,7.1,ALP,Hindi,RBD,DC MOTOR
+456,1,a,https://i.imgur.com/id9hx5K.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+457,2,a,https://i.imgur.com/rmWe5Df.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+458,3,d,https://i.imgur.com/isKsBvY.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+459,4,b,https://i.imgur.com/spw6QOa.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+460,5,d,https://i.imgur.com/SC2WD3i.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+461,6,d,https://i.imgur.com/wVaQcbb.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+462,8,d,https://i.imgur.com/4rzR4qg.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+463,9,b,https://i.imgur.com/loFjDvW.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+464,10,a,https://i.imgur.com/93qCL0z.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+465,11,d,https://i.imgur.com/nV8abUj.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+466,12,d,https://i.imgur.com/9xQNkiP.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+467,13,b,https://i.imgur.com/TCnZGEx.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+468,14,b,https://i.imgur.com/1amAEPc.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+469,15,a,https://i.imgur.com/Z48QAX0.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+470,16,b,https://i.imgur.com/bR0BFfZ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+471,17,a,https://i.imgur.com/RuWyP6v.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+472,18,c,https://i.imgur.com/cdsnOAs.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+473,19,a,https://i.imgur.com/vyqoPws.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+474,20,c,https://i.imgur.com/PkDYXEX.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+475,21,c,https://i.imgur.com/SPzBHxb.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+476,22,a,https://i.imgur.com/FU5aNZP.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+477,23,b,https://i.imgur.com/cQhpa2O.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+478,24,a,https://i.imgur.com/n0OtUir.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+479,25,a,https://i.imgur.com/PP870pq.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+480,26,b,https://i.imgur.com/GdXckIz.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+481,27,c,https://i.imgur.com/2i6z0RF.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+482,28,c,https://i.imgur.com/OYjowmy.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+483,29,d,https://i.imgur.com/2Ar2lAe.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+484,30,a,https://i.imgur.com/b4Govm1.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+485,31,a,https://i.imgur.com/c6rEFmA.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+486,32,b,https://i.imgur.com/YLcaKWk.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+487,33,c,https://i.imgur.com/VEVCO4g.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+488,34,a,https://i.imgur.com/PpP1SgO.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+489,35,d,https://i.imgur.com/LOrDiFl.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+490,36,b,https://i.imgur.com/6MLnSSJ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+491,37,b,https://i.imgur.com/7vhjFEh.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+492,38,c,https://i.imgur.com/MmBd1Zs.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+493,39,a,https://i.imgur.com/aVQU44S.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+494,40,d,https://i.imgur.com/y5QHif8.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+495,41,a,https://i.imgur.com/hfXYQEW.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+496,42,b,https://i.imgur.com/EM6eaBE.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+497,43,a,https://i.imgur.com/rQDwA9P.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+498,44,d,https://i.imgur.com/pelQwlv.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+499,45,c,https://i.imgur.com/cXyXyF5.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+500,46,b,https://i.imgur.com/SAZcvfa.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+501,47,a,https://i.imgur.com/9VEEahQ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+502,48,d,https://i.imgur.com/JJoq0la.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+503,49,a,https://i.imgur.com/irX1lKz.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+504,50,a,https://i.imgur.com/ZHf9T0S.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+505,51,b,https://i.imgur.com/PJ87yUM.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+506,52,a,https://i.imgur.com/hhbnJ7w.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+507,53,d,https://i.imgur.com/v3AWxby.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+508,54,c,https://i.imgur.com/nsGoLCF.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+509,55,b,https://i.imgur.com/xHaB0Hu.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+510,56,b,https://i.imgur.com/KFfZEx2.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+511,57,d,https://i.imgur.com/dMj3j97.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+512,58,a,https://i.imgur.com/EZO591D.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+513,59,d,https://i.imgur.com/yh7BxlW.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+514,60,c,https://i.imgur.com/mr9hveo.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+515,61,b,https://i.imgur.com/XxlWfRt.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+516,62,d,https://i.imgur.com/zR5nVTo.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+517,64,d,https://i.imgur.com/tEANPfa.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+518,65,b,https://i.imgur.com/lFWldnv.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+519,66,d,https://i.imgur.com/9Vm4Mb2.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+520,67,a,https://i.imgur.com/86GJcvU.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+521,68,a,https://i.imgur.com/B8xrx7m.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+522,69,a,https://i.imgur.com/qWQm9Vl.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+523,70,b,https://i.imgur.com/R6uZfhX.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+524,71,c,https://i.imgur.com/E797QN6.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+525,72,d,https://i.imgur.com/lTEo5uL.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+526,73,c,https://i.imgur.com/5y6HvuU.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+527,74,d,https://i.imgur.com/DVLrraj.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+528,75,b,https://i.imgur.com/EI8xYkr.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+529,76,c,https://i.imgur.com/6IJUvXV.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+530,77,c,https://i.imgur.com/37yA5MH.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+531,78,d,https://i.imgur.com/VMEVivJ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+532,79,c,https://i.imgur.com/uNGOmPq.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+533,80,a,https://i.imgur.com/WEUyGza.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+534,81,d,https://i.imgur.com/juX3znB.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+535,82,a,https://i.imgur.com/18UbUja.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+536,84,c,https://i.imgur.com/5ABu0Hm.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+537,85,a,https://i.imgur.com/fsMhryg.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+538,86,a,https://i.imgur.com/PfkGlny.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+539,87,d,https://i.imgur.com/tCGPOEO.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+540,88,b,https://i.imgur.com/IuVslY6.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+541,89,b,https://i.imgur.com/Adqz7G2.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+542,91,c,https://i.imgur.com/hPiHPuO.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+543,92,b,https://i.imgur.com/Ow0zd5S.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+544,93,a,https://i.imgur.com/kMONp3q.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+545,94,a,https://i.imgur.com/vHZ43MS.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+546,95,a,https://i.imgur.com/rs3aD0I.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+547,96,b,https://i.imgur.com/Gyt4o8m.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+548,97,a,https://i.imgur.com/euw0Wqk.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+549,98,c,https://i.imgur.com/qJMXXt3.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+550,99,c,https://i.imgur.com/kRc8kuH.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+551,100,c,https://i.imgur.com/lkbXHVY.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+552,101,d,https://i.imgur.com/SQOvbSa.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+553,102,d,https://i.imgur.com/ImAPp2N.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+554,103,a,https://i.imgur.com/DTiFzH5.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+555,104,c,https://i.imgur.com/NwZnDwJ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+556,105,b,https://i.imgur.com/UeWmBfJ.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+557,106,d,https://i.imgur.com/BM6o7JT.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+558,107,d,https://i.imgur.com/K2hy32U.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+559,108,c,https://i.imgur.com/w4TQVTT.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+560,109,b,https://i.imgur.com/7S7AoGF.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+561,110,c,https://i.imgur.com/7e6664h.png,,,locopilot_electrical,A,B,C,D,E,21.1,ALP,Hindi,RBD,DC Theory
+562,1,b,https://i.imgur.com/tnFHj2S.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+563,2,a,https://i.imgur.com/zKYFq2B.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+564,3,c,https://i.imgur.com/6YJnCrf.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+565,4,b,https://i.imgur.com/vJCWUVx.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+566,5,b,https://i.imgur.com/TAyTTu7.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+567,6,a,https://i.imgur.com/bIlt0UL.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+568,7,b,https://i.imgur.com/09ZWXRU.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+569,8,c,https://i.imgur.com/mxj9G3H.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+570,9,c,https://i.imgur.com/BhdMcgj.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+571,10,c,https://i.imgur.com/tLwxvTZ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+572,11,d,https://i.imgur.com/c9fJfGC.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+573,12,b,https://i.imgur.com/jogL6w1.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+574,13,b,https://i.imgur.com/UYxky0b.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+575,14,a,https://i.imgur.com/pvu0BwK.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+576,15,d,https://i.imgur.com/xpl9Omr.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+577,16,b,https://i.imgur.com/w4LIjra.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+578,18,b,https://i.imgur.com/pWAyWvw.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+579,19,b,https://i.imgur.com/PykW3AQ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+580,20,b,https://i.imgur.com/6dgr9ZA.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+581,21,a,https://i.imgur.com/MirX6AL.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+582,22,d,https://i.imgur.com/4GDcbJo.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+583,23,b,https://i.imgur.com/rs39CLb.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+584,24,c,https://i.imgur.com/2XxQyWF.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+585,25,d,https://i.imgur.com/nwOtZsP.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+586,26,b,https://i.imgur.com/0UkUGW3.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+587,27,d,https://i.imgur.com/qBHt0Iu.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+588,28,d,https://i.imgur.com/M6sU4L8.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+589,29,a,https://i.imgur.com/pOrjcEu.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+590,30,a,https://i.imgur.com/oVJjfKL.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+591,31,d,https://i.imgur.com/ONqpf4b.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+592,32,b,https://i.imgur.com/hHazDOK.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+593,33,c,https://i.imgur.com/yE69qjK.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+594,34,b,https://i.imgur.com/DoZjuBQ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+595,35,d,https://i.imgur.com/0Zi8BsM.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+596,36,d,https://i.imgur.com/kOb2Qcc.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+597,37,d,https://i.imgur.com/JKOoccU.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+598,38,b,https://i.imgur.com/oaBBUfQ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+599,39,d,https://i.imgur.com/av5QQpY.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+600,40,d,https://i.imgur.com/2NPG7vw.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+601,41,d,https://i.imgur.com/UCTgt5O.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+602,42,c,https://i.imgur.com/1qVOA4N.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+603,43,a,https://i.imgur.com/C3ca8Zr.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+604,44,b,https://i.imgur.com/8Shi3LO.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+605,45,c,https://i.imgur.com/llwZx5O.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+606,46,a,https://i.imgur.com/3GxhaWj.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+607,47,c,https://i.imgur.com/nfoNb3z.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+608,48,d,https://i.imgur.com/uSEZYEP.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+609,49,d,https://i.imgur.com/51SRZES.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+610,50,a,https://i.imgur.com/YkuHI0m.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+611,51,d,https://i.imgur.com/offbmGx.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+612,53,d,https://i.imgur.com/qwYe2tb.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+613,54,a,https://i.imgur.com/0xLTHZ1.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+614,55,b,https://i.imgur.com/nLSwJrR.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+615,56,c,https://i.imgur.com/XqPTHav.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+616,57,b,https://i.imgur.com/VeoIbCb.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+617,58,a,https://i.imgur.com/tN2Laus.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+618,59,a,https://i.imgur.com/YJIWgE0.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+619,60,b,https://i.imgur.com/35TCboc.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+620,61,b,https://i.imgur.com/wRbh9qd.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+621,62,a,https://i.imgur.com/f21RRxB.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+622,63,d,https://i.imgur.com/lnzvgYZ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+623,64,b,https://i.imgur.com/08jnagm.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+624,65,a,https://i.imgur.com/1bl77ug.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+625,66,a,https://i.imgur.com/D9MiJDv.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+626,67,b,https://i.imgur.com/f0NkTK4.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+627,68,d,https://i.imgur.com/PUrGDBn.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+628,69,d,https://i.imgur.com/fmySvRV.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+629,70,c,https://i.imgur.com/JnISI2V.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+630,71,b,https://i.imgur.com/E8xUqoA.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+631,72,b,https://i.imgur.com/yWVbLBb.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+632,73,a,https://i.imgur.com/nLCCa6S.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+633,74,d,https://i.imgur.com/U2F5855.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+634,75,d,https://i.imgur.com/CXd0Rcx.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+635,76,d,https://i.imgur.com/A4yK5L9.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+636,77,c,https://i.imgur.com/JRXJA8F.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+637,78,d,https://i.imgur.com/JXSH88r.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+638,79,d,https://i.imgur.com/ivqzhH9.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+639,80,c,https://i.imgur.com/E81M5VJ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+640,83,a,https://i.imgur.com/nYWlP6j.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+641,84,b,https://i.imgur.com/OlDPhwZ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+642,85,b,https://i.imgur.com/a2vNAfb.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+643,86,b,https://i.imgur.com/vPwcF5T.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+644,87,a,https://i.imgur.com/RjdNJAS.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+645,88,a,https://i.imgur.com/JdLzdY9.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+646,89,a,https://i.imgur.com/b5mqrq9.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+647,90,a,https://i.imgur.com/YE5XE1n.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+648,91,a,https://i.imgur.com/rKTvoEB.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+649,92,c,https://i.imgur.com/Y6LrxnP.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+650,93,b,https://i.imgur.com/BVbbFBJ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+651,94,d,https://i.imgur.com/4F3YUFN.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+652,95,b,https://i.imgur.com/usIoFiC.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+653,99,d,https://i.imgur.com/TRF9lZ8.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+654,100,b,https://i.imgur.com/z5vGHkU.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+655,101,b,https://i.imgur.com/02XYmpW.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+656,102,a,https://i.imgur.com/HG9Tmqs.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+657,103,d,https://i.imgur.com/FFdnZSC.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+658,104,b,https://i.imgur.com/TeJrYn6.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+659,105,b,https://i.imgur.com/CEA57II.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+660,106,b,https://i.imgur.com/YhRRCID.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+661,107,c,https://i.imgur.com/B7md3HP.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+662,108,c,https://i.imgur.com/RlgiqrQ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+663,109,a,https://i.imgur.com/u4BuNI3.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+664,110,b,https://i.imgur.com/M7O7218.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+665,111,a,https://i.imgur.com/hCVJ9FA.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+666,112,b,https://i.imgur.com/QEjR9CO.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+667,113,b,https://i.imgur.com/qlcW4xa.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+668,114,c,https://i.imgur.com/gUvg6pe.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+669,115,b,https://i.imgur.com/b2KC8o5.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+670,116,a,https://i.imgur.com/to3SaLJ.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+671,117,a,https://i.imgur.com/dDpLtHN.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+672,118,c,https://i.imgur.com/SI2c41C.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+673,120,d,https://i.imgur.com/3t24Pr4.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+674,121,d,https://i.imgur.com/PhrLqRx.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+675,122,a,https://i.imgur.com/XwfQ7k6.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+676,123,c,https://i.imgur.com/oacurRG.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+677,124,c,https://i.imgur.com/LaFT6BW.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+678,125,b,https://i.imgur.com/PoNkBYv.png,,,locopilot_electrical,A,B,C,D,E,22.1,ALP,Hindi,RBD,Electromagnet
+679,1,c,https://i.imgur.com/YQJOuqE.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+680,2,a,https://i.imgur.com/9f9P3mi.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+681,3,d,https://i.imgur.com/nU3fLcV.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+682,4,b,https://i.imgur.com/wrkGmcb.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+683,5,a,https://i.imgur.com/Y7yZvzh.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+684,6,d,https://i.imgur.com/OO81yYv.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+685,7,d,https://i.imgur.com/NyWaV3b.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+686,8,b,https://i.imgur.com/xBUSDCz.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+687,9,b,https://i.imgur.com/8o89EfC.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+688,10,d,https://i.imgur.com/2GLN0at.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+689,11,b,https://i.imgur.com/p3eQ5pD.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+690,12,d,https://i.imgur.com/glPamWt.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+691,13,a,https://i.imgur.com/VyOCLgi.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+692,14,d,https://i.imgur.com/ucgH5xl.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+693,15,b,https://i.imgur.com/wTnvDER.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+694,16,a,https://i.imgur.com/4AXc6A7.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+695,17,d,https://i.imgur.com/c2xk4hy.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+696,18,b,https://i.imgur.com/b5rUADI.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+697,19,d,https://i.imgur.com/nxA5DcN.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+698,20,a,https://i.imgur.com/zgz0yF6.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+699,21,b,https://i.imgur.com/UpMtsAZ.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+700,22,b,https://i.imgur.com/1oCDiJE.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+701,23,d,https://i.imgur.com/BhdrHiT.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+702,24,d,https://i.imgur.com/C4m63ku.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+703,25,b,https://i.imgur.com/IFjq2xc.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+704,26,a,https://i.imgur.com/AfCMJIP.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+705,27,a,https://i.imgur.com/Mg9YvQE.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+706,28,d,https://i.imgur.com/cLYO5dM.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+707,29,a,https://i.imgur.com/UdKG84q.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+708,30,c,https://i.imgur.com/83SrXRl.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+709,31,c,https://i.imgur.com/4zsBMEz.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+710,32,a,https://i.imgur.com/ZUXp5Cl.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+711,33,c,https://i.imgur.com/r6wMMCA.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+712,34,a,https://i.imgur.com/gEUCI9x.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+713,35,d,https://i.imgur.com/1ihg7i5.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+714,36,a,https://i.imgur.com/FNPaafs.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+715,37,c,https://i.imgur.com/1qPgDDa.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+716,38,d,https://i.imgur.com/wafkgDe.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+717,39,b,https://i.imgur.com/3vPr4JI.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+718,40,c,https://i.imgur.com/PGjSpTH.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+719,41,d,https://i.imgur.com/qS9ssFB.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+720,42,b,https://i.imgur.com/vG4lGuJ.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+721,43,d,https://i.imgur.com/QCfOWwf.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+722,44,b,https://i.imgur.com/yQ6FvJO.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+723,45,b,https://i.imgur.com/B4EZY6z.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+724,46,a,https://i.imgur.com/DdQIJbF.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+725,47,b,https://i.imgur.com/sEpeSGZ.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+726,48,a,https://i.imgur.com/ZbTktHn.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+727,49,c,https://i.imgur.com/09AgiW3.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+728,50,c,https://i.imgur.com/wdjNQU6.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+729,51,d,https://i.imgur.com/Yj1aaAS.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+730,52,c,https://i.imgur.com/5snpYnO.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+731,53,d,https://i.imgur.com/X7b72Jf.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+732,54,d,https://i.imgur.com/SzNNvNd.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+733,55,d,https://i.imgur.com/xYpp6Bk.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+734,56,b,https://i.imgur.com/KrPjUO4.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+735,57,b,https://i.imgur.com/HTROlvP.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+736,58,d,https://i.imgur.com/ALBv7n9.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+737,59,c,https://i.imgur.com/cqFpsz0.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+738,60,a,https://i.imgur.com/DhhMQTy.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+739,61,d,https://i.imgur.com/0fWqHNP.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+740,62,c,https://i.imgur.com/JuyHX0y.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+741,63,a,https://i.imgur.com/dGhurKT.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+742,64,d,https://i.imgur.com/HjldRiL.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+743,65,b,https://i.imgur.com/7tsMaA6.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+744,66,c,https://i.imgur.com/HnL6cdc.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+745,67,a,https://i.imgur.com/wIBU0Bq.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+746,68,d,https://i.imgur.com/1POVdm8.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+747,69,a,https://i.imgur.com/p6aH6mE.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+748,70,a,https://i.imgur.com/ivNb5iB.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+749,71,a,https://i.imgur.com/LWBoGJn.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+750,72,a,https://i.imgur.com/M2XNRst.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+751,73,b,https://i.imgur.com/jLeIp2A.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+752,74,d,https://i.imgur.com/4dgjl0j.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+753,75,c,https://i.imgur.com/YKc4NCR.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+754,76,c,https://i.imgur.com/hgLKwYO.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+755,77,b,https://i.imgur.com/gdHXYWt.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+756,78,c,https://i.imgur.com/zwdGhJ8.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+757,79,c,https://i.imgur.com/y8dHlTE.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+758,80,b,https://i.imgur.com/BLyPSHB.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+759,81,b,https://i.imgur.com/JAsDh5k.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+760,82,a,https://i.imgur.com/jZ9jmVO.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+761,83,d,https://i.imgur.com/z4e7AHc.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+762,84,d,https://i.imgur.com/qPhduOe.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+763,85,d,https://i.imgur.com/DO6FpMt.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+764,86,b,https://i.imgur.com/1KqsC0D.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+765,87,c,https://i.imgur.com/abkVKYM.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+766,88,d,https://i.imgur.com/fbXbfm1.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+767,89,c,https://i.imgur.com/WVinj5Z.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+768,90,b,https://i.imgur.com/9sLoTM6.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+769,91,d,https://i.imgur.com/Unf1eVJ.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+770,92,b,https://i.imgur.com/lfKzyzt.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+771,94,e,https://i.imgur.com/JcMKdz6.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+772,95,d,https://i.imgur.com/0asQRiV.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+773,96,d,https://i.imgur.com/p5ixLZ3.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+774,97,c,https://i.imgur.com/N5ov2zS.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+775,98,b,https://i.imgur.com/RxYcSgT.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+776,99,a,https://i.imgur.com/GFWs7Pp.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+777,100,d,https://i.imgur.com/r0ZGHeu.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+778,101,d,https://i.imgur.com/rWDQQj7.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+779,102,c,https://i.imgur.com/RV5AHPT.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+780,103,d,https://i.imgur.com/lXMy6A3.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+781,104,b,https://i.imgur.com/6pZksMY.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+782,105,d,https://i.imgur.com/wfgFca9.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+783,106,d,https://i.imgur.com/aTq9wrl.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+784,107,c,https://i.imgur.com/CSr0g8R.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+785,108,c,https://i.imgur.com/kPCrat2.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+786,109,c,https://i.imgur.com/ZoW1yfZ.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+787,110,a,https://i.imgur.com/KgiTl3U.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+788,111,a,https://i.imgur.com/N9WzAtl.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+789,112,c,https://i.imgur.com/30s0TpA.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+790,113,c,https://i.imgur.com/cdMuM2T.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell
+791,115,c,https://i.imgur.com/k6h7olq.png,,,locopilot_electrical,A,B,C,D,E,23.1,ALP,Hindi,RBD,Primary & Secondry Cell

@@ -1,0 +1,72 @@
+{% extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+<html>
+	<head>
+
+{%block title %}
+		Create Test
+		{%endblock%}
+		{%block scripts %}
+   <script src="{%static 'basicinformation/js1/main.min-v=2.0.js' %}"></script>
+        
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script>
+		 $(document).ready(function () {
+		 	var pr
+		 	for(i=1 ; i<=10; i++){
+		 	$(eval("'#classButton'+i")).click(function(){
+ajKl = $(this).text();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loadingCreateTest1').show();
+         $('#chapters').removeClass("hidden");
+         $('#chapters').html('').load('{% url 'QuestionsAndPapers:createTest' %}?klass_test='+encodeURIComponent(ajKl));
+
+       $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+        $('#analysisType').removeClass('hidden');
+
+
+
+    pr = $(this).attr('id');
+         });
+		 }
+		    });
+	</script>
+				{%endblock%}   
+	</head>
+	<body>
+		{% block content %}
+		<div style="padding:20px;">
+		<h2 style='text-align:center;font-weight:bold;'>Create Test</h2>
+	<div class="panel panel-default" style="background:#FFF" id='kclass'>
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Class you want to create the test for: </div>
+  <div class="panel-body">
+{% for i in klasses %}
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="c-btn c-btn--secondary text-center" id="classButton{{forloop.counter}}">{{i}}</button>
+</div>
+
+{%endfor%}
+    </div>
+</div>
+<div id = 'loadingCreateTest1' style='text-align:center;display:none;'>
+        <img src="{%static 'basicinformation/loaders/segment.gif' %}" >
+ </div>
+
+<div class="hidden panel panel-default" id="chapters" >
+	<div class="panel-heading text-center" style ='text-align:center;font-weight:bold;'  >Questions</div>
+  <div class="panel-body" >
+{%include 'questions/klass_available.html' %}
+</div>
+</div>
+</div>
+	
+		{%endblock%}
+	</body>
+</html>	
+		

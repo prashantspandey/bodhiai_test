@@ -1,0 +1,18 @@
+<html>
+	<body>	
+		{% if sent_messages %}
+		{% for m in sent_messages %}
+		<div class='well col-sm-12'>
+		
+		<h3> To: {{m.receiver}}</h3>
+		<h4> Subject: {{m.subject}}</h4>
+		<h4> Message: {{m.body}} </h4>
+		<h4> Time: {{m.sent_date}}</h4>
+		</div>	
+		{% endfor %}
+		{%else%}
+		<h2> You haven't sent any messages yet. </h2>
+		{%endif%}
+	</body>
+</html>
+

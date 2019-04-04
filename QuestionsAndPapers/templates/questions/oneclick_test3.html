@@ -1,0 +1,66 @@
+{%load staticfiles %}
+<html>
+	<head>
+	<script>
+		 $(document).ready(function () {
+		 	$('#createTestButton').click(function(){
+	sub = $('#subtest').attr('value');
+	numquests = $('#numquests').attr('value');
+	var alltopicsnumber = []
+	var alltopicname = []
+	$('.oneclicktopics').each(function() {
+		topicnum  = $(this).val();
+		alltopicsnumber.push(topicnum);	
+
+	});
+	{%for name,number in topics %}
+		alltopicname.push({{number}})
+		{%endfor%}
+         $('#includePredicament').removeClass("hidden");
+         $('#includePredicament').html('').load('{% url 'QuestionsAndPapers:oneClickTest2' %}?oneclicktopicsnum='+alltopicsnumber+'and'+alltopicname+'and'+sub+'and'+numquests);
+
+
+     		    });
+     		    });
+
+
+function loaderShow(){
+	
+	 $('#loadingoneclickTest').show();
+};
+</script>
+
+	</head>
+<body>
+	<div class="panel panel-default" >
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Topics you want to include </div>
+  <div class="panel-body">
+
+<div class='form-group'>
+	{%for name,number in topics %}
+	<label class='labeltopic' for="topicname" id ='topicname' value='{{number}}'>{{name}}</label>
+	<input type='text' class='form-control oneclicktopics' id='topicquantity{{number}}' value='0' >
+	{%endfor%}
+</div>
+	<br><div class='text-center'>
+  <button type="button" class="btn btn-info text-center" id="createTestButton" name="topicandnumber" onclick="loaderShow()">Confirm</button>
+	</div>
+<input type='text' value='{{subject}}' id = 'subtest'  class='hidden' >
+<input type='text' value='{{oneclickbatch}}' id = 'numquests'  class='hidden' >
+
+        </div>
+	</div>
+<div id = 'loadingoneclickTest' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+	<div class="hidden panel panel-default" id="includePredicament" >
+	 {% include 'questions/oneclick_test4.html' %} 
+	</div>
+
+
+
+</body>
+
+</html>

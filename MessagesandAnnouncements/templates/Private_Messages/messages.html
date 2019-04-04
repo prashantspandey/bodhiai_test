@@ -1,0 +1,86 @@
+{% extends 'basicinformation/base.html' %}
+<html style="height:100%;">
+	<head>
+		<title>
+			Messages
+		</title>
+
+	{%block scripts%}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+
+         $(document).ready(function () {
+		$('select[name="teacherNames"]').change(function(){
+			var val_id = $(this).val()
+			$('.cont').removeClass("hidden");
+			$('.cont').html('').load('{% url 'pms:sendMessage' %}?teacher_name='+val_id);
+             
+		});
+        if ($('.cont').hasClass("hidden") == false){
+            console.log('visible')
+        }
+        else {
+        
+            $('.cont1').addClass("hidden");
+        };
+		$('#sentMessages').click(function(){
+			$('.cont').removeClass("hidden");
+			$('.cont').html('').load("{% url 'pms:sentMessages' %}");
+
+		});
+	
+		$('#inbox').click(function(){
+			$('.cont').removeClass("hidden");
+			$('.cont').html('').load("{% url 'pms:inbox' %}");
+
+		});
+
+	});
+    </script>
+			{%endblock%}
+	</head>
+	<body style="width:500px;margin:0 auto;height=100%;">
+		{% block content %}
+		<div style="overflow:auto'">
+<div class="sidebar-nav well" style="float:left;width:300px;min-height:600px;">
+<ul class="nav nav-list"> 
+	<li class="nav-header">{% if isTeacher %}Select a Student to send a mail{%else%} Select a Teacher to send a mail {%endif%}</li>  
+	<select name='teacherNames' size=1>
+		{% if isTeacher %}
+		<option disabled selected value> -- Choose a Student to send Mail to -- </option>
+		{% else %}
+		<option disabled selected value> -- Choose a Teacher to send Mail to -- </option>
+		{% endif%}
+	{% for teach in teachers %}	
+	<option value="{{teach.id}}">{{teach.name}} </option>
+	{%endfor%}
+	</select>
+	<hr>
+	<li><button type="button" class="btn btn-default text-center" id="inbox">Inbox</button>
+		<span class="badge badge-info">{{count}}</span></li>
+											<li class="divider"></li>
+	<li><button type="button" class="btn btn-default text-center" id="sentMessages">Sent Messages</button>
+</ul>
+										</div>
+				
+		{% if messages %}
+		{% for message in messages %}
+        {%if message.tags == 'error' %}
+		<div class="cont1" >
+		<h3>{{ message }}</h3>
+			{%include 'Private_Messages/send_message.html' %}
+		</div>
+        {%endif%}
+		{% endfor %}
+        {%else%}
+		{%endif%}
+		<div class="cont hidden" >
+
+			{%include 'Private_Messages/send_message.html' %}
+			{%include 'Private_Messages/sent_messages.html' %}
+			{%include 'Private_Messages/all_messages.html' %}
+		</div>
+		</div>
+		{% endblock %}
+	</body>
+</html>

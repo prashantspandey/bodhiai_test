@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+
+<head>
+    <!-- Site information -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BodhiAI - AI Based Student Score Improvement Platform</title>
+    <meta name="description" content="SaaS Trade Description">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/owl.transitions.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/assets/css/slick.css' %}">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'basicinformation/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'basicinformation/css/responsive.css' %}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,800" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+
+
+    <!-- Favicon -->
+	    <link rel="icon" href="{% static 'basicinformation/images/favicon.ico' %}">
+   <link rel="apple-touch-icon" href="{% static 'basicinformation/images/apple-touch-icon.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'basicinformation/images/icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'basicinformation/images/icon-114x114.png' %}">
+
+    <!--[if lt IE 9]>
+	<script src="{% static 'basicinformation/assets/js/html5shiv.min.js' %}"></script>
+	<script src="{% static 'basicinformation/assets/js/respond.min.js' %}"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-default nav-style-2" data-spy="affix" data-offset-top="60">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+		<a class="#" href="index2.html#"><img src="{% static 'basicinformation/images/logo.png' %}" alt="BodhiAI Logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-buttons">
+			<li class="solid-item"><a class="solid-btn-white" href="{%url 'membership:login' %}">Log in</a></li>
+			<li class="solid-item"><a class="solid-btn-gradient" href="{%url 'membership:register' %}">Free Trial</a></li>
+			{% if user.is_authenticated %}
+			<li class="solid-item"><a class="solid-btn-gradient" href="{%url 'membership:logout' %}">logout</a></li>
+			{%endif%}
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="index2.html#">Features</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Publish</a></li>
+                            <li><a href="#">Analyse</a></li>
+                            <li><a href="#">Improve</a></li>
+                            <li class="dropdown"><a href="#">Predict</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Student Performance</a></li>
+                                    <li><a href="#">Teacher Performance</a></li>
+                                </ul>
+                            <li><a href="#">Miscellaneous</a></li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                     <li class="dropdown"><a href="#">Explore</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">What is Ai ?</a></li>
+                                    <li><a href="#">Why BodhiAi ?</a></li>
+                                    <li><a href="#">Awards & Recognition</a></li>
+                                    <li><a href="#">Media Coverage</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                </ul>
+                </ul>
+
+
+            </div>
+        </div> </nav>
+    <!-- Header End -->
+<br>
+<br>
+    <!-- Banner -->
+    <div class="banner" id="banner">
+        <div class="banner-item banner-item-style-5 gray-bg">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+                            <h1 class="banner-title">AI Based Score Improvement Platform For <span class="theme-color typer" data-words="Educational Institutes,Colleges,Coaching Institutes,Defence Academy" data-delay="100" data-deleteDelay="1000">Educational Institutes.</span><br/></h1><h4>More Tests | Better Results | More Admissions</h4>
+			    <form class="form-group" action="{% url 'InterestedPeople' %}" method="get">
+				    <input  type="tel" name="tel" placeholder="Enter Your Mobile Number">     
+				<button type="submit"><img src="{% static 'basicinformation/images/icons/submit-1.png' %}" alt=""></button>
+                            </form>
+                            <div class="play-button-2">
+                                <a class="play-video" href="https://www.youtube.com/watch?v=veNT-ieO3EY">
+                                    <p><b>Award &nbsp; <span class="play-bg-1">
+                                        <span class="play-bg-2"><i class="fa fa-play"></i></span></span> &nbsp;Winners</b>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			    <br>
+			    <br>
+			    <br>
+
+            <div class="mock-slider">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                    
+                            <div class="screen-mock screenshot-mock-2"></div>
+                            <div class="slider-main">
+                                 <div id="mock-slider-1" class="slider-mocks">
+                                    <div class="item">
+					    <img src="{% static 'basicinformation/images/banner/slider.jpg.png' %}" alt="">
+                                    </div>
+                                    <div class="item">
+					    <img src="{% static 'basicinformation/images/banner/student_analysis.png' %}" alt="">
+                                    </div>
+                                    <div class="item">
+					    <img src="{% static 'basicinformation/images/banner/home.png' %}" alt="">
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="how-it-works section section-padding" id="how-it-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-xs-12">
+                    <div class="section-header text-center">
+                        <h3 class="section-title">How It Works ?</h3>
+			<p class="section-text"><strong>Automated test means more tests for frequent evaluation<br>
+                        	Customised tests for each student results in better results<br>
+				More tests and better results means more admissions !!</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="how-work">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/how-3.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Publish customised test</h4>
+			    <p>Use our question-bank (25000+<strong> topic-wise</strong>),or get your own content loaded irrespective of whether it is typed,printed,or in image form.</p>
+                        </div>
+                    </div>                  
+                    <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/moc-f-6.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Analyze results instantly</h4>
+                            <p>Get meaningful insights. Get to know everything that you always wanted to know such as student's weak areas,strong areas, timing etc..</p>
+                        </div>
+                    </div>  
+                     <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/moc-f-1.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Know reasons behind them</h4>
+                            <p>Be it a basic concept,timing,lack of practice or previous concept needed to solve . we tell you every possible reason behind the weaknesses.</p>
+                        </div>
+                    </div>      
+                     <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/how-1.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Get predictions for future</h4>
+                            <p>Know future performance of students. We predict if student will skip/correctly/incorrectly answer a specific question and how he/she will score in the future.</p>
+                        </div>
+                    </div>      
+                     <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/moc-f-2.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Use recommendations to improve</h4>
+                            <p>Every student will have access to peronalised content that is uniquely suited for them. Content is in the form of videos,audio,text,etc for improving upon weakness. Personalised questions/test can also be created.</p>
+                        </div>
+                    </div>                      
+                    <div class="col-md-4 col-sm-6">
+                        <div class="how-work-item">
+                            <div class="how-work-icon">
+				    <img src="{% static 'basicinformation/images/icons/how-2.png' %}" alt="">
+                            </div>
+                            <h4 class="how-work-title">Easy to integrate</h4>
+                            <p>Use our premade platform or get it integrated with your existing one.we do it real quick and seamlessly.Reduce cost and hassle of developers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fetures area -->
+    <div class="section section-padding bottom-0" id="feature">
+        <div class="container">
+        
+            <div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Create Customised test in seconds</h6>
+                        <h4 class="subsection-title">Using BodhiAI's topic-wise question database</h4>
+                         <h6 class="top-title">Say Goodbye to slow Typist & save time</h6>
+                        <p class="subsection-text">Simply select the class or batch you want to create the test for;choose desired subjects and relevant chapters.That's it;  our question bank appears.Select questions one by one or in one click with our database.</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>Publish test on single or multiple subjects/chapters</li>
+                            <li><i class="fa fa-check"></i>Schedule test with time & marks on standard/desired pattern </li>
+                            <li><i class="fa fa-check"></i>Option for automatic test creation</li>
+							<li><i class="fa fa-check"></i>Send customised & unique test to each student</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/slack-1.png' %}" alt="...">
+                    </div>                
+                </div>
+            </div> 
+        
+            <div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Conduct online tests or download PDF for offline tests</h6>
+                        <h4 class="subsection-title">Use BodhiAI App/website or get integrated with your existing one.</h4>
+                        <h6 class="top-title">Say Goodbye to costly Developers & Save Money</h6>
+                        <p class="subsection-text">Why hire typist or developers when you have everything automated ? Create test using the platform and publish it online or offline.</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>Save upfront investment in app/website development</li>
+                            <li><i class="fa fa-check"></i>Single credential that works across platforms</li>
+                            <li><i class="fa fa-check"></i>High speed and regular updates on the platform</li>
+							<li><i class="fa fa-check"></i>Free 24x7 support</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/slack-3.png' %}" alt="...">
+                    </div>
+                </div>
+            </div> 
+
+            <div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Focus on one and all</h6>
+                        <h4 class="subsection-title">Using multi feature result&performance dashboard</h4>
+                        <h6 class="top-title">Say Goodbye to Boring Report cards & Get meaningful insights</h6>
+                        <p class="subsection-text">Know single student or whole batch performances of a test which can be broken down into subjects,chapters or a particular question.Identify most problematic questions,weak areas,strong areas,etc.of the batch or individual student</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>50+ bars,diagram,charts & analysis for minute & overall detail
+                            </li>
+                            <li><i class="fa fa-check"></i>Track testwise,subjectwise,chapterwise or questionwise performances including their timings.</li>
+                            
+							 <li><i class="fa fa-check"></i>Know how many & which questions were correct,wrong or skipped</li>
+							  <li><i class="fa fa-check"></i>Automatic generation of results in excel sheet with rank</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/software-4.jpg' %}" alt="...">
+                    </div>
+                </div>
+            </div> 
+
+            	<div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Get Predictions & Take measures before-hand</h6>
+                        <h4 class="subsection-title">Using Artificially Intelligent Prediction Engine</h4>
+                        <h6 class="top-title">Say Goodbye to Astrologer/Pundits & make data based decisions</h6>
+                        <p class="subsection-text">BodhiAI, based on the past performances and 80+ variables predicts future performances of students to allow benchmarking for studetnts,teachers and administrators.</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>Predict student & teacher performances</li>
+                            <li><i class="fa fa-check"></i>Predict students or teachers that are likely to leave</li>
+                            <li><i class="fa fa-check"></i>Predict important questions & performances on them</li>
+                            <li><i class="fa fa-check"></i>Predict attendance and likely date for tests<li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/slack-2.png' %}" alt="...">
+                    </div>
+                </div>
+
+            </div> 
+            <div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Give Every child a Personal Teacher</h6>
+                        <h4 class="subsection-title">Using unique Personalised Recommendations For Improvement</h4>
+                        <h6 class="top-title">Say Goodbye to Limited seats, Personal attention is now possible and automated</h6>
+                        <p class="subsection-text">Every student is suggested personalised and unique questions,tests or content to improve upon their weaknesses.In this way every child gets a personal teacher.</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>Recommendations in form of video,text,questions,tests,ppt,pdf</li>
+							 <li><i class="fa fa-check"></i>Auto-updation of recommendations based on data</li>
+                            <li><i class="fa fa-check"></i>Option for teacher to intervene.</li>
+                            <li><i class="fa fa-check"></i>Personalized Recommendations for previous concepts and subject basics</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/software-3.jpg' %}" alt="...">
+                    </div>
+                </div>
+            </div> 
+            <div class="sub-section style-2">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 xs-bottom-30">
+                        <h6 class="top-title">Communicate - Share info - Clear doubts</h6>
+                        <h4 class="subsection-title">Using inbuilt messaging,announcement & reporting system</h4>
+                        <h6 class="top-title">Say Goodbye to Notices and Bulk Sms; now communicate in a click</h6>
+                        <p class="subsection-text">Option to send/receive messages anywhere and anytime. Be it administration,teacher or student.With BodhiAI communicate limitless.</p>
+                        <ul class="list-items">
+                            <li><i class="fa fa-check"></i>Send personal messages </li>
+                            <li><i class="fa fa-check"></i>Create announcements</li>
+                            <li><i class="fa fa-check"></i>Share reports and other relevantdata</li>
+							 <li><i class="fa fa-check"></i>Dashboard for administration,teachers & student.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+			    <img class="img-responsive" src="{% static 'basicinformation/images/feature/software-2.jpg' %}" alt="...">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials-area testimonials-text-img section section-padding bottom-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div class="testimonial-slider">
+                        <div class="testimonial-item">
+                            <blockquote>Bodhiai has automated everything in my institute which saves me a lot of time and money.I am able to focus on other productive things now.Student love it.specially, the analysis which they have.with  Bodhiai Improvement is guaranteed.</blockquote>
+                            <div class="reviewer-info">
+                                <div class="commenter-pic">
+					<img src="{% static 'basicinformation/images/testimonial/reviewer-1.jpg' %}" alt="...">
+                                </div>
+                                <div class="commenter">
+                                    <h5 class="reviewer-name">Rajesh k swami</h5>
+                                    <p class="reviewer-position">Renowned Book Author & Teacher ,SRW Education Group</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <blockquote>We never had access to creation of apti-based test for students.Nor have i seen platform with so much customization options available.Now,I am able to monitor both teacher and students.students now feel more confident sitting for the placement exams</blockquote>
+                            <div class="reviewer-info">
+                                <div class="commenter-pic">
+					<img src="{% static 'basicinformation/images/testimonial/reviewer-2.jpg' %}" alt="...">
+                                </div>
+                                <div class="commenter">
+                                    <h5 class="reviewer-name">Sunil Jangid</h5>
+                                    <p class="reviewer-position">HOD-IT Dept,JECRC Foundation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-banner-slider">
+                        <div class="testimonial-banner-item">
+                            <div class="testimonial-banner-img">
+				    <img src="{% static 'basicinformation/images/testimonial/reviewer-video-1.jpg' %}" alt="">
+                            </div>
+                            <div class="testimonial-banner-btn">
+                                <a class="play-video" href="https://www.youtube.com/watch?v=X9GYD8F5NcQ"><i class="fa fa-play"></i></a>
+                            </div>
+                        </div>
+                        <div class="testimonial-banner-item">
+                            <div class="testimonial-banner-img">
+				    <img src="{% static 'basicinformation/images/testimonial/reviewer-video-2.jpg' %}" alt="">
+                            </div>
+                            <div class="testimonial-banner-btn">
+                                <a class="play-video" href="https://www.youtube.com/watch?v=e6Of46VfpCA"><i class="fa fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Client logo -->
+    <div class="client-logo-2 section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="section-header small text-left">
+                        <h5 class="top-title">BODHIAI Family</h5>
+                        <h2 class="section-title">Trusted by <br>many <span class="theme-color">Educational Institutes.</span></h2>
+                        <p class="section-text">We are changing the way education is delivered.<br>With the most advanced Artificial Intelligent System.<br>Come Join the Revolution  Now !!</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1">
+                    <div class="client-logo-area style-2">
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-1.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-2.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-3.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-4.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-5.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-6.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-7.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-8.png' %}" alt=""></div>
+			    <div class="client-logo"><img src="{% static 'basicinformation/images/client/logo/logo-9.png' %}" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer-widget section-padding gray-bg bottom-0">
+        <div class="container">
+            <div class="footer-widget-area">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget logo-widget">
+                            <a class="footer-logo" href="#">
+				    <img src="{% static 'basicinformation/images/footer-logo.gif' %}" alt="...">
+								 <p class="copyright"><b> ©  2018, BODHI AI</b></p>
+                            </a>
+                           
+                        </div>
+                    </div>     
+                               
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget custom-menu-widget">
+                            <h4 class="widget-title">Solutions</h4>
+                            <ul class="widget-menu">
+                                <li><a href="index2.html#">Software program</a></li>
+                                <li><a href="index2.html#">Apps solutions</a></li>
+                                <li><a href="index2.html#">Business analycis</a></li>
+                                <li><a href="index2.html#">Plans & signups</a></li>
+                            </ul>
+                        </div>
+                    </div>                           
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget custom-menu-widget">
+                            <h4 class="widget-title">Company</h4>
+                            <ul class="widget-menu">
+                                <li><a href="index2.html#">About us</a></li>
+                                <li><a href="index2.html#">Our services</a></li>
+                                <li><a href="index2.html#">Our team</a></li>
+                                <li><a href="index2.html#">Testimonials</a></li>
+                                <li><a href="index2.html#">Our clients</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget contact-widget">
+                            <h4 class="widget-title">Contact</h4>
+                            <p><strong>Headquarter 1 :</strong><br>MNIT Incubation & Innovation  Center,<br>MNIT JAIPUR</p>
+							<p><strong>Headquarter 2 :</strong><br>ISTART NEST - THE INCUBATOR ,<br>Apex Bank Building ,Tonk Road,Jaipur </p>
+                            <p><strong>E:</strong>  info@bodhiai.in</p>
+                            <p><strong>P:</strong>  +91 8769512631 /+91 9800895674</p>
+                            <ul class="widget-social">
+                                <li><a href="https://www.facebook.com/bodhiai" target="blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.twitter.com/bodhiai" target="blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.google.com/bodhiai" target="blank"><i class="fa fa-google"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/bodhiai" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="{% static 'basicinformation/assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/jquery-migrate-3.0.1.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/jquery.nav.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/owl.carousel.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/visible.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/jquery.countTo.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/slick.min.js' %}"></script>
+    <script src="{% static 'basicinformation/assets/js/typer.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+    <script src="{% static 'basicinformation/js/map.js' %} "></script>    
+    <script src="{% static 'basicinformation/js/custom.js' %}"></script>
+</body>
+</html>

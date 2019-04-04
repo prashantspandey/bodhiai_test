@@ -1,0 +1,24 @@
+{%load staticfiles %}
+
+<div class="panel panel-default" >
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Topics in Smart Test</div>
+  <div class="panel-body text-center">
+
+	{% for wa in weakAreas %}
+	<p> {{wa}} </p>
+	{%endfor%}
+  </div>
+<div class="btn-group" role="group" aria-label="...">
+	<form method='get' action='{% url "QuestionsAndPapers:conductTest" %}'>
+	<button type="submit" name='onlineTestid' class="btn btn-info text-center smartTestid"  value="{{testid}}" >Take Test</button>
+	</form>
+</div>
+
+
+</div>
+
+
+
+
+
+

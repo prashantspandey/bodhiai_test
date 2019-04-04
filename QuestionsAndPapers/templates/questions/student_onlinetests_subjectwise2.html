@@ -1,0 +1,22 @@
+<html>
+
+
+	<body>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Test (ordered by publish date)</div>
+  <div class="panel-body">
+	{% for test in tests %}
+<input type='text' value='{{test.id}}' name='testID' class='hidden' >
+<input type="submit" class="btn btn-info" name='testIdButton' value="{{test.published}}">
+
+	{%endfor%}
+	</div>
+<div class='hidden' id='homeTest'> 
+  {% include 'questions/student_evaluated_test.html' %}
+     </div>
+
+	</div>
+	</body>
+</html>

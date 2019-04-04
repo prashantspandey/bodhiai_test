@@ -1,0 +1,19 @@
+{% extends 'basicinformation/base.html' %}
+
+<html>
+	<head>
+		<title> {%block title%}
+			Successful 
+			{%endblock%}
+		</title>
+	</head>
+	<body>
+		{%block content%}
+		<div class='col-md-offset-1 col-md-10'>
+		<h2> Announcement successfully created and sent. </h2>
+		<h3> {{announcement}} </h3>
+		<h4> Go back to <a href="{% url 'basic:home' %}"> home </h4>
+		</div>
+		{%endblock%}
+	</body>
+</html>

@@ -1,0 +1,57 @@
+{% extends 'basicinformation/base2.html' %}
+
+<html>
+	<head>
+		<title>
+			{%block title %}
+			Create Announcement 
+			{%endblock%}
+		</title>
+	{%block scripts%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    {%endblock%}
+
+	</head>
+	<body>
+		{%block content %}
+		<h2 style='text-align:center;font-weight:bold;'> 
+			Create Announcement </h2>
+
+		<div class ='col-md-offset-1 col-md-10 col-sm-12' style='text-align:center;'>
+			<form action='{%url "pms:Announce" %}' method='post'>
+				{%csrf_token%}
+				<div style='text-align:center;'>
+					<h3 style='font-weight:bold;'>Choose a class </label>
+		      			<select name = "which_class" class= 'form-control' style='background-color:#BBDEFB;'>
+		<option disabled selected value> -- Choose a Class to Announce to -- </option>
+			  {% for klass in klasses %}
+			  <option value = "{{klass}}">{{klass}}</option>
+			{%endfor%}
+				  </select>
+				<br>
+				<div >
+					<h3 style='text-align:center;'> Write your Announcement here </h3>
+				<textarea name="announcement" class='form-control' rows="2" cols="70">
+				</textarea>
+				<br>
+				<br>
+				<br>
+
+		<input type="submit" name = "createAnnouncement" class="btn btn-primary" value="Create Announcement">
+				</div>
+			</form>
+		</div>
+		<div>
+			{% for announcement in announcements %}
+			<div class='well col-sm-12'>
+				<h3 style='font-weight:bold;'>	{{announcement.text}}</h3>
+				<h4> {{announcement.date}}</h4>
+			</div>
+			{%endfor%}
+		</div>
+
+
+		{%endblock%}
+
+	</body>
+</html>

@@ -1,0 +1,222 @@
+{%extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title %}BodhiAI|Student Page{%endblock %}</title>
+    {%block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'basicinformation/css/studentInstitute.css' %}">
+<link rel="stylesheet"  href="{% static 'basicinformation/css/animate.css' %}">
+     <script>
+     $(document).ready(function () {
+$('.thumbnail').on('click',function(){
+		$(this).addClass('animated bounce').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+				function(){
+					$(this).removeClass('animated bounce');
+
+				});
+
+	      });
+		$('select[name="topicwiseTest"]').change(function(){
+			var val_id = $(this).val()
+			$('.thumbnail').addClass('hidden'); $('#newTests').addClass('hidden');
+			$('#topicTests').removeClass('hidden');
+			$('#topicTests').html('').load('{% url 'basic:studentTopicWiseTest' %}?topicwisetest='+encodeURIComponent(val_id));
+             
+		});
+
+	      });
+     </script>
+     <script> {% for key,value in subjectwiseMarks.items %}
+     $(document).ready(function () {
+
+	
+
+	     var ctx{{key|slice:"-6:-1"}} = document.getElementById("myChart{{key|slice:"-6:-1"}}");
+	      myChart = new Chart(ctx{{key|slice:"-6:-1"}}, {
+            type: 'line',
+            data: {
+		    labels: [{% for da in value.time%}'{{da}}',{%endfor%}],
+                datasets: [{
+                    label: 'Test Marks in percent',
+
+
+
+		    data: [{%for ma in value.marks %}{{ma}},{%endfor%}],
+			backgroundColor: [
+                        '#CE93D8',
+			                                      ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		   	                                            ],
+
+
+
+
+                                  borderWidth: 3
+
+
+
+		}]
+            },
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+		    
+                scales: {
+		                    yAxes: [{
+                        ticks: {
+				max:100,
+                            beginAtZero:true,
+
+                        }
+                    }]
+                }
+            }
+        });
+
+
+	      
+
+
+
+        });
+
+
+
+     
+    {%endfor%}		
+
+    function testTake(){
+	$('#testloader').removeClass("hidden");	
+	$('#wholeContainer').addClass("hidden");	
+	$('#performanceChart').addClass("hidden");	
+    };
+     </script>
+
+
+    {%endblock%}
+</head>
+<body>
+{%block content%}
+<div class='hidden' id ='testloader' style='text-align:center;'>
+	<h4 class='text-center;'> Please wait.....</h4>
+	<img src="{% static 'basicinformation/images/bodhigif.gif' %}">
+</div>
+
+
+	<div id='wholeContainer'>
+<div class="jumbotron col-md-offset-1 col-md-10 col-sm-12 animated flipInX">
+  <h1 id="name">Hello {{profile.name}}</h1>
+  <p>{%if user.student.school.name == 'BodhiAI' %}Course: {{profile.klass}}{%else%}Class: {{profile.klass}}{%endif%}</p>
+  {% if profile.rollNumber != None %}
+  <p>Rollnumber: {{profile.rollNumber}}</p>
+  <p>Date of Birth: {{profile.dob}}</p>
+<img src = '{{profile.school.logo}}' class='img-responsive' style='margin:0 auto;width:auto; height:10%;'  >
+  {%endif%}
+
+<hr>
+	<ul>
+		<li>	<h5><strong>Step 1.</strong> Take a test.</h5></li>
+		<li>	<h5><strong>Step 2.</strong> See your performance in My Performance tab.</h5></li>
+		<li>	<h5><strong>Step 3.</strong> See your weak areas and progress in respective tabs.</h5></li>
+	</ul>
+</div>
+
+{%if announcements %}
+<h2 style= 'text-align:center;'> Announcements </h2>
+	<div class="alert alert-info col-md-offset-1 col-md-10  col-xs-12">
+		{% for announcement in announcements %}
+		<strong>By: {{announcement.announcer}}  <h3>{{announcement.text}} </strong></h3>
+			<h4>on: {{announcement.date}}</h4>
+		{%endfor%}
+	</div>
+
+{%endif%}
+
+<div class='col-md-10 col-md-offset-1' id='testContainer'>
+	<h2 class='text-center' style='font-weight:bold;'>Practise Tests </h2>
+	<select class='form-control' name='topicwiseTest' size=1 style='text-align:center;'>
+		<option disabled selected value> -- Choose a topic for test -- </option>
+		<li class="divider"></li>
+	{% for key,value in newTests.items %}	
+	{% for topic in value.topics %}
+	<option value="{{topic}}">{{topic}} </option>
+	{%endfor%}
+	{%endfor%}
+	
+	</select>
+
+	<div id='wholeContainer'>
+
+<div class = 'hidden' id = 'topicTests' >
+	{% include 'basicinformation/studentInstituteTopicTests.html' %}
+</div>
+	<div class='container'>
+{% for key,value in newTests.items %}
+	  <div class="col-sm-2 col-md-4 animated zoomIn" id ='newTests'>
+	<div class="thumbnail ">
+		<div class="caption">
+			<h3 class='text-center' style='font-weight:bold;'>{% if value.subject == 'SSCMultipleSections'%}Multiple Subjects {%else%}{{value.subject}} {%endif%}</h3>
+				<h4 class='text-center'>{{value.num_questions}} questions </h4>
+
+				<h4 class='text-center'>Created By:  </h4>
+				<h4 class='text-center'><strong>{{value.creator}}</strong>  </h4>
+			<h4> Topics </h4>
+			<ul>
+				{% for i in value.topics %}
+				<li>{{i}}</li>
+				{%endfor%}
+			</ul>
+			<div class='text-center'>
+				<form action = "{% url 'QuestionsAndPapers:conductTest' %}" method='get'>
+					<button type="submit" name='onlineTestid' class="btn btn-primary" value="{{key}}" onclick="testTake()">Take Test</button>
+				</form>
+			</div>
+	</div>
+		</div>
+		</div>
+
+	{%endfor%}
+
+</div>
+
+</div>
+			<div class='text-center'>
+				<form action = "{% url 'basic:studentMoreTests' %}" method='get'>
+					<button type="submit" name='homePageMoreTests' class="btn btn-success"  >More Tests..</button>
+				</form>
+			</div>
+			</div>
+
+<hr>
+<br>
+<div class='col-md-12'>
+{% if subjectwiseMarks %}
+	<h2 class='text-center' style='font-weight:bold' >Previous Performance </h2>
+   {% for key,value in subjectwiseMarks.items %}
+ <div class=" col-md-4 col-md-offset-1  col-xs-12" id='graphContainer'   >
+	 <h2 id='subjectName' class="text-center">{%if key == 'SSCMultipleSections' %} Complete Test {%else%} {{key}} {%endif%}</h2>
+<div id ='performanceChart'>
+<canvas  id="myChart{{key|slice:"-6:-1"}}"   height="400"></canvas>
+</div>
+</div>
+{%endfor%}
+</div>
+{%else%}
+<div class='container'>
+<div class="alert alert-success animated fadeIn">
+	<h2><strong>Performance!</strong> Take at-least one test to see performace.</h2>
+</div>
+</div>
+{%endif%}
+</div>
+</div>
+
+
+{%endblock%}
+
+
+</body>
+</html>

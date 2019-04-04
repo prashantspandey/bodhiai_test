@@ -1,0 +1,48 @@
+{%extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title %}BodhiAI|All Tests{%endblock %}</title>
+    {%block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'basicinformation/css/studentInstitute.css' %}">
+<link rel="stylesheet"  href="{% static 'basicinformation/css/animate.css' %}">
+{%endblock%}
+</head>
+{%block content %}
+	<div>
+		<h2 class='text-center'> All Tests </h2>
+{% for key,value in newTests.items %}
+	  <div class="col-sm-2 col-md-2 animated zoomIn" id ='newTests'>
+	<div class="thumbnail ">
+		<div class="caption">
+			<h3 class='text-center' style='font-weight:bold;'>{% if value.subject == 'SSCMultipleSections'%}Multiple Subjects {%else%}{{value.subject}} {%endif%}</h3>
+				<h4 class='text-center'>{{value.num_questions}} questions </h4>
+
+				<h4 class='text-center'>Created By:  </h4>
+				<h4 class='text-center'><strong>{{value.creator}}</strong>  </h4>
+			<h4> Topics </h4>
+			<ul>
+				{% for i in value.topics %}
+				<li>{{i}}</li>
+				{%endfor%}
+			</ul>
+			<div class='text-center'>
+				<form action = "{% url 'QuestionsAndPapers:conductTest' %}" method='get'>
+					<button type="submit" name='onlineTestid' class="btn btn-primary" value="{{key}}" onclick="testTake()">Take Test</button>
+				</form>
+			</div>
+	</div>
+		</div>
+		</div>
+
+	{%endfor%}
+
+</div>
+
+</div>
+</div>
+{%endblock%}
+</html>

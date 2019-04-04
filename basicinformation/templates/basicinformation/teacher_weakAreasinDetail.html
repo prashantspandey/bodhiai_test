@@ -1,0 +1,208 @@
+{% extends 'basicinformation/base2.html' %}
+
+<html>
+	<head>
+		<title>
+			{%block title%}
+			Weak Areas 
+			{%endblock%}
+		</title>
+		{%block scripts%}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+		{%endblock%}
+	</head>
+	<body>
+		{%block content%}
+    <script>
+$(document).ready(function () {
+
+var pointBackgroundColors = [];
+    var ctx = document.getElementById("myChart");
+    var myChart1 = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+		    labels: [{%for u,k in probAreas %}'{{u}}',{%endfor%}],
+                datasets: [{
+                    label: 'Weak Areas',
+
+
+
+		    data: [{%for u,k in probAreas%}{{k}},{%endfor%}],
+			 backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+			'rgba(54, 100, 11, 0.6)',
+			'rgba(64, 200, 46, 0.6)',                  
+			'rgba(94, 155, 89, 0.6)',                  
+			'rgba(104, 255, 55, 0.6)',                 
+			'rgba(10, 90, 35, 0.6)',                   
+			'rgba(24, 162, 255, 0.6)',                 
+			'rgba(94, 12, 25, 0.6)',                   
+			'rgba(94, 12, 25, 0.6)',                   
+                        'rgba(2, 99, 132, 0.4)',
+			'rgba(31, 100, 11, 0.6)',
+			'rgba(38, 200, 46, 0.6)',                  
+			'rgba(34, 155, 89, 0.6)',                  
+			'rgba(30, 255, 55, 0.6)',                 
+			'rgba(39, 90, 59, 0.6)',                   
+			'rgba(38, 162, 25, 0.6)',                 
+			'rgba(56, 120, 250, 0.6)',                   
+
+                                      ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		   		 'rgba(54, 100, 11, 1)',
+		   		 'rgba(64, 200, 46, 1)',
+		   		 'rgba(94, 155, 89, 1)',
+		   		 'rgba(104, 255, 55, 1)',
+		   		 'rgba(10, 90, 35, 1)',
+		   		 'rgba(24, 162, 255, 1)',
+		   		 'rgba(94, 12, 25, 1)',
+                                            ],
+
+
+                                  borderWidth: 3
+
+
+
+		}]
+            },
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+
+                        }
+                    }]
+                }
+            }
+        });
+		{%for u,k in probAreas %}
+		{% if k <= 3 %}
+		pointBackgroundColors.push("#90cd8a");					        
+		{%else %}
+		pointBackgroundColors.push("#880E4F");					        
+		{%endif%}
+		{%endfor%}
+
+		
+
+		myChart1.update();
+
+var pointBackgroundColorsTiming = [];
+    var ctx1 = document.getElementById("myChartTiming");
+    var myChart2 = new Chart(ctx1, {
+            type: 'bar',
+            data: {
+		    labels: [{%for u,k in timing %}'{{u}}',{%endfor%}],
+                datasets: [{
+
+		    data: [{%for u,k in timing%}{{k}},{%endfor%}],
+			 backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+			'rgba(54, 100, 11, 0.6)',
+			'rgba(64, 200, 46, 0.6)',                  
+			'rgba(94, 155, 89, 0.6)',                  
+			'rgba(104, 255, 55, 0.6)',                 
+			'rgba(10, 90, 35, 0.6)',                   
+			'rgba(24, 162, 255, 0.6)',                 
+			'rgba(94, 12, 25, 0.6)',                   
+                        'rgba(2, 99, 132, 0.4)',
+			'rgba(31, 100, 11, 0.6)',
+			'rgba(38, 200, 46, 0.6)',                  
+			'rgba(34, 155, 89, 0.6)',                  
+			'rgba(30, 255, 55, 0.6)',                 
+			'rgba(39, 90, 59, 0.6)',                   
+			'rgba(38, 162, 25, 0.6)',                 
+			'rgba(56, 120, 250, 0.6)',                   
+
+                                      ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		   		 'rgba(54, 100, 11, 1)',
+		   		 'rgba(64, 200, 46, 1)',
+		   		 'rgba(94, 155, 89, 1)',
+		   		 'rgba(104, 255, 55, 1)',
+		   		 'rgba(10, 90, 35, 1)',
+		   		 'rgba(24, 162, 255, 1)',
+		   		 'rgba(94, 12, 25, 1)',
+                                            ],
+
+
+                                  borderWidth: 3
+
+
+
+		}]
+            },
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+
+              			    title: {
+				display: true,
+				text: "Average timing (topic wise) in seconds"
+			    },
+			    animation:{
+				animateScale: true,
+				animateRotate: true,
+			    },
+
+                        }
+                   
+                
+            
+        });
+		{%for u,k in timing %}
+		{% if k <= 60 %}
+		pointBackgroundColorsTiming.push("#33691E");					        
+		{%else %}
+		pointBackgroundColorsTiming.push("#E65100");					        
+		{%endif%}
+		{%endfor%}
+
+		
+
+		myChart2.update();
+
+
+
+
+
+
+
+
+
+
+
+    });
+</script>
+
+<div class='container '>
+	    <div class='weakAreasContainer' >
+	<h3 class='text-center' style='font-weight:bold;'> Weak Topics (wrong and skipped questions) </h3>
+	<div>
+	<canvas  id="myChart"  height='600'  >
+</canvas>
+	</div>	
+	    <br>
+	    <br>
+
+</div>
+<br>
+<hr>
+
+	<div class='col-md-5'>
+	<h3 class='text-center' style='font-weight:bold;'> Timing </h3>
+	<div>
+<canvas  id="myChartTiming"  height="400" >
+	</canvas>
+	</div>
+	</div>
+	</div>
+
+	
+
+		{%endblock%}
+	</body>
+</html>

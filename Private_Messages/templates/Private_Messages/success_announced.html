@@ -1,0 +1,26 @@
+{% extends 'basicinformation/base.html' %}
+
+<html>
+	<head>
+		<title>
+			{%block title %}
+			Successfully Announced 
+			{%endblock%}
+		</title>
+	{%block scripts%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    {%endblock%}
+
+	</head>
+	<body>
+		{%block content %}
+		<h2 style='text-align:center;'> Successfully Announced </h2>
+
+		<div class ='col-md-offset-1 col-md-10 col-sm-12'>
+			<h3 style='font-weight:bold;'> {{announcement.text}} </h3>
+			<h4> On: {{announcement.date}}</h4>
+		</div>
+		{%endblock%}
+	</body>
+</html>
+

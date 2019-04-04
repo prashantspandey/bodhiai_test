@@ -1,0 +1,97 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+<html>
+	<head>
+		<title> 
+			{% block title %}
+			Publish test
+			{%endblock%}
+		</title>
+		{% block scripts %}
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+  $( function() {
+	      $( "#datepicker" ).datepicker();
+	        } );
+  </script>
+
+		{%endblock%}
+	</head>
+	<body>
+		{%block content %}
+
+		<div class='mainContainer' >
+			<h1 style='text-align:center;'> Publish Test </h1>
+			<div class='col-md-offset-1 col-md-10'>
+				<h3>Created by : {{test.creator}} </h3>
+				<h3>Published on : {{test.published}} </h3>
+				<h3>For Class : {{test.klas}} </h3>
+				<h3>Max-Marks: {{test.max_marks}} </h3>
+			</div>
+
+				{%if teacher_type == 'School' %}
+			<div class='questionsContainer col-md-offset-1 col-md-10 col-sm-12'>
+				<h2 style='text-align:center;'> Questions in Test </h2>
+				{% for question in test.questions_set.all %}
+
+				<div class='well quest'>
+					<h3 style= 'font-weight:bold;'> {{question.text}} </h3>
+						{% for choice in question.choices_set.all %}
+						<p> {{choice.text}} 
+				
+						{% if choice.predicament == 'Correct' %}
+						<span class="label label-success">Correct Answer</span></p>
+						{%endif%}
+						{%endfor%}
+				</div>
+			{%endfor%}
+			</div>
+			{%elif teacher_type == 'SSC' %}
+	<div class='questionsContainer col-md-offset-1 col-md-10 col-sm-12'>
+				<h2 style='text-align:center;'> Questions in Test </h2>
+				{% for question in test.sscquestions_set.all %}
+
+				<div class='well quest'>
+					<h3 style= 'font-weight:bold;'> {{question.text}} </h3>
+					{%if question.picture %}
+					<img src='{{question.picture}}'>
+					{%endif%}
+
+					{% for choice in question.choices_set.all %}
+						<p> {{choice.text}} 
+				{%if choice.picture %}
+					<img src='{{choice.picture}}'>
+					{%endif%}
+
+						{% if choice.predicament == 'Correct' %}
+						<span class="label label-success">Correct Answer</span></p>
+						{%endif%}
+						{%endfor%}
+				</div>
+			{%endfor%}
+			</div>
+			{%endif%}
+
+
+
+
+
+			<div class='col-md-offset-1 col-md-10'>
+				<form action='{% url "QuestionsAndPapers:publishTest" %}' method='POST'>
+					{%csrf_token%}
+				<h3>Select a Due Date: <input type="text" name = 'dueDate' id="datepicker"  required
+					                data-fv-notempty-message="Due date is required"></h3>
+				<h3> Select Time Duration in minutes (example: 1 hour = 60 minutes)
+					<input type='text' name='timePicker' id ='tPicker'> minutes</h3>
+				<input type='text' class='hidden' value='{{test.id}}' name='testid'>
+				<input type='submit' class="btn btn-primary" value='Publish Test' name = 'publishTest'>
+				<input type='submit' class="btn btn-primary" value='Create PDF for class test' name = 'pdfTest'>
+			</form>
+			</div>
+
+		</div>
+		{%endblock%}
+	</body>
+</html>

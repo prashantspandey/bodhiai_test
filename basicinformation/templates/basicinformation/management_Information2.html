@@ -1,0 +1,59 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+
+	$("#managementchTeacher").click(function(){
+         $('#managementchBatch').addClass("hidden");
+	         $('#managementchSubBatch').removeClass("btn btn-success").addClass("btn btn-default");
+	         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+		 batch_id = $('#managementchbatchid').attr('value');
+         $('#managementchTeach').removeClass("hidden");
+
+         $('#managementchTeach').html('').load('{% url 'basic:managementInformation' %}?managementChoice='+'chTeach'+','+batch_id);
+	
+
+	});
+	$("#managementchSubBatch").click(function(){
+	         $('#managementchTeacher').removeClass("btn btn-success").addClass("btn btn-default");
+		 batch_id = $('#managementchbatchid').attr('value');
+         $('#managementchTeach').addClass("hidden");
+	         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+         $('#managementchBatch').removeClass("hidden");
+         $('#managementchBatch').html('').load('{% url 'basic:managementInformation' %}?managementChoice='+'chBatch'+','+batch_id);
+	
+
+	});
+
+});
+    </script>
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a method</div>
+  <div class="panel-body">
+	  {%if SubBatch %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default " value ="chteach" id="managementchTeacher">Choose by Teacher</button>
+</div>
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default " value ="chbatch" id="managementchSubBatch">Choose by sub-batch</button>
+</div>
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="hidden" value ="{{batch}}" id="managementchbatchid"></button>
+</div>
+
+{%endif%}
+        </div>
+
+<div id = 'loadingManagement3' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+<div class='hidden' id = 'managementchTeach'>
+{%include 'basicinformation/management_Information3.html' %}
+</div>
+<div class='hidden' id = 'managementchBatch'>
+{%include 'basicinformation/management_Information3.html' %}
+</div>

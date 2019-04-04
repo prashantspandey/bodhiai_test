@@ -1,0 +1,213 @@
+{%load staticfiles%}
+<html lang="en">
+<head>
+
+<!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="{% static 'basicinformation/css/base.css' %}">
+<!-- Latest compiled and minified JavaScript -->
+    <title>{%block title%} Title {%endblock title%}</title>
+
+    <link rel="shortcut icon" href ="{%static 'basicinformation/images/favicon.ico' %}" />
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{%static 'basicinformation/css1/main.min-v=2.0.css' %}">
+   <script src="{%static 'basicinformation/js1/main.min-v=2.0.js' %}"></script>
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104062998-1', 'auto');
+  ga('send', 'pageview');
+   </script>  
+       <!-- Google Font -->
+       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<script>
+		function loadGif(){
+			$("#sideBarGif").removeClass('hidden');
+			$("#wholeSideBar").addclass('hidden');
+
+		};
+		</script>
+
+       <!-- Stylesheet -->
+       <link rel="stylesheet" href="{%static 'basicinformation/css1/main.min-v=2.0.css' %}">
+ {%block scripts %}
+
+{%endblock scripts%}
+      
+</head>
+<body >
+
+        <div  class="o-page__sidebar js-page-sidebar sticky" >
+            <div id="wholeSideBar" class="c-sidebar" style="height:100%;overflow-y:scroll;">
+                <a class="c-sidebar__brand" href="{%url 'basic:home' %}"  >
+			{%if user.is_authenticated %}
+			<h2 style='color:#fff;'>{%if user.teacher %} Teacher Panel</strong>{%elif user.student%} Student Panel{%endif%}</h2>
+			{%else%}
+			<h2>Welcome</h2>
+			{%endif%}
+                </a>
+			{%if user.is_authenticated %}
+		<span class="c-sidebar__divider"></span>
+              <h4 class="c-sidebar__title">Home</h4>
+                <ul class="c-sidebar__list">
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link"  href="{%url 'basic:home' %}" onclick="loadGif()">
+				<i class="fa fa-home"> Home</i>
+                        </a>
+                    </li>
+		    {%else%}
+		    {%endif%}
+
+
+
+                
+			{%if user.is_authenticated %}
+		<span class="c-sidebar__divider"></span>
+		<h4 class="c-sidebar__title">{%if user.teacher %}Test Section{%elif user.student %}Tests {%endif%}</h4>
+                <ul class="c-sidebar__list">
+                    <li class="c-sidebar__item">
+			    <a class="c-sidebar__link"  href="{%if user.teacher%}{%url 'QuestionsAndPapers:createTest_initial' %}{%elif user.student%}{%url 'basic:studentMoreTests'%}{%endif%}" onclick="loadGif()">
+				    <i class="fa fa-pencil-square-o"> {%if user.teacher %}Create Test{%elif user.student%}  All Tests{%endif%}</i>
+                        </a>
+                    </li>
+		    {%if user.student%}
+                    <li class="c-sidebar__item">
+			    <a class="c-sidebar__link"  href="{%url 'QuestionsAndPapers:smart_test' %}" onclick="loadGif()">
+				<i class="fa fa-puzzle-piece">  Smart Test</i>
+                        </a>
+                    </li>
+		    {%endif%}
+
+			{%if user.teacher %}
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="{%url 'QuestionsAndPapers:oneClickTest' %}" onclick="loadGif()">
+				<i class="fa fa-mouse-pointer"> One Click Test</i><span class="c-badge c-badge--info c-badge--xsmall u-ml-xsmall">NEW</span>
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link"  href="{%url 'QuestionsAndPapers:patternTest' %}" onclick="loadGif()">
+				<i class="fa fa-graduation-cap"> Create Pattern Test</i>
+                        </a>
+                    </li>
+		    {%endif%}
+                </ul>     
+		{%else%}
+		{%endif%}
+		<div id='sideBarGif' class='text-center hidden'>
+	<img src={% static 'basicinformation/loaders/segment.gif' %}>
+		</div>
+
+
+			{%if user.is_authenticated %}
+		<span class="c-sidebar__divider"></span>
+                <h4 class="c-sidebar__title">Communicate</h4>
+                <ul class="c-sidebar__list">
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="{%url 'pms:messages' %}" onclick="loadGif()">
+				<i class="fa fa-comments-o u-mr-xsmall"></i>Messages
+				</a>
+                    </li>
+		    {%if user.teacher%}
+                     <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="{%url 'pms:createAnnouncement' %}" onclick="loadGif()">
+				<i class="fa fa-bullhorn u-mr-xsmall"></i>Create Announcements
+				</a>
+                    </li> 
+		    {%endif%}
+		    <h4 class="c-sidebar__title">Student Performances</h4>
+                <ul class="c-sidebar__list">
+                    <li class="c-sidebar__item">
+			    <a class="c-sidebar__link" href="{%if user.teacher%}{%url 'basic:teacherHomePage' %}{%elif user.student%}{%url 'basic:studentAnalysis' %} {%endif%}" onclick="loadGif()">
+				    <i class="fa fa-area-chart">{%if user.teacher%}  Student Performance{%elif user.student %}  My Performance {%endif%}</i>
+                        </a>
+                    </li>   
+		    {%if user.student%}
+                    <li class="c-sidebar__item">
+			    <a class="c-sidebar__link" href="{%url 'basic:studentWeakAreas' %}" onclick="loadGif()">
+				    <i class="fa fa-bar-chart">  My Weak Areas </i>
+                        </a>
+                    </li>   
+		    {%endif%}
+		    {%if user.student %}
+                    <li class="c-sidebar__item">
+			    <a class="c-sidebar__link" href="{%url 'basic:studentImprovement' %}" onclick="loadGif()">
+				    <i class="fa fa-line-chart">  Progress </i>
+                        </a>
+                    </li>   
+
+
+		    {%endif%}
+
+		    <h4 class="c-sidebar__title">Account Settings</h4>
+                <ul class="c-sidebar__list">
+			{%if user.teacher%}
+                   <li class="c-sidebar__item">
+                        <a class="c-sidebar__link"  href="{%url 'basic:addStudents' %}" onclick="loadGif()">
+				<i class="fa fa-user-plus u-mr-xsmall"></i>Add Students
+				</a>
+                    </li>
+		    {%endif%}
+
+			
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link"  href="{%url 'membership:changePassword' %}" onclick="loadGif()">
+				<i class="fa fa-refresh u-mr-xsmall"></i>Reset Password
+				</a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+			    {%if user.teacher.teacheruser.username == 'rajeshkswamiadmin' %} 
+                        <a class="c-sidebar__link" href="{%url 'membership:srwLogout' %}" onclick="loadGif()">
+			    {%elif user.teacher.teacheruser.username == 'siel_teacher' %} 
+                        <a class="c-sidebar__link" href="{%url 'membership:SielLogout' %}" onclick="loadGif()">
+			    {%elif user.teacher.teacheruser.username == 'jen_teacher' %} 
+                        <a class="c-sidebar__link" href="{%url 'membership:jenLogout' %}" onclick="loadGif()">
+
+				{%else%}
+                        <a class="c-sidebar__link" href="{%url 'membership:logout' %}" onclick="loadGif()">
+				{%endif%}
+				<i class="fa fa-sign-in u-mr-xsmall"></i>Logout
+				</a>
+                    </li>
+                </ul>
+		{%else%}
+		{%endif%}
+
+
+            </div><!-- // .c-sidebar -->
+        </div><!-- // .o-page__sidebar -->
+
+        <main class="o-page__content">
+            <header class="c-navbar u-mb-medium" style='background-color:#fd9a18;'>
+                <button class="c-sidebar-toggle u-mr-small">
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                </button><!-- // .c-sidebar-toggle -->
+
+		<h2 class="c-navbar__title u-mr-auto"><strong>Welcome {{teacherName}}<strong></h2>
+                
+                      </div>
+            </header>
+
+	    {%block content %}
+
+	    {%endblock%}
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+<div class='container'>
+{% for field in form %}
+
+	<div class="form-group col-sm-12" style='text-align:center;'>
+		<div class=" col-sm-12">
+			<span class="text-danger small" > {{field.error}}</span>
+		</div>
+        		<label class='col-sm-12'>{{field.label_tag}}
+                </label> 
+		<div class='col-sm-12'> {{field}}</div>
+	</div>
+
+
+{% endfor %}
+
+</div>

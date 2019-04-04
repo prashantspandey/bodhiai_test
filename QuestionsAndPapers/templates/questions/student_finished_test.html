@@ -1,0 +1,72 @@
+{%extends 'basicinformation/base2.html' %}
+{%load staticfiles%}
+
+
+<html>
+	<head>
+		{%block title %}
+		Test Result
+		{%endblock%}
+	</head>
+	<body>
+	{%block content %}
+	<h2 style='text-align:center;'> You got {{marks}} out of {%if request.user.student.school.name == 'JITO' %}60{%else%}{{marks.test.max_marks}} {%endif%}</h2>
+	<h2 style='text-align:center;'> Total time to complete test: {{timetaken}} </h2>
+	<h2 style='text-align:center;'> Test Taken on: {{marks.testTaken}} </h2>
+	{% if request.user.student.school.name == 'JITO' %}
+	<h4 > Your score has been e-mailed to your email address </h4>
+	{%else%}
+
+	{%if student_type == 'School' %}
+
+		{% for quest in marks.test.questions_set.all %}
+	<div class = 'well col-md-offset-1 col-md-10 col-sm-12'>
+		<h2 style='font-weight:bold;'> {{quest.text}} </h2>{% if quest.id in marks.skippedAnswers %}<p style='text-align:center;font-weight:bold;'> <span class="label label-warning">You skipped this question</span></p>{%endif%}
+		{% for choice in quest.choices_set.all %}
+		<p> {{choice.text }} {% if choice.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+		{% if choice.id in marks.allAnswers and choice.predicament == 'Correct'%}<span class="label label-success">Your Answer</span> {%endif%}
+	{% if choice.id in marks.allAnswers and choice.predicament == 'Wrong'%}<span class="label label-danger">Your Answer</span> {%endif%}	
+		</p>	
+		</p>
+		{%endfor%}
+	</div>
+	{%endfor%}
+	{%elif student_type == 'SSC' %}
+
+
+		{% for quest in marks.test.sscquestions_set.all %}
+	<div class = 'well col-md-offset-1 col-md-10 col-sm-12'>
+		<h4 style='font-weight:bold;'> {%if quest.text %}{{quest.text}}{%endif%} </h4>
+		{% if quest.picture %}
+			<img src='{{quest.picture}}' class="img-responsive" >
+			{%endif%}
+
+		{% if quest.id in marks.skippedAnswers %}<p style='text-align:center;font-weight:bold;'> <span class="label label-warning">You skipped this question</span></p>{%endif%}
+		{% for time  in marks.sscansweredquestion_set.all %}
+		{%if time.quest.id == quest.id %}
+		<span class="label label-info" style='background-color: #AA00FF;'> You took {{time.time}} seconds to answer this question </span></p>{%endif%}
+		{%endfor%}
+		{% for choice in quest.choices_set.all %}
+		<p> {{choice.text }} {% if choice.predicament == 'Correct' %} <span class="label label-primary">Correct Answer</span>{%endif%}
+		{% if choice.id in marks.allAnswers and choice.predicament == 'Correct'%}<span class="label label-success">Your Answer</span> {%endif%}
+	{% if choice.id in marks.allAnswers and choice.predicament == 'Wrong'%}<span class="label label-danger">Your Answer</span> {%endif%}	
+		</p>	
+		</p>
+		{%endfor%}
+	</div>
+	{%endfor%}
+
+
+
+
+
+	{%endif%}
+	<div class='col-md-offset-1 col-md-10 col-sm-12'>
+	<h2 style='font-weigth:bold;text-align:center;'>Go to <a href='{% url "basic:studentAnalysis" %}'>Your Performace </a> tab to see the full analysis of this test. </h2>
+	</div>
+	{%endif%}
+	{%endblock %}
+
+	</body>
+</html>
+

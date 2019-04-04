@@ -1,0 +1,60 @@
+{%load staticfiles %}
+<link rel='stylesheet' href="{%static 'basicinformation/css/animate.css' %}">
+<script>
+
+         $(document).ready(function () {
+var pr
+
+	  $('#loadingStudentAnalysis1').hide();
+
+         $("#OnlineAnalysis").click(function(){
+          which_ana = $(this).text();
+          which_sub = $('#this_sub2').text();
+	 $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	  $('#loadingStudentAnalysis2').show();
+         $('#studentshowTests').removeClass("hidden");
+         $('#studentshowTests').html('').load('{% url "basic:studentSubjectAnalysis" %}?studentwhichana='+which_sub+','+'offline');
+                 $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+	 });
+$("#SchoolAnalysis").click(function(){
+          which_ana = $(this).text();
+          which_sub = $('#this_sub2').text();
+        $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	  $('#loadingStudentAnalysis2').show();
+         $('#studentshowTests').removeClass("hidden");
+         $('#studentshowTests').html('').load('{% url "basic:studentSubjectAnalysis" %}?studentwhichana='+which_sub+','+'online');
+                 $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+
+	 });
+
+});
+    </script>
+
+
+
+
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose an Analysis Type:</div>
+  <div class="panel-body">
+	  <button type="button" class="btn btn-default animated zoomIn"  id="OnlineAnalysis">Institute Analysis</button>
+	<button type="button" class="btn btn-default text-center animated zoomIn"  id="SchoolAnalysis">Online Analysis</button>
+	<button type="button" class="hidden btn btn-default text-center" value ="{{sub}}" id="this_sub2">{{sub}}</button>
+
+
+  </div>
+</div>
+<div id = 'loadingStudentAnalysis2' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+
+<div class='hidden ' id = 'studentshowTests'>
+	{% include 'basicinformation/student_self_sub_tests.html' %}
+</div>

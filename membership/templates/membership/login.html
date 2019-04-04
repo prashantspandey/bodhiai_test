@@ -1,0 +1,77 @@
+{%extends 'basicinformation/base2.html' %}
+{%load staticfiles%}
+{%load crispy_forms_tags%}
+
+<html>
+<head>
+<title>{%block title %}Login To BodhiAI{%endblock%}</title>
+{%block scripts %}
+<script>
+function loginClick(){
+	$('#loadinglogin').removeClass("hidden");
+	$('#wholeContainer').addClass("hidden");
+};
+</script>
+<link rel='stylesheet' href="{%static 'basicinformation/css/animate.css'%}">
+	<style type="text/css">
+	.container{
+		padding:50px;
+	}	
+	#logoContainer {
+		-webkit-animation-duration:2s;
+		-webkit-animation-delay:0.5s;
+	}
+	</style>
+{%endblock%}
+</head>
+{% block content %}
+
+<body>
+	<div class='hidden' id = 'loadinglogin' style='text-align:center;'>
+         <img src="{%static 'basicinformation/loaders/segment.gif' %}" >
+  </div> 
+	
+	<br>
+	<br>
+	<br>
+	<div id ='wholeContainer'>
+<div class='animated flash'style='text-align:center; col-sm-12 ' id ='logoContainer'>
+	<img src="{%static 'basicinformation/img/bodhiaigif.gif' %}" alt="Bodhi AI"  style='height:25%;'>
+</div>
+
+
+<h1 style='text-align:center;font-weight:bold;'>Login</h1>
+  <div class="container">
+
+
+
+  <form class="form-horizontal animated slideInLeft" action="" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{form|crispy}}
+  <div style='text-align:center;'>
+  <button type="submit" class="btn btn-primary btn-lg" onclick="loginClick()">Log In</button>
+  </div>
+
+   </form>
+ 	<div class='text-center'>
+		<div class="alert alert-info">
+			<strong>Register!</strong><font color='black'>  If you don't have an account, Sign up !</font>		</div>
+<a class="btn btn-default mb-15" href="{% url 'membership:register' %}">
+                                                    <span class="btn-text">Register</span>
+                                                </a>
+
+  
+	</div>
+
+
+ 
+</div>
+</div>
+
+
+
+
+
+</body>
+{% endblock%}
+</html>

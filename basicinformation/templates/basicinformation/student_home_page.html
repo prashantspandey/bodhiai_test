@@ -1,0 +1,477 @@
+{%extends 'basicinformation/base2.html' %}
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title %}BodhiAI|Student Page{%endblock %}</title>
+    {%block scripts %}
+    <link rel='stylesheet' type='text/css' href='{% static "basicinformation/css1/studentHomePage.css" %}'> 
+    <link rel='stylesheet' type='text/css' href='{% static "basicinformation/slick/slick.css" %}'> 
+    <link rel='stylesheet' type='text/css' href='{% static "basicinformation/slick/slick-theme.css" %}'> 
+    <script type="text/javascript" src="{% static "basicinformation/slick/slick.min.js" %}"></script>
+    
+    <script>
+		$.ajaxSetup({
+  data: {csrfmiddlewaretoken: '{{ csrf_token }}' },
+});
+	function testTake(){
+		$("#testGif").removeClass('hidden');
+	};
+
+	     function loadTopics(test_id){
+		     $.ajax({
+		     	url:"{% url 'paper-api:AllTopics' %}",
+			method:"POST",
+			data: {'test_id':test_id},
+			success: function(topics){
+				$("#"+test_id+"newTopics").empty();
+				$.each(topics, function(key,value){
+					$("#"+test_id+"newTopics").append(
+						value + "<br>"
+						)
+				});
+			},
+			complete: function(data){
+
+				$("#"+test_id+"testID").addClass('hidden');
+
+
+			},
+			error: function(data){
+				console.log('error')
+			}
+		
+		});
+		};
+
+    
+	</script> <script>
+     $(document).ready(function () {
+	     $("#tests").append(
+		"<div id='testgif'>"+
+	"<img src={% static 'basicinformation/loaders/segment.gif' %}>"+
+		"</div>"
+
+		     )
+
+	     $.ajax({
+		     	url:"{% url 'paper-api:PaperDetails' %}",
+			method:"GET", success: function(data){
+				$.each(data, function(key,value){
+					var topics = value.topics.toString()
+					var all_topics = topics.replace(/,/g,"<br>");
+					$(".testSlider").append(
+	  		"<div class=''   id ='newTests'>"+
+						"<div class='thumbnail'>"+	
+			"<div class='caption'>"+
+			"<h3 class='text-center' style='font-weight:bold;'>"+value.subject+"</h3>"+
+				"<h4 class='text-center'>"+value.num_questions+' questions'+" </h4>"+
+			"	<h4 class='text-center'>Created By:  </h4>"+
+				"<h4 class='text-center'><strong>"+value.creator+"</strong>  </h4>"+
+			"<h4> Topics </h4>"+
+			"<ul id="+key+"newTopics>"+
+						all_topics+
+
+			"</ul>"+ "<button name='test_id' value="+key+" onclick='loadTopics("+key+")' class='btn btn-success' id="+key+"testID>"+"Show all topics"+"</button>"+"<br>"+"<br>"+
+			"<div class='text-center'>"+
+				"<form action = {% url 'QuestionsAndPapers:conductTest' %} method='get'>"+
+					"<button type='submit' name='onlineTestid' class='btn btn-primary' value="+key+" onclick='testTake()'>"+"Take Test"+"</button>"+
+				"</form>"+
+			"</div>"+
+			"</div>"+
+			"</div>"+
+			"</div>"
+
+
+
+						)
+				});
+			},
+     			complete: function(data){
+$(".prev").removeClass('hidden');
+$(".next").removeClass('hidden');
+				$('.testSlider').slick({
+					arrows:true,
+ infinite: true,
+adaptiveHeight: true,
+ autoplay: true,
+ autoplaySpeed: 4000,
+ speed: 500,
+ cssEase: 'linear',
+					slidesToScroll:1,
+      prevArrow: $('.prev'),
+      nextArrow: $('.next'),
+
+					responsive: [{ 
+						breakpoint:2200,
+						settings:{
+							slidesToShow:3,	}
+						},{
+						
+						breakpoint: 600,
+							settings:{
+								slidesToShow:1,	}
+							
+							},{
+								breakpoint:300,
+								settings:{
+							slidesToShow:1,	
+								
+								}}]
+
+				});
+
+				$("#tests").hide();
+				$("#testGif").addClass('hidden');
+	   		},
+			error: function(data){
+
+			}		
+	     });	     
+
+	$.ajax({
+		url:"{%url 'basic-api:StudentProficiency' %}",
+		method:"GET",
+		success: function(data){
+			$.each(data,function(key,value){
+				allTopics = value.strongTopics
+				$.each(allTopics,function(i,score){
+					topicName = score[0]
+					topicScore = score[1]
+					type = 'progress-bar-success progress-bar-striped active'
+					$(".proficiencySlider").append(
+						"<div class=' text-center'>"+
+						"<h4 class='text-center'><strong>"+key+"</strong></h4>"+
+						"<h4 style='color:red;'>"+topicName+"</h4>"+
+						"<div class='numberCircle'>"+topicScore+"%"+"</div>"+"<br>"+
+
+					"<div class='col-md- 8 progress'>"+
+  				"<div class='progress-bar "+type+"' role='progressbar' aria-valuenow='"+topicScore+"'  aria-valuemin='0' aria-valuemax='100' style='width:"+topicScore+"%'>"+
+    			topicName+
+  		"</div>"+
+  		"</div>"+
+			"</div>"
+						)
+
+				});
+				
+
+			});
+		},
+		complete: function(data){
+			$("#proficiencyGif").hide();
+				$('.proficiencySlider').slick({
+					arrows:true,
+  infinite: true,
+adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  speed: 500,
+  cssEase: 'linear',
+					slidesToScroll:1,
+      prevArrow: $('.prevProficiency'),
+					nextArrow: $('.nextProficiency'),
+				});
+			$(".prevProficiency").removeClass("hidden");
+			$(".nextProficiency").removeClass("hidden");
+
+
+		},
+		error: function(){
+			console.log(data);
+		}
+
+	});
+	     $.ajax({
+		     	url:"{% url 'basic-api:StudentPreviousPerformance' %}",
+			method:"GET", 
+		     	success: function(data){
+				$.each(data, function(key,value){
+				$("#subPerformance").append(
+					"<div class=' well'>"+
+					"<h4 class='text-center'>"+"Past performance in "+key+"</h4>"+
+					"<canvas id='"+key+"chart' height='100' >"+
+					"</canvas>"+"<br>"+"<br>"+
+
+					"</div>"
+						)
+				var ctx_previous_performance = document.getElementById(""+key+"chart")
+				var myLineChart = new Chart(ctx_previous_performance,{
+				type: 'line',
+					data:{
+						labels:value.date,
+						datasets:[{
+							label:key,
+							data:value.marks,
+							borderColor: '#00F',
+							fill: false,
+
+						}],
+					},
+
+				options: {   responsive: true,
+		    	maintainAspectRatio: true,
+		    
+
+    			scales: {
+        		xAxes: [{
+            display: true,
+		                    yAxes: [{
+                        ticks: {
+				steps:20,
+				stepValue:10,
+				max:100,
+
+                        }
+                    }]
+
+        }]
+    }
+}
+});
+					
+				});
+			},
+	complete : function(data){
+				$('#subPerformance').slick({
+     centerPadding: '30px',
+      prevArrow: $('.prevGraph'),
+      nextArrow: $('.nextGraph'),
+
+
+
+					arrows:true,
+  infinite: true,
+adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  speed: 500,
+  cssEase: 'linear',
+					slidesToScroll:1,
+	centerMode: true,
+      centerPadding: '30px',
+
+
+});
+
+
+	},
+	     });
+		     $.ajax({
+		     	url:"{% url 'basic-api:StudentPreviousPerformanceDetailed' %}",
+			method:"GET", success: function(data){
+				$.each(data, function(key,value){
+					$('#detailedPerformance').append(
+						"<div class='text-center'>"+
+						"<h5 style='color:#2962FF;'><strong>"+value.subject+"</strong></h5>"+
+						"<div class='numberCircle'>"+ value.percent+ "%"+"</div>"+
+						"<h6 class='text-center' >"+"Total Questions: "+"</h6>"+
+						"<p style='color:red;'>"+value.total_questions+"</p>"+
+						"<h6 class='text-center' >"+"Attempted Questions: "+"</h6>"+
+						"<p style='color:red;'>"+value.attempted+"</p>"+
+						"<h6 class='text-center'>"+"Right: "+"</h6>"+
+						"<p style='color:red;'>"+value.rightAnswers+"</p>"+
+						"<h6 class='text-center'>"+"Wrong: "+"</h6>"+
+						"<p style='color:red;'>"+value.wrongAnswers+"</p>"+
+						"<h6 class='text-center'>"+"Time Taken: "+"</h6>"+
+						"<p style='color:red;'>"+value.time+" minutes"+"</p>"+
+						"<h6 class='text-center'>"+"Date Taken: "+"</h6>"+
+						"<p style='color:red;'>"+value.published+"</p>"+
+
+
+						"</div>"
+
+							)
+				});
+			},
+			     complete: function(data){
+				     $("#detailedPerformanceGif").addClass('hidden');
+					$(".prevGraphDetailedPerformance").removeClass('hidden');
+					$(".nextGraphDetailedPerformance").removeClass('hidden');
+				$('#detailedPerformance').slick({
+     				centerPadding: '30px',
+      				prevArrow: $('.prevGraphDetailedPerformance'),
+      				nextArrow: $('.nextGraphDetailedPerformance'),
+
+
+
+					arrows:true,
+  				infinite: true,
+				adaptiveHeight: true,
+  				autoplay: true,
+  				autoplaySpeed: 2000,
+  				speed: 500,
+  			cssEase: 'linear',
+					slidesToScroll:1,
+
+
+});
+
+			     },
+		     });
+
+		     $.ajax({
+		     	url:"{% url 'basic-api:StudentTimingTopicWise'  %}",
+			method:"GET", success: function(data){
+				$.each(data,function(key,value){
+					var all_topics = value;
+					$.each(value,function(k,v){
+						$("#areawiseTiming").append(
+							"<div class='text-center'>"+
+							"<h5 style='color:red;font-weight:bold;'>"+v[0]+"</h5>"+
+						"<div class='numberCircle'>"+ v[1]+ " s"+"</div>"+
+							"</div>"
+
+							)
+					});
+				});
+			},
+			     complete: function(data){
+
+			$("#areawiseTimingGif").addClass('hidden');	
+      			$('.prevTimingAreaWise').removeClass('hidden');
+      			$('.nextTimingAreaWise').removeClass('hidden');
+				$('#areawiseTiming').slick({
+     				centerPadding: '30px',
+      				prevArrow: $('.prevTimingAreaWise'),
+      				nextArrow: $('.nextTimingAreaWise'),
+
+
+
+					arrows:true,
+  				infinite: true,
+				adaptiveHeight: true,
+  				autoplay: true,
+  				autoplaySpeed: 2000,
+  				speed: 500,
+  			cssEase: 'linear',
+					slidesToScroll:1,
+
+
+});
+
+
+			     },
+
+		     });
+
+	
+
+     });
+     </script>
+     {%endblock%}
+
+</head>
+<body>
+	{%block content%}
+	<div class='container'>
+		<div >
+		<div id='testGif' class='text-center'>
+	<img src={% static 'basicinformation/loaders/segment.gif' %}>
+		</div>
+
+<div class='testSlider'>
+</div>
+</div>
+		<div class='text-center'>
+<button class="w3-button w3-display-left prev hidden" >&#10094;</button>
+<button class="w3-button w3-display-right next hidden" >&#10095;</button>
+		</div>
+
+		</div>
+<br>
+<br>
+<div>
+             <div class="row"  >
+		     <div class="col-sm-12 col-lg-4" >
+                    <div class="c-card u-p-medium u-text-center u-mb-medium"  data-mh="landing-cards">
+			<div id='detailedPerformanceGif' class='text-center'>
+		<img src={% static 'basicinformation/loaders/segment.gif' %}>
+			</div>
+
+	<h3 class='text-center'> Test Performances</h3>
+                        <div class="u-h6 u-text-bold u-mb-small text-center" id="detailedPerformance">
+				
+			</div>
+<button class="w3-button w3-display-left prevGraphDetailedPerformance hidden" >&#10094;</button>
+<button class="w3-button w3-display-right nextGraphDetailedPerformance hidden" >&#10095;</button>
+		     </div>
+		     </div>
+
+
+
+		     <div class="col-sm-12 col-lg-4" id="accuracyParent">
+                    <div class="c-card u-p-medium u-text-center u-mb-medium" data-mh="landing-cards" >
+			<div id='proficiencyGif' class='text-center'>
+		<img src={% static 'basicinformation/loaders/segment.gif' %}>
+			</div>
+	<h3 class='text-center'> Your accuracy (topic-wise) </h3>
+	<br>
+	<br>
+	<br>
+                        <div class="u-h6 u-text-bold u-mb-small text-center proficiencySlider" >
+			</div>
+<button class="w3-button w3-display-left prevProficiency hidden" >&#10094;</button>
+<button class="w3-button w3-display-right nextProficiency hidden" >&#10095;</button>
+<br>
+<br>
+<br>
+<a href="{%url 'basic:studentWeakAreas' %}" class="btn btn-info" role="button">See in detail</a>
+		</div>
+		     </div>
+
+
+		     <div class="col-sm-12 col-lg-4 " >
+                    <div class="c-card u-p-medium u-text-center u-mb-medium" data-mh="landing-cards" >
+
+	<h3 class='text-center'> Your average timing per question(topic-wise) in seconds</h3>
+	<br>
+	<br>
+	<br>
+			<div id='areawiseTimingGif' class='text-center'>
+		<img src={% static 'basicinformation/loaders/segment.gif' %}>
+			</div>
+
+                        <div class="u-h6 u-text-bold u-mb-small text-center" id="areawiseTiming">
+				
+			</div>
+<button class="w3-button w3-display-left prevTimingAreaWise hidden" >&#10094;</button>
+<button class="w3-button w3-display-right nextTimingAreaWise hidden" >&#10095;</button>
+<br>
+<br>
+<br>
+
+<a href="{%url 'basic:studentWeakAreas' %}" class="btn btn-info" role="button">See in detail</a>
+
+		     </div>
+		     </div>
+		     </div>
+
+
+ 
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<div class='col-md-12 text-center'>
+</div>
+
+
+
+	{%endblock%}
+
+</body> </html>
+
+

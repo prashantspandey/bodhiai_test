@@ -1,0 +1,88 @@
+{% extends 'basicinformation/base2.html' %}
+
+<html>
+	<head>
+		<title>
+			{%block title %}
+			Your result 
+			{%endblock%}
+		</title>
+	</head>
+	<body>
+		{%block content %}
+		<h2 style='text-align:center;'> Your result </h2>
+		<h3 style='text-align:center;font-weight:bold;'> You scored {{marks.marks}} out of {{marks.test.max_marks}} </h3>
+		{% if student_type == 'School' %}
+		<div class= 'col-md-offset-1 col-md-10 col-sm-12'>
+			{% for quest in marks.test.questions_set.all %}
+			<div class = 'well'>
+				<h4> {{quest.text}}</h4>
+		{%if quest.picture %}
+		<img src='{{quest.picture}}' class='img-responsive'>
+		{%endif%}	
+
+				{% if quest.id in marks.skippedAnswers %}
+				<span class='badge' > You skipped this question. </span>
+				{%endif%}
+				{%for ch in quest.choices_set.all %}
+				<p> {%if ch.text %}{{ch.text}}{%endif%}
+	{%if ch.picture %}
+		<img src='{{ch.picture}}' class='img-responsive'>
+		{%endif%}	
+
+			{% if ch.predicament == 'Correct' %}
+			<span class='badge' > Correct Answer </span>
+			{%endif%}
+			{% if ch.id in marks.rightAnswers %}
+			<span class='badge' > Your  Answer </span>
+			{%endif%}
+			{% if ch.id in marks.wrongAnswers %}
+			<span class='badge' > Your  Answer </span>
+			{%endif%}
+			
+				</p>
+			{%endfor%}
+			</div>
+
+			{%endfor%}
+			<a href="{%url 'basic:studentAnalysis' %}" class="btn btn-info" role="button">See full analysis of your performace</a>
+			{%elif student_type == 'SSC' %}
+		<div class= 'col-md-offset-1 col-md-10 col-sm-12'>
+			{% for quest in marks.test.sscquestions_set.all %}
+			<div class = 'well'>
+				<h3> {{quest.text}}</h3>
+		{%if quest.picture %}
+		<img src='{{quest.picture}}' class='img-responsive'>
+		{%endif%}	
+
+				{% if quest.id in marks.skippedAnswers %}
+				<span class='badge' > You skipped this question. </span>
+				{%endif%}
+				{%for ch in quest.choices_set.all %}
+				<p> {%if ch.text %}{{ch.text}}{%endif%}
+	{%if ch.picture %}
+		<img src='{{ch.picture}}' class='img-responsive'>
+		{%endif%}	
+
+			{% if ch.predicament == 'Correct' %}
+			<span class='badge' > Correct Answer </span>
+			{%endif%}
+			{% if ch.id in marks.rightAnswers %}
+			<span class='badge' > Your  Answer </span>
+			{%endif%}
+			{% if ch.id in marks.wrongAnswers %}
+			<span class='badge' > Your  Answer </span>
+			{%endif%}
+			
+				</p>
+			{%endfor%}
+			</div>
+
+			{%endfor%}
+			<a href="{%url 'basic:studentAnalysis' %}" class="btn btn-info" role="button">See full analysis of your performace</a>
+
+			{%endif%}
+
+		{%endblock%}
+	</body>
+</html>

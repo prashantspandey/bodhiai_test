@@ -1,0 +1,69 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+	$('#loadingIndi2').hide();
+    var pr
+	$('select[name="testid"]').change(function(){
+		var testid = $(this).val();
+		console.log(testid)
+         $('#individualonlinetestanalysis').removeClass("hidden");
+         $('#individualonlinetestanalysis').html('').load('{% url 'basic:teacher_update_page' %}?individualonlinetestid='+testid);
+
+	});
+
+
+        for(i=1 ; i<=10; i++){
+         $(eval("'#individualonlineTestid'+i")).click(function(){
+          which_testid = $(this).attr('value');
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	$('#loadingIndi3').show();
+
+
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+});
+};
+});
+    </script>
+
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Test</div>
+  <div class="panel-body col-xs-12">
+	  {%if not tests %}
+	  <h3 style="text-align:center;font-weight:bold;"> No Tests taken yet. </h3>
+	  {%else%}
+
+	  <!--
+{% for i in tests %}
+
+<div class="btn-group " role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center col-xs-12" value ="{{i.id}}" id="individualonlineTestid{{forloop.counter}}">{{i.published}}</button>
+</div>
+{%endfor%}
+ -->
+
+	 <select class="form-control" id="onlineTestid{{forloop.counter}}" name="testid" value="{{teest.id}}">
+	 <option disabled selected value>-- Choose a Test -- </option>
+	 {% for test in tests %}
+
+	 <option value="{{test.id}}">{{test.published}} </option>
+
+	 {%endfor%}
+	 </select>
+
+
+{%endif%}
+        </div>
+<div id = 'loadingIndi3' style='text-align:center;display:none;'>
+ <h4 style='text-center;'>Please wait... </h4>
+         <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+  </div> 
+
+<div class='hidden' id = 'individualonlinetestanalysis'>
+{%include 'basicinformation/teacher_online_individualPerformance3.html' %}
+</div>

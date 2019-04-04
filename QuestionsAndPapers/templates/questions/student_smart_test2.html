@@ -1,0 +1,45 @@
+{%load staticfiles %}
+
+<script>
+         $(document).ready(function () {
+	  $('#loaderSmartTest1').hide();
+    var pr;
+    $(".smartQuestionNumber").click(function(){
+         $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+	number_questions = $(this).attr('value');
+	subject = $('#smartSubjectbutt').attr('value');
+			$('.showTestFinal').removeClass("hidden");
+	$('.showTestFinal').html('').load('{% url "QuestionsAndPapers:smart_test2" %}?what_number='+subject+','+number_questions);
+	pr = $(this).attr('id');
+
+			
+
+    });
+    });
+
+</script>
+<body>
+	<div class="panel panel-default" >
+		{% if no_test %} 
+		<br>
+		<h3 class='text-center'> Please take at-least one test so that we can generate a Smart Test based on your weak areas. </h3>
+
+{%else%}
+  <div class="panel-heading " style='text-align:center;font-weight:bold;' >Number of questions you want: </div>
+  <div class="panel-body">
+{% for num in quest_num %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-info text-center smartQuestionNumber" id="{{num}}" value="{{num}}" >{{num}}</button>
+</div>
+{%endfor%}
+{%endif%}
+<input type='text' value='{{subject}}' id = 'smartSubjectbutt'  class='hidden' >
+
+        </div>
+  <div class="panel-body showTestFinal hidden" >
+	 {% include 'questions/student_smart_test3.html' %} </div>
+</div>
+
+
+

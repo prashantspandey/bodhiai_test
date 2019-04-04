@@ -1,0 +1,123 @@
+{% extends 'basicinformation/base.html' %}
+{% load staticfiles %}
+<html>
+	<head>
+
+    <title>
+	    {%block title %}
+	    Management Information
+	    {%endblock%}
+    </title>
+    {%block scripts%}
+    <script>
+         $(document).ready(function () {
+    var pr
+
+        for(i=1 ; i<=10; i++){
+         $(eval("'#classButton'+i")).click(function(){
+          test_id = $(this).attr('value');
+		  
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+         $('.cont').removeClass("hidden");
+         $('.cont').html('').load('{% url 'basic:managementInformation' %}?managementBatchid='+encodeURIComponent(test_id));
+	$('#loadingManagement1').removeClass('hidden');
+                 $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+        $('#analysisType').removeClass('hidden');
+
+
+
+    pr = $(this).attr('id');
+});
+};
+ $('#schoolTestAnalysis').click(function(){
+     var analysisClass
+
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+
+        $('.cont').removeClass("hidden");
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loading').show();
+      $('.cont').html('').load('{% url 'basic:teacher_update_page' %}?schoolTestAnalysis='+ajKl+','+'schoolTestAnalysis');
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+
+
+    });
+    $('#analysisAveragePredicted').click(function(){
+     var analysisClass
+
+
+
+        $('.cont').removeClass("hidden");
+      $('.cont').html('').load('{% url 'basic:teacher_update_page' %}?ajKlass='+encodeURIComponent(ajKl)+'relativeaveragespredicted');
+
+    });
+ $('#onlineTestAnalysis').click(function(){
+     var analysisClass
+
+
+        $('.cont').removeClass("hidden");
+
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loading').show();
+      $('.cont').html('').load('{% url 'basic:teacher_update_page' %}?onlineTestAnalysis='+ajKl);
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+    pr = $(this).attr('id');
+
+    });
+$('#onlineIndividualPerformance').click(function(){
+     var analysisClass
+
+        $('.cont').removeClass("hidden");
+
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loading').show();
+      $('.cont').html('').load('{% url 'basic:teacher_update_page' %}?onlineIndividualPerformace='+ajKl);
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+    pr = $(this).attr('id');
+    });
+
+
+
+         });
+
+
+    </script>
+    {%endblock%}
+	</head>
+	<body>
+{%block content %}
+
+<br>
+<div class="panel panel-default ">
+  <div class="panel-heading text-center">Choose a batch/class your want to see analysis of:</div>
+  <div class="panel-body ">
+{% for i in klasses %}
+
+<div class="btn-group " role="group" aria-label="...">
+	<button type="button" class="btn btn-default text-center" value ="{{i.id}}" id="classButton{{forloop.counter}}">{{i}}</button>
+</div>
+
+{%endfor%}
+        </div>
+
+        </div>
+</div>
+<div id = 'loadingManagement1' style='text-align:center;display:none;'>
+	<h4 style='text-center;'>Please wait... </h4>
+		<img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+	</div>	
+
+<div class="hidden cont ">
+	    {%include 'basicinformation/management_Information2.html' %}
+</div>
+
+{%endblock%}
+</body>
+</html>

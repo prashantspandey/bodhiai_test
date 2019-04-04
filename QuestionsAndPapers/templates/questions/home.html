@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Questions home page</title>
+	</head>
+	<body>
+		<div class = 'container'>
+			{%for i in question %}
+			<h3>{{i.text}}</h3>
+			<form>
+			{% for j in i.choices_set.all %}
+			<input type='radio' name='answer' value= '{{j.predicament}}'>{{j.text}}<br>
+			{% endfor %}
+			</form>
+			{% endfor %}
+		</div>
+	</body>
+	</html>
+		

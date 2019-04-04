@@ -1,0 +1,40 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+		 $('#loadingIndi3').hide();
+	$('select[name="StudentNames"]').change(function(){
+			var val_id = $(this).val()
+			testid = $('#testid_teller').attr('value');
+			$('#individualshowresult').removeClass("hidden");
+			$('#individualshowresult').html('').load('{% url 'basic:teacher_update_page' %}?individualStudentid='+val_id+','+testid);
+             
+		});
+        
+     });
+    </script>
+
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Student</div>
+  <div class="panel-body">
+	  {%if not students %}
+	  <h3 style="text-align:center;font-weight:bold;"> No student has taken the test yet. </h3>
+	  {%else%}
+		<h3 style='text-align:center;font-weight:bold;'> Choose a student </h3>
+		<div class='container' style='text-align:center;'>
+	<select class='form-control' name='StudentNames' size=1 style='text-align:center;'>
+		<option disabled selected value> -- Choose a Student to see his/her performance -- </option>
+		<li class="divider"></li>
+	{% for student in students %}	
+	<option value="{{student.id}}">{{student.name}} </option>
+	{%endfor%}
+	
+	</select>
+	<button class='hidden' value= "{{test_id}}" id = "testid_teller">
+		</div>
+		{%endif%}
+        </div>
+
+<div class='hidden' id = 'individualshowresult'>
+{%include 'basicinformation/teacher_online_individualPerformance4.html' %}
+</div>

@@ -1,0 +1,62 @@
+{% extends 'basicinformation/base2.html' %}
+{%load staticfiles %}
+<html>
+	<head>
+		<title> {%block title %} Tests/Homework {%endblock%} </title>
+{%block scripts%}
+    <script>
+
+         $(document).ready(function () {
+		 var pr
+		for(i=1 ; i<=50; i++){
+		$(eval("'#subBox'+i")).click(function(){
+          my_sub = $(this).text();
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	 $('#loadingstudentmytests').show();
+ 		  $('#showOnlineTests').removeClass("hidden");
+         $('#showOnlineTests').html('').load('{% url 'QuestionsAndPapers:studentShowOnlineTest' %}?onlineTestSubject='+encodeURIComponent(my_sub));
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+
+
+    pr = $(this).attr('id');
+         
+       
+		 });
+
+		 };
+});
+
+
+
+    </script>
+			{%endblock%}
+
+	</head>
+	<body>
+		{%block content %}
+		<div style="overflow:auto'">
+<div class="sidebar-nav well col-sm-12" style="float:top">
+	<h2 style='text-align:center;font-weight:bold;'> Subjects </h2>
+	{%if not subjects %}
+	<h2 style='text-align:center;'> No tests have been created for you yet.</h2>
+	{%else%}
+	{% for sub in subjects %}
+	<button type="button" class="btn btn-default text-center" id="subBox{{forloop.counter}}">{{sub}}</button>
+	{%endfor%}
+	{%endif%}
+	</div>
+<div id = 'loadingstudentmytests' style='text-align:center;display:none;'>
+<h4 style='text-center;'>Please wait... </h4>
+        <img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+ </div>
+
+	<div class = 'hidden' id='showOnlineTests'>
+		{% include 'questions/student_onlinetests_subjectwise.html' %}
+	</div>
+		</div>
+		{%endblock%}
+	</body>
+</html>
+

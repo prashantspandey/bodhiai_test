@@ -1,0 +1,911 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BodhiAI, Krishna for every Arjun. An app that handholds you to academic success.">
+    <meta name="keyword" content="BodhiAI , SSC preparation, SSC Test series, Strategist,SSC student material,first ssc preparation app with artificial intelligence">
+
+    <!--title-->
+    <title>Bodhi AI </title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="{%static 'basicinformation/images/favicon.ico' %}" type="image/png" sizes="16x16">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="{%static 'basicinformation/css/font-awesome.min.css' %}">
+    
+
+    <!--material design icon-->
+    <link rel="stylesheet" href="{%static 'basicinformation/css/material-design-iconic-font.min.css' %}">
+
+    <!-- magnific popup css-->
+    <link rel="stylesheet" href="{%static 'basicinformation/css/magnific-popup.css' %}">
+
+    <!-- animate css -->
+    <link href="{%static 'basicinformation/css/animate.min.css' %}" rel="stylesheet">
+
+    <!--owl carousel -->
+    <link href="{%static 'basicinformation/owlcarousel/assets/owl.theme.default.min.css' %}" rel="stylesheet">
+    <link href="{%static 'basicinformation/owlcarousel/assets/owl.carousel.css' %}" rel="stylesheet">
+
+    <!--swipper slider css-->
+    <link rel="stylesheet" href="{%static 'basicinformation/css/swiper.min.css' %}">
+
+    <!-- bootstrap core css -->
+    <link href="{%static 'basicinformation/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="{%static 'basicinformation/css/style.css' %}" rel="stylesheet">
+
+    <!-- responsive css -->
+    <link href="{%static 'basicinformation/css/responsive.css' %}" rel="stylesheet">
+
+
+    <script src="{%static 'basicinformation/js/vendor/modernizr-2.8.1.min.js' %}"></script>
+    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{%static 'basicinformation/js/vendor/html5shim.js' %}"></script>
+    <script src="{%static 'basicinformation/js/vendor/respond.min.js' %}"></script>
+    <![endif]-->
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104062998-1', 'auto');
+  ga('send', 'pageview');
+  
+
+</script>
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main" class="main">
+    <div class="main-wrap">
+        <div class="main-content">
+            <div class="main-content-inner">
+
+                <!--start header section-->
+                <header class="header">
+                    <!--start navbar-->
+                    <nav class="navbar navbar-default appio-menu" data-spy="appio-menu">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button id="sidenav-toggle" type="button" class="navbar-toggle toggle collapsed">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <!-- offcanvas-trigger-effects -->
+				<a class="navbar-brand" href="basicinformation/index.html"><img src="{%static 'basicinformation/img/logo.png' %}" alt="BodhiAI" ></a>
+                            </div>
+
+                            <!--main menu-->
+                            <div class="collapse navbar-collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a class="appio-scroll" href="#home">Home</a></li>
+                                    <li><a class="appio-scroll" href="#about">About</a></li>
+                                    <li><a class="appio-scroll" href="#features">Features</a></li>
+                                    <li><a class="appio-scroll" href="#screenshots">Screenshots</a></li>
+                                    <li><a class="appio-scroll" href="#pricing">Pricing</a></li>
+                                    <li><a class="appio-scroll" href="#testimonial">Testimonial</a></li>
+                                    <li><a class="appio-scroll" href="#team">Team</a></li>
+                                    <li><a class="appio-scroll" href="#blog">Blog</a></li>
+                                    <li><a class="appio-scroll" href="#contact">Contact </a></li>
+				    {%if user.is_authenticated %}     <li><a class="appio-scroll" href="{%url 'membership:logout' %}">Logout</a></li>{%endif%}
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container -->
+                    </nav>
+                    <!--end navbar-->
+
+                    <!--start sidenav menu-->
+                    <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+                        <div class="sidenav-brand">
+				<a href="basicinformation/index.html"><img src="{%static 'basicinformation/img/logo.png' %}" alt="BodhiAI" class="img-responsive"></a>
+                        </div>
+
+                        <ul class="sidenav-menu">
+                            <li><a class="appio-scroll close-icon pull-right" href="#main"><i class="fa fa-close"></i></a></li>
+                            <li><a class="appio-scroll" href="#home">Home</a></li>
+                            <li><a class="appio-scroll" href="#about">About</a></li>
+                            <li><a class="appio-scroll" href="#features">Features</a></li>
+                            <li><a class="appio-scroll" href="#screenshots">Screenshots</a></li>
+                            <li><a class="appio-scroll" href="#pricing">Pricing</a></li>
+                            <li><a class="appio-scroll" href="#testimonial">Testimonial</a></li>
+                            <li><a class="appio-scroll" href="#team">Team</a></li>
+                            <li><a class="appio-scroll" href="#blog">Blog</a></li>
+                            <li><a class="appio-scroll" href="#contact">Contact</a></li>
+		{%if user.is_authenticated %}     <li><a class="appio-scroll" href="{%url 'membership:logout' %}">Logout</a></li>{%endif%}
+                        </ul>
+                    </nav>
+                    <!--end sidenav menu-->
+
+                    <!--start slider section -->
+                    <section id="home" class="slider-content">
+                        <div class="overlay"></div>
+                        <div class="appio-slider-wrap pt-150 pb-90">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 mb-150">
+                                        <div class="appio-slider-text ptb-90">
+                                            <h1 class="cd-headline clip is-full-width"><font color='#fff'>BODHI AI </font><small><font color='#000'> A Personal Assistant for every Student and Teacher</font></small><br>
+                                                <span class="highlight-text cd-words-wrapper">
+                                                
+							<b class="is-visible">Complete Solution for your SSC Institute.</b>
+                                                    <b>Save time and money.</b>
+                                                    <b>Give your students access to most advanced technology Artificial Intelligence.</b>
+                                                    <b>Handholds you to success.</b>
+                                                    
+                                                </span>
+                                            </h1>
+					    <br> 
+					    <br> 
+					    <br> 
+					                                            </div>
+                                    </div>
+                                 
+                                </div>
+<div class="appio-slider-btn mt-30">
+						    <a class="btn btn-primary mb-15" href="{% url 'membership:login' %}">
+                                                    <span class="btn-text">Login</span>
+                                                </a>
+						{%if not user.is_authenticated %}<a class="btn btn-info mb-15" href="{% url 'membership:register' %}">
+                                                    <span class="btn-text">Register</span>
+						    {%endif%}
+                                                </a>
+                      </div>
+
+
+
+                            </div>
+                            <!--end container-->
+                        </div>
+                    </section>
+                    <!--end slider section-->
+                </header>
+                <!--end header section-->
+
+                <!--start slider bottom section-->
+                <section id="slider-bottom">
+                    <div class="slider-bottom-wrap ptb-50 hidden-xs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9 col-md-offset-2 hidden-xs">
+                                    <div class="appio-app-users">
+                                        <div class="col-sm-4">
+                                            <div class="appio-user-info">
+                                                <div class="appio-usage-icon media-left ab1">
+                                                    <i class="fa fa-android" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="appio-useges-quantity media-body">
+							<h4><a href='https://play.google.com/store/apps/details?id=in.bodhiaieducation.bodhiaieducation&hl=en'>App available on Google Play</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="appio-user-info">
+                                                <div class="appio-usage-icon media-left ab3">
+                                                    <i class="fa fa-windows" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="appio-useges-quantity media-body">
+                                                    <h4>Mobile friendly website</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="appio-user-info last-b">
+                                                <div class="appio-usage-icon media-left ab2">
+                                                    <i class="fa fa-apple" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="appio-useges-quantity media-body">
+                                                    <h4>App coming soon</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="shadow"></div>
+                <!--end slider bottom section-->
+
+                <!--start promo section-->
+                <section id="appio-promo" class="ptb-100">
+                    <div class="appio-promo-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="appio-promo-text-wrap text-center">
+                                        <div class="icon icon-info ab2">
+                                            <i class="zmdi zmdi-graduation-cap"></i>
+                                        </div>
+                                        <h4 class="info-title">Create Online Tests</h4>
+                                        <p>Teachers can create online tests with just one click from a huge question bank.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="appio-promo-text-wrap text-center">
+                                        <div class="icon icon-info ab1">
+                                            <i class="zmdi zmdi-center-focus-strong"></i>
+                                        </div>
+                                        <h4 class="info-title">Create Offline Tests</h4>
+                                        <p>Now say goodbye ! to getting questions typed then getting them printed and distributing to whole class. Now you can create offline tests
+					with just one click with BodhiAI.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="appio-promo-text-wrap text-center">
+                                        <div class="icon icon-info ab3">
+                                            <i class="zmdi zmdi-leak"></i>
+                                        </div>
+                                        <h4 class="info-title">OMR checking/analysis</h4>
+                                        <p>No need to check OMRs with hand, BodhiAI can deeply analyze thousands of OMRs in matter of minutes and publish results to students.
+					No need to wait for results for hours/days.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end promo section-->
+
+                <!--start about section -->
+                <section id="about" class="ptb-100 bg-secondary">
+                    <div class="appio-about-wrap">
+                        <div class="container">
+                            <div class="text-center appio-center-heading pb-80">
+                                <h2>About Our App</h2>
+                                <span class="bordered-icon"><i class="fa fa-square"></i></span>
+                                <p>A Personalized Assistant For Every Teacher & Student.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="about-content-wrap wow fadeInLeft mb-40">
+                                        <h3>First of it's kind</h3>
+                                        <p>BodhiAI is a solution for SSC institutes that automates everything from tests to results to analysis. 
+					You name it BodhiAI can do it. Now teachers just have to teach, all other tasks are handled by BodhiAI.
+					Your students get access to in-dept analyses of whats going on and predictions of what is going to happen.
+					Students will guaranteed perform better and you will save time and money.</p> <br>
+                                        <ul class="list-unstyled appio-about-features">
+                                            <li class="ab1"><i class="zmdi zmdi-graduation-cap"></i> Create Online Tests with one click.</li>
+                                            <li class="ab2"><i class="zmdi zmdi-graduation-cap"></i> Create Offline Tests with one click.
+                                            </li>
+                                            <li class="ab3"><i class="zmdi zmdi-equalizer"></i> In-Depth Analysis shared with both teacher and students.</li>
+                                            <li class="ab4"><i class="zmdi zmdi-memory"></i>Private Panel for every student and teacher.</li>
+                                            <li class="ab4"><i class="zmdi zmdi-memory"></i>Future Marks Predictions</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="about-app-img wow fadeInRight">
+					    <img src="{%static 'basicinformation/img/aboutus.jpg' %}" alt="about our app" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9 col-md-offset-2">
+                                    <div class="appio-store-buttons text-center mt-80">
+                                        <a href="#" class="btn btn-lg btn-white">
+                                            <div class="ab1">
+                                                <i class="fa fa-android dsp-tc"></i>
+                                                <p class="dsp-tc">available on
+                                                    <br> <span>Google Store</span></p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="btn btn-lg btn-white">
+                                            <div class="ab3">
+                                                <i class="fa fa-windows dsp-tc"></i>
+                                                <p class="dsp-tc">coming soon on
+                                                    <br> <span>Windows Phone</span></p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="btn btn-lg btn-white">
+                                            <div class="ab2">
+                                                <i class="fa fa-apple dsp-tc"></i>
+                                                <p class="dsp-tc">coming soon on
+                                                    <br> <span>Apple Store</span></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end about section-->
+
+                <!--start features section-->
+                <section id="features" class="appio-feature-section ptb-100 bg-white">
+                    <div class="appio-feature-wrap">
+                        <div class="container">
+                            <div class="text-center appio-center-heading pb-80">
+                                <h2>Powerful App Features</h2>
+                                <span class="bordered-icon"><i class="fa fa-square"></i></span>
+                                <p>Boost your institue with BodhiAI</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 mt-40 pr-30">
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe1 left-feature clearfix">
+                                            <span class="content-icon"><i class="fa fa-pencil"></i></span>
+                                            <h3>Create Tests for both online and offline needs</h3>
+                                            <p>BodhiAI can create and analyze both online and offline tests.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe2 left-feature clearfix">
+                                            <span class="content-icon"><i class="fa fa-language"></i></span>
+                                            <h3>Bilingual</h3>
+                                            <p>Simplicity at its Best with language options of English & Hindi.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe3 left-feature clearfix">
+                                            <span class="content-icon"><i class="fa fa-bar-chart"></i></span>
+                                            <h3>In-Depth Analysis</h3>
+                                            <p>Track your progress with BodhiAI's analysis system.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+                                </div>
+
+                                <div class="col-md-4 hidden-sm hidden-xs">
+					<img class="img-responsive wow fadeInUp" src="{% static 'basicinformation/img/phone-app.png' %}" alt="app image">
+                                </div>
+
+                                <div class="col-md-4 col-sm-6 mt-40 pl-30">
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe4 clearfix">
+                                            <span class="content-icon"><i class="fa fa-envelope"></i></span>
+                                            <h3>Communication</h3>
+                                            <p>Teachers can communicate with students whenever they want and whereever they want.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe5 clearfix">
+                                            <span class="content-icon"><i class="fa fa-heartbeat"></i></span>
+                                            <h3>Learns learning pattern of every student.</h3>
+                                            <p>With the help of machine learning technology, BodhiAI learns how the students learns and handholds the student to success.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+
+                                    <div class="appio-single-feature">
+                                        <div class="feature-content fe6 clearfix">
+                                            <span class="content-icon"><i class="fa fa-arrows"></i></span>
+                                            <h3>Binds the whole institution together.</h3>
+                                            <p>BodhiAI connects the whole institute in a way that no one is left behind.</p>
+                                        </div>
+                                    </div><!-- /.appio-single-feature -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end features section-->
+
+                <!--start video promo section-->
+                <section class="appio-video-promo pxlr-promo">
+                    <div class="appio-video-promo-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="video-area-text text-center">
+                                        <a href="https://www.youtube.com/watch?v=6NC_ODHu5jg"
+                                           class="video video-play mfp-iframe" data-toggle="modal" data-target="#video-popup">
+                                            <i class="fa fa-play"></i>
+                                        </a>
+                                        <h3 class="mt-20">See How It Work</h3>
+                                    </div>
+                                </div>
+                            </div><!-- /.row -->
+                        </div>
+                    </div>
+                </section>
+                <!--end video promo section-->
+
+                <!--start counter section-->
+                <div id="countUp" class="counter-section">
+                    <div class="appio-counter-overlay ptb-60">
+                        <div class="container">
+                            <div class="row text-center">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="counter-info ab1">
+                                        <span><i class="fa fa-cloud-download"></i></span>
+                                        <strong><span class="timer" data-count="1"></span>+</strong>
+                                        <span class="count-description">MB app</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="counter-info ab3">
+                                        <span><i class="fa fa-star"></i></span>
+                                        <strong><span class="timer" data-count="5"></span></strong>
+                                        <span class="count-description">Star Reviews</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="counter-info ab2">
+                                        <span><i class="fa fa-line-chart"></i></span>
+                                        <strong><span class="timer" data-count="50"></span>+</strong>
+                                        <span class="count-description">Factors involved in Marks Prediction</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="counter-info ab4">
+                                        <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        <strong><span class="timer" data-count="100"></span>+</strong>
+                                        <span class="count-description"> % guaranteed success</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--container-->
+                    </div><!--appio-counter-overlay-->
+                </div>
+                <!--end counter section-->
+
+                <!--start screenshots section -->
+                <section id="screenshots" class="appio-screenshots-section ptb-100 bg-secondary">
+                    <div class="appio-screenshots-wrap">
+                        <div class="container">
+                            <div class="text-center appio-center-heading pb-80">
+                                <h2>App Screen Details</h2>
+                                <span class="bordered-icon"><i class="fa fa-square"></i></span>
+                                <p>Some of the sceenshots from BodhiAI android app.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <!-- Swiper -->
+                                    <div class="swiper-container appio-screen-view">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="appio-screen-img">
+							<img src="{% static 'basicinformation/img/app-screen/s1.png' %}" alt="app screen" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="appio-screen-img">
+							<img src="{% static 'basicinformation/img/app-screen/s2.png' %}" alt="app screen" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="appio-screen-img">
+							<img src="{% static 'basicinformation/img/app-screen/s3.png' %}" alt="app screen" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="appio-screen-img">
+							<img src="{% static 'basicinformation/img/app-screen/s4.png' %}" alt="app screen" class="img-responsive">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="appio-screen-img">
+							<img src="{% static 'basicinformation/img/app-screen/s5.png' %}" alt="app screen" class="img-responsive">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end screenshots section-->
+
+                <!--start pricing table section-->
+                <section id="pricing" class="appio-pricing-section ptb-100 bg-white">
+                    <div class="appio-pricing-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 mb-40">
+                                    <div class="appio-pricing-text-wrap pt-50">
+                                        <h2>Try us for free !</h2>
+                                        <p>We are offering all these to you for free of cost. </p>
+                                        <p class="contact-price">Have something for us? <a href="https://www.facebook.com/bodhiai/">Donate us</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-sm-6 text-center mb-40">
+                                    <div class="appio-pricing-single-wrap">
+                                        <h3 class="appio-pricing-title mb-20">Individual</h3>
+                                        <div class="pricing-one-sub pt-10">
+                                            <small>₹</small>
+                                            0
+                                        </div>
+                                        <p class="text-uppercase">Per month</p>
+                                        <ul class="list-unstyled ">
+                                            <li>- 24/7 Tech Support</li>
+                                            <li>- Advanced Options</li>
+                                            <li>- Unlimited test</li>
+                                            <li>- Unlimited Access</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-default">Purchase This</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 col-sm-6 text-center mb-40">
+                                    <div class="appio-pricing-single-wrap active">
+                                        <h3 class="appio-pricing-title mb-20">Institution</h3>
+                                        <div class="pricing-one-sub pt-10">
+                                            <small>₹</small>
+                                            0
+                                        </div>
+                                        <p class="text-uppercase">Per month</p>
+                                        <ul class="list-unstyled ">
+                                            <li>- 24/7 Tech Support</li>
+                                            <li>- All features mentioned above.</li>
+                                            <li>- Unlimited test</li>
+                                            <li>- Unlimited Access</li>
+					<li>-Save time and money </li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary active">Purchase This</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
+                <!--end pricing table two section-->
+
+                <!--start testimonial section-->
+                <section id="testimonial" class="appio-testimonial-section ptb-100 bg-secondary">
+                    <div class="appio-testimonial-wrap">
+                        <div class="container">
+                            <div class="text-center appio-center-heading pb-80">
+                                <h2>We Are Supported By..</h2>
+                                <span class="bordered-icon"><i class="fa fa-square"></i></span>
+                                <p>Both Government of Indian and Rajasthan</p>
+                            </div>
+                            <div class="row">
+                                <div class="owl-carousel owl-theme appio-owl-testimonial">
+                                    <div class="item">
+                                        <div class="col-md-8 col-md-offset-2 mb-20">
+                                            <div class="appio-single-testimonial">
+                                                <div class="media">
+                                                    <div class="media-body">
+							    <img src="{% static 'basicinformation/img/team/emblem.jpg' %}" alt="client image"
+                                                             class="img-responsive pull-left mb-30">
+                                                        <h3 class="media-heading">Office given by Government of India IN MNIT Jaipur</h3>
+                                                        <span class="date">4 September 2017</span>
+                                                        <p>Supported by Both Government of India and Rajasthan.</p>
+
+                                                        <hr>
+                                                        <footer>
+                                                            
+                                                            <ul class="rating pull-right">
+                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                            </ul>
+                                                        </footer>
+                                                    </div> <!-- /.media-body -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </div>
+                </section>
+                <!--end testimonial section-->
+
+                <!--start team section-->
+                <section id="team" class="appio-team-section ptb-100">
+                    <div class="appio-team-wrap">
+                        <div class="container">
+                            <div class="text-center appio-center-heading pb-80">
+                                <h2>Meet Our Team</h2>
+                                <span class="bordered-icon"><i class="fa fa-square"></i></span>
+				<p>We are a team of highly motivated and experienced youth who want to change the way SSC institutes work.</p>
+                            </div>
+                            <div class="row">
+                                <div class="appio-team-member col-md-3 col-sm-6 col-xs-12">
+                                    <div class="appio-team-member-wrap wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+					    <figure class="appio-team-img"><a href="mailto:info@bodhiai.in"><img src="{% static 'basicinformation/img/team/prashant.jpg' %}" alt="team image"></a></figure>
+                                        <div class="appio-team-info text-center">
+                                            <h3>Prashant Pandey</h3>
+                                            <span class="designation">Technology</span>
+                                            <p >Electrical & Electronics engineer from University of Birmingham UK.</p>
+                                        </div>
+                                        <div class="appio-team-social-link">
+                                            <a href="https://www.facebook.com/prashant.pandey.7161"><i class="fa fa-facebook-f facebook"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appio-team-member col-md-3 col-sm-6 col-xs-12">
+                                    <div class="appio-team-member-wrap wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+					    <figure class="appio-team-img"><a href="mailto:mail@mail.com"><img src="{% static 'basicinformation/img/team/gourav.jpg' %}" alt="team image"></a></figure>
+                                        <div class="appio-team-info text-center">
+                                            <h3>Gourav Sanghai</h3>
+					    <span class="designation">Marketing</span>
+                                            <p >Experience of building a startup in education sector and selling it successfully. </p>
+                                        </div>
+                                        <div class="appio-team-social-link">
+                                            <a href="https://www.facebook.com/gourav.sanghai"><i class="fa fa-facebook-f facebook"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="appio-team-member col-md-3 col-sm-6 col-xs-12">
+                                    <div class="appio-team-member-wrap wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+					    <figure class="appio-team-img"><a href="mailto:mail@mail.com"><img src="{% static 'basicinformation/img/team/mayank.jpg' %}" alt="team image"></a></figure>
+                                        <div class="appio-team-info text-center">
+                                            <h3>Mayank Meena</h3>
+                                            <span class="designation">Content Development</span>
+                                            <p >Makes sure that the content/questions on BodhiAI are of top quality.  </p>
+                                        </div>
+                                        <div class="appio-team-social-link">
+                                            <a href="#"><i class="fa fa-facebook-f facebook"></i></a>
+                                            <a href="#"><i class="fa fa-twitter twitter"></i></a>
+                                            <a href="#"><i class="fa fa-instagram instagram"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus google-plus"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end team section-->
+
+                <!--start download section-->
+                <section class="download-section ptb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mb-50">
+                                <div class="appio-download-heading text-center wow fadeInUp animated" style="visibility: visible;">
+                                    <h2>Get Connected.</h2>
+                                    <p>Visit Us at Bodhi Ai Headquarters.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="appio-download-info wow fadeInUp animated" style="visibility: visible;">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+                                            <a href="#" class="appio-download-btn color-white ab2">
+                                                <i class="fa fa-map-marker"></i>
+                                                <small>Search Google map for</small><br>
+                                                Bodhi ai
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <a href="#" class="appio-download-btn color-white ab1">
+                                                <i class="fa fa-mobile"></i>
+                                                <small>CAll us At</small><br>
+                                                8769512631
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <a href="#" class="appio-download-btn color-white ab3">
+                                                <i class="fa fa-envelope"></i>
+                                                <small>Email us at</small><br>
+                                                info@bodhiai.in
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- row end  -->
+                    </div><!-- container end  -->
+                </section>
+                <!--end download section-->
+
+                <!--start blog section one-->
+                <section id="blog" class="ptb-100 bg-secondary">
+                    <div class="appio-blog-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 wow slideInLeft mb-30"
+                                     style="visibility: visible; animation-name: slideInLeft;">
+                                    <div class="appio-blog-left">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="appio-blog-left-heading mb-20">
+                                                    <h2>Latest News About Our Bodhi AI</h2>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <p>Stay Updated with us .Do Not Miss our insghtful and informative Blogs.</p>
+                                        <a class="btn btn-primary" href="#">View All Posts</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-sm-12">
+                                    <div class="row wow fadeInUp" data-wow-duration="1s"
+                                         style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                                        <div class="col-sm-6 mb-20">
+                                            <div class="appio-blog-content">
+                                                <h4>Milestones Covered By Bodhi AI</h4>
+                                                <p>We are now incubated by MNIT innovation and DOIT Government of Rajasthan</p>
+                                                <a href="#">Read More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                                <div class="user">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 mb-20">
+                                            <div class="appio-blog-content">
+                                                <h4>News In AI Space</h4>
+                                                <p>Rahul Gandhi soon to speak on AI.This is how AI will transform Education Space.Elon Musk Suggests to Start Learning Artificial Intelligence.</p>
+                                                <a href="#">Read More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                                <div class="user">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end blog section one-->
+
+                <!--start contact section-->
+                <section id="contact" class="contact ptb-100">
+                    <div class="appio-contact-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="appio-contact-form-wrap ptb-20">
+                                        <div class="contact-heading mb-50">
+                                            <h2>Any Other Question?</h2>
+                                            <p>Contact us for inquiries. We will respond as soon as possible.</p>
+                                        </div>
+                                        <!--start contact us form-->
+                                        <div class="send-feedback">
+                                            <form id="contact-form" method="post" action="#">
+                                                <div class="messages"></div>
+                                                <div class="controls">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_name">Name*</label>
+                                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Your name" required="required" data-error="Name is required.">
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="form_email">Email *</label>
+                                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Your email" required="required" data-error="Valid email is required.">
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="form_message">Message *</label>
+                                                                <textarea id="form_message" name="message" class="form-control" rows="4" placeholder="Your message" required="required" data-error="Please,leave us a message."></textarea>
+                                                                <div class="help-block with-errors"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <input type="submit" class="btn btn-primary btn-success btn-send" value="Send message">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- end contact us form -->
+                                    </div>
+                                </div>
+                                <div class="col-md-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end contact section-->
+
+                <!--start subscribe newsletter -->
+                <section id="subscribe" class="ptb-100 bg-secondary">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                                <h2 class="form wow fadeInDown" data-wow-delay="0.1s">Subscribe and get a one month free subscription.</h2>
+                                <p class="form wow fadeInDown" data-wow-delay="0.2s">Get all the benefits
+                                    we mentioned everywhere.</p>
+                                <div class="form wow fadeInDown" data-wow-delay="0.3s">
+                                    <form class="subscribe-form wow zoomIn" action="#" method="post" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+                                        <input class="email" type="email" name="email" placeholder="Join us for better future" autocomplete="off">
+                                        <input class="submit-btn" type="submit" value="Subscribe">
+                                    </form>
+                                    <div class="success-message"></div>
+                                    <div class="error-message"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--end subscribe newsletter-->
+
+                <!--start footer one section-->
+                <footer class="footer footer-text ptb-10 clearfix">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="pull-left">&copy; copyright Bodhiai all right reserved. </p>
+                                <div class="social-link pull-right">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!--end footer one section-->
+
+            </div> <!--main-content-inner -->
+        </div> <!--main-content -->
+    </div> <!--main-wrap -->
+</div><!--main -->
+
+<!-- Preloader -->
+<div id="preloader" class="preloader">
+    <div id="status">
+        <div class="appio-preloader"></div>
+    </div>
+</div>
+
+
+
+<!--=========== all js file link ==============-->
+
+<!-- main jQuery -->
+<script src="{%static 'basicinformation/js/jquery-3.2.1.min.js' %}"></script>
+
+<!-- bootstrap core js -->
+<script src="{%static 'basicinformation/js/bootstrap.min.js' %}"></script>
+
+<!-- wow.min.js -->
+<script src="{%static 'basicinformation/js/wow.min.js' %}"></script>
+
+<!-- smoothscroll -->
+<script src="{%static 'basicinformation/js/smoothscroll.js' %}"></script>
+
+<!--owl carousel-->
+<script src="{%static 'basicinformation/owlcarousel/owl.carousel.min.js' %}"></script>
+
+<!--sidenav js-->
+<script src="{%static 'basicinformation/js/sidenav.min.js' %}"></script>
+
+<!-- scrolling nav -->
+<script src="{%static 'basicinformation/js/jquery.easing.min.js' %}"></script>
+
+<!--swipper slider js-->
+<script src="{%static 'basicinformation/js/swipper.min.js' %}"></script>
+
+<!--validtor js-->
+<script src="{%static 'basicinformation/js/validator.js' %}"></script>
+
+<!--animation text js -->
+<script src="{%static 'basicinformation/js/animation-text.js' %}"></script>
+
+<!--magnific popup js-->
+<script src="{%static 'basicinformation/js/magnific-popup.min.js' %}"></script>
+
+<!-- custom script -->
+<script src="{%static 'basicinformation/js/scripts.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+{%extends 'basicinformation/base.html' %}
+
+<html>
+
+	<head>
+		<title> {%block title%} Create Announcement {%endblock%} </title>
+	</head>
+
+	<body>
+		{% block content %}
+		<div class= 'main-container col-md-offset-1 col-md-10 '>
+			<h2 style= 'text-align:center;'> Create an Announcement </h2>	
+
+			<form action = "{%url 'pms:announce' %}" method = 'POST'>
+				{%csrf_token%}
+				<div class="panel panel-default">
+				<div class="panel-heading" style='text-align:center;'>Type your announcement below</div>
+				<div class="panel-body">
+					<textarea name = 'announcement' rows="2" cols="100" required>
+					</textarea>
+
+				</div>
+				<div style='text-align:center;'>
+					<h3> Choose a class: </h3>
+						{% for kl in which_class %}
+					<label class="checkbox-inline"><input type="checkbox"  name ='for_class' value="{{kl}}">{{kl}}</label>
+					{%endfor%}
+			 <br>
+			 <br>
+			 <br>
+				 <input type="submit" class="btn btn-info btn-lg" name='announce' value="Announce" style='left:50%;top:40%;'>
+				 <br>
+				 <br>
+				 <br>
+				</div>
+			</form>
+
+			
+
+		</div>
+		{%if prev_announcements %}
+		<div class='col-md-offset-1 col-md-10'>
+			<h2 style='text-align:center;'> You previous announcements </h2>
+			{%for ann in prev_announcements %}
+			<h3 style='font-weight:bold;'> {{forloop.counter}} -- {{ann.text}}</h3>
+			<p> on date: {{ann.announced}} </p>
+			<hr>
+			{%endfor%}
+		</div>
+		{%endif%}
+		{%endblock%}
+	</body>
+</html>

@@ -1,0 +1,43 @@
+.container-fluid {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.navbar {
+position: fixed !important;
+top: 0px;
+width: 940px;
+}
+
+.navbar-default {
+	background-color:#FFF3E0;
+	border-color:#FF6D00;
+	border-radius:0px;
+	  width: 100% !important;
+}
+
+.navbar-default .navbar-brand {
+	color:#F3E5F5;
+}
+
+.navbar-default .navbar-nav >li >a {
+	color:#fff;
+
+}
+
+.navbar-collapse {
+	background-color:#3B5998;
+	border-color:#F3E5F5;
+	color:#F3E5F5;
+ box-shadow: 0 0 0; 
+
+}
+.btn-default {
+	background-color:#F3E5F5;
+	border-color:#000;
+	color:#000000;
+}

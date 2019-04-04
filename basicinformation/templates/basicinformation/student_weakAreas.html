@@ -1,0 +1,208 @@
+{%load staticfiles%}
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel='stylesheet' type='text/css' href='{% static "basicinformation/css/student_weakAreas.css" %}'>
+<script>$('#loadingStudentWeakAreas1').hide();</script>
+{% if noMistakes %}
+
+<h1 style='font-weight:bold;,text-align:center;'> Congrats ! You haven't made a mistake yet. </h1>
+{%endif%}
+		{%if not freq %}
+		<h2 style='font-weight:bold;text-align:center;'> You have to take at-least one test to find your weaknesses or you haven't made any mistakes yet. </h2>
+		{%else%}
+    <script>
+	{% for topics,wrong in freq %}
+$(document).ready(function () {
+	var ctx{{topics|slice:"-2:-1"}} = document.getElementById('myChart{{topics|slice:"-2:-1"}}');
+	 var myChart1 = new Chart(ctx{{topics|slice:"-2:-1"}}, {
+	type: 'doughnut',
+	data: {
+		labels: ["In-correct/Not Attempted %","Correct %"],
+		datasets: [{
+			label:
+			'Percentage of wrong/not-attempted questions',
+			data:[{{wrong}},parseInt(100-{{wrong}}),],
+			 backgroundColor: [
+				    'rgba(255, 0, 0, 0.6)',
+				    'rgba(0, 128, 0, 0.6)',
+				    ],
+			borderColor: [ 'rgba(255,99,132,1)',
+				'rgba(54, 100, 11, 1)',
+				],
+			hoverBackgroundColor:[
+				    'rgba(240, 19, 0, 0.8)',
+				    'rgba(0, 19, 255, 0.6)',
+				],
+			borderWidth: [2,2],
+			hoverborderWidth:[3,.3],
+				                }]
+		            },
+	
+	options: {   responsive: true,
+		    maintainAspectRatio: false,
+		animation:{
+			animateScale: true,
+			animateRotate: true
+		}
+				                        
+		     }
+	        });
+	        });
+	 {%endfor%}
+
+
+
+$(document).ready(function () {
+var pointBackgroundColorsTiming = [];
+    var ctx1 = document.getElementById("myChartTiming");
+    var myChart2 = new Chart(ctx1, {
+            type: 'horizontalBar',
+            data: {
+		    labels: [{%for u,k in timing %}'{{u}}',{%endfor%}],
+                datasets: [{
+                    label: 'Average time per question (topic wise)',
+
+		    data: [{%for u,k in timing%}{{k}},{%endfor%}],
+			 backgroundColor: [
+                        'rgba(255, 99, 132, 0.4)',
+			'rgba(54, 100, 11, 0.6)', 'rgba(64, 200, 46, 0.6)',                  
+			'rgba(94, 155, 89, 0.6)',                  
+			'rgba(104, 255, 55, 0.6)',                 
+			'rgba(10, 90, 35, 0.6)',                   
+			'rgba(24, 162, 255, 0.6)',                 
+			'rgba(94, 12, 25, 0.6)',                   
+                                      ],
+                    borderColor: [ 'rgba(255,99,132,1)',
+		   		 'rgba(54, 100, 11, 1)',
+		   		 'rgba(64, 200, 46, 1)',
+		   		 'rgba(94, 155, 89, 1)',
+		   		 'rgba(104, 255, 55, 1)',
+		   		 'rgba(10, 90, 35, 1)',
+		   		 'rgba(24, 162, 255, 1)',
+		   		 'rgba(94, 12, 25, 1)',
+                                            ],
+
+
+                                  borderWidth: 0.5
+
+
+
+		}]
+            },
+
+
+
+
+            options: {   responsive: true,
+		    maintainAspectRatio: false,
+ scales: {
+	 xAxes:[{ticks:{beginAtZero:true}}],
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+
+                        }
+                    }]
+                },
+              			    title: {
+				display: true,
+				text: "Average timing (topic wise) in seconds"
+			    },
+
+			    animation:{
+				animateScale: true,
+				animateRotate: true,
+			    },
+
+                        }
+                   
+                
+            
+        });
+		{%for u,k in timing %}
+		{% if k <= 60 %}
+		pointBackgroundColorsTiming.push("#33691E");					        
+		{%else %}
+		pointBackgroundColorsTiming.push("#E65100");					        
+		{%endif%}
+		{%endfor%}
+
+		
+
+		myChart2.update();
+
+
+
+
+
+
+
+    });
+</script>
+<br>
+<br>
+<hr>
+<div class='container'>
+	<h1 style="text-align:center;"> Weak Areas </h1>
+	    <div class='weakAreasContainer' >
+	{% for topics,wrong in freq %}
+	<h2 style="text-align:center;"> {{topics}} </h2>
+	<div>
+		
+	<canvas  id="myChart{{topics|slice:"-2:-1"}}"  height='300'  >
+</canvas>
+<hr>
+	</div>	
+	    <br>
+	    <br>
+	<div >
+		<p class="bg-warning"> {{wrong|floatformat:1}}% of '{{topics}}' questions were either wrong or not-attempted .</p>
+		    </div>
+		{%endfor%}
+</div>
+
+<br>
+<hr>
+	    <div class='timingContainer' >
+	<h2 style="text-align:center;"> Average time taken per topic (in seconds) </h2>
+	<div>
+<canvas  id="myChartTiming"  height="600" >
+	</canvas>
+	</div>
+
+			<br>
+
+	<div >
+		    <h3 class='text-center'> Average timing Data based on:</h3>
+		{% for u,k in time_freq %}
+		<p class="bg-warning"> {{k}} questions of  '{{u}}'</p>
+		{%endfor%}
+		    </div>
+	    </div>
+	    </div>
+
+
+		<br>
+
+</div>
+	    <div class='strongTopics'>
+			<h2 class='text-center'> My Strong topics</h2>
+
+		{%for u,k in skills %}
+		{% if k != 0 %}
+		<p>{{k|floatformat:1}}% of '{{u}}' were correct..</p>
+	<div class="progress">
+			<div class="progress-bar {%if k > 80 %}progress-bar-success progress-bar-striped active{%elif 60 < k < 80 %}progress-bar-info progress-bar-striped active{%elif 40 < k < 60%}progress-bar-warning progress-bar-striped active{%elif k < 40 %}progress-bar-danger progress-bar-striped active{%endif%}" role="progressbar" aria-valuenow="{{k}}"
+								     aria-valuemin="0" aria-valuemax="100" style="width:{{k}}%;color:#000;">
+			{{u}}- {{k|floatformat:2}}%
+				        </div>
+					
+		</div>
+
+		</div>
+		{%endif%}
+		{%endfor%}
+		</div>
+
+	    {%endif%}
+

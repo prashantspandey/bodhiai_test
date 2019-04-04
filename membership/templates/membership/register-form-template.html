@@ -1,0 +1,10 @@
+{% for field in form %}
+	<div class="form-group" style='text-align:center;'>
+			<span class="text-danger small" > {{field.error}}</span>
+        <label >{{field.label_tag}} </label> 
+        <p>{{field}}</p>
+	</div>
+
+
+</div>
+{% endfor %}

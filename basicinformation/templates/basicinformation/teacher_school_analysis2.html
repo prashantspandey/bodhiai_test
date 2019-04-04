@@ -1,0 +1,46 @@
+{%load staticfiles %}
+<script>
+
+         $(document).ready(function () {
+	  $('#loadingSchoolAnalysis2').hide();
+    var pr
+	$('.schoolTestButton').click(function(){
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+          which_test = $(this).attr('value');
+	  which_klass = $('#which_class').attr('value')
+         $(this).removeClass("btn btn-default").addClass("btn btn-success");
+	  $('#loadingSchoolAnalysis3').show();
+         $('#schooltestanalysis').removeClass("hidden");
+         $('#schooltestanalysis').html('').load('{% url 'basic:teacher_update_page' %}?schoolTestid='+which_test+','+which_klass);
+        $(eval("'#'+pr")).removeClass("btn btn-success").addClass("btn btn-default");
+
+
+    pr = $(this).attr('id');
+});
+
+
+});
+    </script>
+
+<div class="panel panel-default">
+  <div class="panel-heading text-center">Choose a Test</div>
+  <div class="panel-body">
+	  {% if noTest %}
+	  <h3> No tests have been taken yet </h3>
+	  {%endif%}
+{% for i in Tests %}
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default schoolTestButton" value ="{{i.id}}" id="schoolTestButton{{forloop.counter}}">{{i.published}}</button>
+	<button type="button" class="hidden btn btn-default text-center col-xs-12" value ="{{i}}" id="which_class">{{which_class}}</button>
+</div>
+{%endfor%}
+        </div>
+<div id = 'loadingSchoolAnalysis3' style='text-align:center;display:none;'>
+	<h4 style='text-center;'>Please wait... </h4>
+		<img src="{%static 'basicinformation/images/bodhigif.gif' %}" >
+	</div>	
+
+<div class='hidden' id = 'schooltestanalysis'>
+{%include 'basicinformation/teacher_school_analysis3.html' %}
+</div>
