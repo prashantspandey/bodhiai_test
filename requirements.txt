@@ -11,7 +11,7 @@ django-allauth==0.37.1
 django-crispy-forms==1.7.0
 django-mathjax==0.0.8
 django-rest-auth==0.9.3
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 google-api-python-client==1.7.4
 google-auth==1.5.1
 google-auth-httplib2==0.0.3
